@@ -1,0 +1,1065 @@
+body {
+    COLOR: black;
+    BACKGROUND-COLOR: white;
+    FONT: 100 10px/16px Verdana,Arial,Helvetica;
+}
+
+/*** Form Header Information ***/
+.Heading_Form {
+    font-style: normal;
+    background-color: #FBC97A;
+    font-size: 13pt;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    color: #243f76;
+    text-decoration: none;
+}
+
+/********* Label Styles ********/
+.Label_Small {
+    color: #333333;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    FONT: bold 11px/14px Verdana,Arial,Helvetica;
+}
+
+.Label_Large {
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #333333;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    font-weight: bold;
+}
+
+.Label_Medium {
+    font-family: Verdana, Tahoma Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #333333;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    font-weight: bold;
+}
+
+/**** Button Style *****/
+
+.Button_Normal {
+    color: Black;
+    font-family: Verdana, Tahoma, Arial, "Zurich BT", Sans-Serif;
+    font-size: 8pt;
+    font-weight: bold;
+    height: 16pt;
+}
+
+/**** TD Styles ******/
+.Td_ButtonContainer {
+    font: 600 11px Verdana, Arial, Helvetica;
+    background-color: #ffcc33;
+    color: #000033;
+    height: 16pt;
+}
+
+
+.Td_WelcomeNoteContainer {
+    background-color: #FBC97A;
+    height: 9pt;
+    font-size: 8pt;
+    font-weight: normal;
+    color: #000000;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.Td_BottomNoteContainer {
+    background-color: White;
+    font-size: 8pt;
+    font-weight: normal;
+    color: #000000;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.Td_HeadingFormContainer {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Verdana, Tahoma,Arial;
+    font-weight: bold;
+    BACKGROUND-COLOR: #ff9933;
+    color: #000033;
+    height: 22;
+}
+/**New Amendments On for 508 COmpliance**/
+.Td_LabelLarge {
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    color: #333333;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    font-weight: bold;
+}
+
+.Td_BackGroundColorYMCA {
+    background-color: #003D5E;
+}
+/* START : Shilpa N | 03/19/2019 | YRS-AT-4248 | CSS to change the header of the YRS application during read only mode month end processing*/
+
+.Td_HeaderColorInReadOnlyMode {
+    background-color: #C30; /*this would be the color of header menu under Safe Mode*/
+    color:#ffffff;          /*color of the font*/
+    font-weight: bold;      /*font weight*/
+    font-size: 12pt;        /*font size */
+    
+}
+
+/* END : Shilpa N | 03/19/2019 | YRS-AT-4248 | CSS to change the header of the YRS application during read only mode month end processing*/
+
+.Td_HeadingLines {
+    background-color: #c54529;
+}
+
+
+/**New VPR on 05-08-2009 to define new format fo broder.**/
+.Td_InLineBorder {
+    background: #ffcc33;
+    font-family: Verdana, Tahoma;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+
+.Td_SubText {
+    background: #FFE4B5;
+    font-family: Verdana, Tahoma;
+    font-size: 8pt;
+    font-weight: bolder;
+    height: 13pt;
+}
+
+.Td_ButtonSubContainer {
+    font: 600 11px Verdana, Arial, Helvetica;
+    background-color: #FFE4B5;
+    color: #000033;
+    height: 16pt;
+}
+
+
+/**New Amendments On for 508 COmpliance**/
+.td_Text {
+    background: #ffcc33;
+    font-family: Verdana, Tahoma;
+    font-size: 10pt;
+    font-weight: bolder;
+    height: 11pt;
+}
+
+
+
+.td_Text_Small {
+    background: #ffcc33;
+    font-family: Verdana, Tahoma;
+    font-size: 8pt;
+    font-weight: bolder;
+}
+
+.Td_BackGroundColorWhite {
+    background-color: White;
+}
+
+.Td_Home {
+    background-color: #fbc97a;
+}
+
+.Td_BackGroundColorMenu {
+    background-color: #3B5386;
+}
+
+/******** DropDownList Style *****/
+.DropDown_Normal {
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #333333;
+}
+
+/****** Radio Button Style ********/
+.RadioButton_Normal {
+    font-size: 8pt;
+    font-weight: BOLD;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+/************ CheckBox Style ***********/
+.CheckBox_Normal {
+    height: 12pt;
+    font-size: 8pt;
+    font-weight: BOLD;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+/*********** TextBox Style ********/
+.TextBox_Normal {
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+.TextBox_Normal_Amount {
+    height: 10pt;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+    text-align: right;
+}
+
+.TextBox_Normal_AmountRetiree {
+    height: 10pt;
+    width: 40pt;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+    text-align: right;
+}
+/* AA:26.08.2014  */
+.TextBox_Normal_Right {
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+    text-align: right;
+}
+
+.Error_Message {
+    font-size: 8pt;
+    font-family: Tahoma, Verdana Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: Red;
+    text-align: left;
+    text-decoration: none;
+}
+
+/******* Table Styles ***************/
+.Table_WithBorder {
+    border-color: #ffd7a7;
+    border-width: thin;
+    border-style: solid;
+}
+
+.Table_WithoutBorder {
+    border-color: White;
+    border-style: none;
+    border-width: 0pt;
+    font: 600 11px Verdana, Arial, Helvetica;
+    color: #000033;
+    height: 22;
+}
+
+.Table_Login {
+    border-color: #006699;
+    border-width: thin;
+    border-style: solid;
+}
+
+.Panel_WithBorder {
+    border-color: #ffd7a7;
+    border-width: thin;
+    border-style: solid;
+}
+
+/*** DataGrid Style ***/
+
+.DataGrid_HeaderStyle {
+    font-weight: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000066;
+    FONT-FAMILY: tahoma;
+    HEIGHT: 22px;
+    BACKGROUND-COLOR: #c9dbed;
+    TEXT-ALIGN: left;
+}
+
+.DataGrid_HeaderStyle_temp {
+    font-weight: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000066;
+    TEXT-INDENT: 12px;
+    FONT-FAMILY: tahoma;
+    HEIGHT: 22px;
+    BACKGROUND-COLOR: #c9dbed;
+    TEXT-ALIGN: right;
+}
+
+.DataGrid_AlternateStyle {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: #000033;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: #eeeeee;
+    text-align: left;
+    height: 16px;
+    vertical-align: top;
+}
+
+.DataGrid_AlternateStyle_temp {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: #000033;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: #eeeeee;
+    text-align: right;
+    height: 16px;
+}
+
+.DataGrid_NormalStyle {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: #000033;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: #ffffff;
+    text-align: left;
+    height: 16px;
+    vertical-align: top;
+}
+
+.DataGrid_NormalStyle_temp {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: #000033;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: #ffffff;
+    text-align: right;
+    height: 16px;
+}
+
+.DataGrid_SelectedStyle {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000033;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: #ffffff;
+    text-align: left;
+    height: 16px;
+    vertical-align: top;
+}
+
+.DataGrid_SelectedStyle_temp {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000033;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: #ffffff;
+    text-align: right;
+    height: 16px;
+}
+
+.DataGrid_SelectedItem_Total {
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: tahoma;
+    text-align: right;
+    BACKGROUND-COLOR: #c9dbed;
+    COLOR: #000066;
+    height: 16px;
+}
+
+.DataGrid_Grid {
+    FONT-SIZE: 11px;
+    COLOR: #000033;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: #ffffff;
+    text-align: left;
+}
+
+.DataGrid_Total {
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: tahoma;
+    text-align: right;
+    BACKGROUND-COLOR: #c9dbed;
+    COLOR: #000066;
+    height: 16px;
+}
+
+/*** Style for Menu Control ***/
+.menustyle {
+    background-color: #3B5386;
+    font-weight: bold;
+}
+
+.menuitem {
+    color: White;
+    font-family: Verdana, Tahoma;
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #3B5386;
+    text-align: left;
+    left: auto;
+    height: 20px;
+    padding-top: 6;
+    padding-bottom: 5;
+}
+
+.mouseup {
+    background-color: #3F3F3F;
+    color: Yellow;
+    font-family: Verdana, Tahoma;
+    font-size: 8pt;
+    cursor: hand;
+    height: 20px;
+    padding-top: 6;
+    padding-bottom: 5;
+}
+
+.mouseover {
+    background-color: #3B5386;
+    color: Yellow;
+    font-family: Verdana, Tahoma;
+    font-size: 8pt;
+    cursor: hand;
+    height: 20px;
+    padding-top: 6;
+    padding-bottom: 5;
+}
+
+.mousedown {
+    background-color: #3B5386;
+    color: Yellow;
+    font-family: Verdana, Tahoma;
+    font-size: 8pt;
+    cursor: hand;
+    height: 20px;
+    padding-top: 6;
+    padding-bottom: 5;
+}
+
+/*** For table align=center and bordercolor are deprecated in html4.01 ***/
+.Div_Center {
+    text-align: center;
+}
+
+.Div_Center {
+    text-align: -moz-center;
+}
+
+.Div_Center {
+    text-align: -khtml-center;
+}
+
+.center table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.Div_Left {
+    text-align: left;
+}
+
+.Div_Right {
+    text-align: Right;
+}
+/*** borders of images *********/
+.img_border0 {
+    border: 0;
+}
+
+.Text_Normal {
+    height: 12pt;
+    font-size: 8pt;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+
+/**  MessageBox Settings  */
+
+.NormalMessageText {
+    height: 10pt;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: block;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+}
+
+#loadingimage {
+    position: absolute;
+    top: 105px;
+    z-index: 100;
+    left: 360px;
+}
+
+.tabContent {
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    border: 4px solid #93BEEE;
+    text-align: center;
+    vertical-align: top;
+}
+
+.error-msg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #C00;
+    line-height: 18px;
+    background-color: #FCDEDC;
+    font-weight: normal;
+    border: 1px solid #C30;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    overflow: visible;
+    margin-bottom: 3px;
+}
+
+
+
+
+.Normaltext {
+    font-weight: normal;
+}
+
+.table_cell {
+    font-weight: lighter;
+    font-size: small;
+    text-align: left;
+}
+
+.textbox_center {
+    vertical-align: middle;
+}
+
+.textbox_center_widebox {
+    vertical-align: middle;
+    width: 450px;
+}
+
+.img_help_small {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+/* 'SP : 2013.09.25 : BT:618/YRS 5.0-842 : Need ability to pay one person on a transmittal*/
+.Td_Form_Header {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Verdana, Tahoma,Arial;
+    font-weight: bold;
+    BACKGROUND-COLOR: #FFCC33;
+    color: #000033;
+    height: 22;
+}
+
+.error-msg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #C00;
+    line-height: 18px;
+    background-color: #FCDEDC;
+    font-weight: normal;
+    background-repeat: no-repeat;
+    border: 1px solid #C30;
+    background-image: url(../images/icon-error.gif);
+    background-position: 4px 4px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    overflow: visible;
+    margin-bottom: 5px;
+}
+
+.warning-msg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    background-color: #FFFFC6;
+    font-weight: normal;
+    background-repeat: no-repeat;
+    border: 1px solid #C30;
+    background-image: url(../images/icon-warning.gif);
+    background-position: 4px 4px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    overflow: visible;
+    margin-bottom: 5px;
+}
+
+/*START: PPP | 01/05/2017 | YRS-AT-3145 & 3265*/
+.warning-msg-withRedFont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #C00; /*#333;*/
+    line-height: 18px;
+    background-color: #FFFFC6;
+    font-weight: normal;
+    background-repeat: no-repeat;
+    border: 1px solid #C30;
+    background-image: url(../images/icon-warning.gif);
+    background-position: 4px 4px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    overflow: visible;
+    margin-bottom: 5px;
+}
+/*END: PPP | 01/05/2017 | YRS-AT-3145 & 3265*/
+
+.success-msg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    padding-left: 30px;
+    background-color: #d4f684;
+    font-weight: normal;
+    background-image: url(../images/icon-success.gif);
+    background-repeat: no-repeat;
+    border: 1px solid #739f1d;
+    overflow: visible;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    background-position: 6px 6px;
+    margin-bottom: 5px;
+}
+
+.info-msg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    padding-left: 30px;
+    background-color: #BFD7F2;
+    font-weight: normal;
+    background-image: url(../images/icon-info.jpg);
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+    border: 1px solid #739f1d;
+    overflow: visible;
+    display: block;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.info-Progress {
+    font-weight: normal;
+    font-size: 11px;
+    color: #333;
+    font-family: tahoma;
+    /*background-color: #eeeeee;*/
+    background-image: url(../images/waiting.gif);
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+    /*border: 1px solid #739f1d;*/
+    text-align: left;
+    vertical-align: top;
+    background-size: auto auto;
+    display: block;
+    padding-top: 1px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+.error-Progress {
+    font-weight: normal;
+    font-size: 11px;
+    color: #333;
+    font-family: tahoma;
+    /*background-color: #eeeeee;*/
+    background-image: url(../images/delete.gif);
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+    /*border: 1px solid #739f1d;*/
+    text-align: left;
+    vertical-align: top;
+    background-size: auto auto;
+    display: block;
+    padding-top: 1px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+.success-Progress {
+    font-weight: normal;
+    font-size: 11px;
+    color: #333;
+    font-family: tahoma;
+    /*background-color: #eeeeee;*/
+    background-image: url(../images/icon-success.gif);
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+    /*border: 1px solid #739f1d;*/
+    text-align: left;
+    vertical-align: top;
+    background-size: auto auto;
+    display: block;
+    padding-top: 1px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+.help-msg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #069;
+    line-height: 18px;
+    padding-left: 30px;
+    background-color: #FFF;
+    font-weight: normal;
+    background-image: url(../images/icon-help.gif);
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+    border: 1px solid #739f1d;
+    overflow: visible;
+    display: block;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+/* 'SP : 2013.09.25 : BT:618/YRS 5.0-842 : Need ability to pay one person on a transmittal*/
+/* SR : 2013.09.25 : Hide Grid view columns*/
+.hideGridColumn {
+    display: none;
+}
+/*End, SR : 2013.09.25 : Hide Grid view columns*/
+
+
+.pagination {
+    line-height: 15px;
+}
+
+    .pagination span {
+        padding-left: 5px;
+        padding-right: 5px;
+        border: solid 1px #477B0E;
+        text-decoration: none;
+        white-space: nowrap;
+        background: #FFFFFF;
+    }
+
+    .pagination a,
+    .pagination a:visited {
+        text-decoration: none;
+        padding-left: 6px;
+        padding-right: 6px;
+        white-space: nowrap;
+    }
+
+        .pagination a:hover,
+        .pagination a:active {
+            padding-left: 5px;
+            padding-right: 5px;
+            border: solid 1px #9ECDE7;
+            text-decoration: none;
+            white-space: nowrap;
+            background: #FFFFFF;
+        }
+/* AA:16.02.2014 : BT:2306 YRS 5.0-2251 : YRS enhancement-in Beneficiary tab, allow default option to use participant address */
+.Link_Small {
+    FONT: normal 11px/14px Verdana,Arial,Helvetica;
+}
+/* AA:16.02.2014 : BT:2306 YRS 5.0-2251 : YRS enhancement-in Beneficiary tab, allow default option to use participant address */
+/*Start:AA:07.05.2014 : BT:2434:YRS 5.0-2315 - RMD additional modifications to processing pages*/
+.Link_SmallBold {
+    FONT: bold 11px/14px Verdana,Arial,Helvetica;
+}
+/*Start:JB 2015.04.27 -YRS 5.0-2380--Modified*/
+.tabSelected {
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #000000;
+    background-color: #93BEEE;
+    cursor: pointer;
+    text-align: center;
+    border: solid 1px White;
+    border-bottom: none;
+    text-decoration: none;
+    height:25px;
+}
+
+.tabNotSelected {
+    background-color: #4172A9;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #ffffff;
+    text-align: center;
+    border: solid 1px White;
+    border-bottom: none;
+    text-decoration: none;
+    cursor: pointer;
+    height:25px;
+}
+
+.tabNotSelectedLink {
+    text-align: center;
+    color: #ffffff;
+    border: 0;
+    font-weight: bold;
+    background-color: #4172A9;
+    text-decoration: none;
+    cursor: pointer;
+    width:100%;
+}
+
+.tabSelectedLink {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    background-color: #93BEEE;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    width:100%;
+}
+/*End:JB 2015.04.27 -YRS 5.0-2380--Modified*/
+/*End:AA:07.05.2014 : BT:2434:YRS 5.0-2315 - RMD additional modifications to processing pages*/
+
+/*SP 2014.08.04 -YRS 5.0-2279*/
+span.Modalpopup {
+    display: block;
+    width: 85px;
+    padding-top: 5px;
+}
+
+input.Modalpopup, select.Modalpopup {
+    width: 200px;
+    font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 8pt;
+}
+
+label.Modalpopup {
+    font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 8pt;
+}
+
+textarea.Modalpopup {
+    width: 260px;
+    height: 240px;
+    font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 8pt;
+}
+
+.toolTip {
+    z-index: 1000;
+    width: 100%;
+    border-left: 1px solid silver;
+    border-top: 1px solid silver;
+    border-right: 2px solid black;
+    border-bottom: 1px solid #cccccc;
+    padding: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #c9dbed;
+    border-color: #908dc0;
+    color: black;
+    display: none; /* does not work in ie6 */
+    font-size: 7pt;
+    font-family: verdana;
+    margin: 0;
+    text-align: left;
+    overflow: visible;
+}
+/*Start:JB 2015.04.27 -YRS 5.0-2380*/
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+/*End:JB 2015.04.27 -YRS 5.0-2380*/
+/* Start:AA:09.232015 YRS AT-2609 Added below lines to show color lines in the grid*/
+.BG_Colour_Loan_Default {
+    background-color: #90EE90; /*LightGreen*/
+}
+
+.BG_Colour_Loan_Offset {
+    background-color: #00BFFF; /*LightBlue*/
+}
+/*End:AA:09.232015 YRS AT-2609 Added below lines to show color lines in the grid*/
+
+/*Start Manthan YRS-AT-2334*/
+.tabNotSelected1 {
+    text-align: left;
+    color: #000000;
+    border: 0;
+    font-weight: bold;
+    font-size: 9pt;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    height: 25px;
+}
+
+.tabSelected1 {
+    text-align: left;
+    color: #000000;
+    font-weight: bold;
+    font-size: 9pt;
+    background-color: #ffcc33;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    height: 25px;
+}
+
+/*Start Manthan YRS-AT-2334*/
+
+/*Start: Bala: 12/04/2016: YRS-AT-2862*/
+.fixedHeader{
+    position:relative ; 
+    cursor: default;
+    top: expression(this.offsetParent.scrollTop - 2); 
+    z-index: 10;
+}
+/*End: Bala: 12/04/2016: YRS-AT-2862*/
+
+/*START: PPP | 04/20/2016 | YRS-AT-2719*/
+.TextBox_Small_UnSuppressAnnuity {
+    color: #333333;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    FONT: normal 11px/14px Verdana,Arial,Helvetica;
+    width: 90%;
+    text-align: right;
+}
+
+.UnSuppressAnnuityMessage {
+    text-align: left;
+    font-weight: normal;
+}
+/*END: PPP | 04/20/2016 | YRS-AT-2719*/
+/*Start: AA:06.29.2016 YRS-AT-2830 Added below lines to show legend in auto Closed tab*/
+.BG_Colour_Loan_YMCA_Report {
+    background-color: #e6e1aa;
+}
+.BG_Colour_Loan_Participant_Report {
+    background-color: #afe5c5;
+}
+        /*End: AA:06.29.2016 YRS-AT-2830 Added below lines to show legend in auto Closed tab*/
+
+  /*START : SB | 01/19/2017 | YRS-AT-3298 | Stylesheet for Cashout plans*/
+  .BG_ColourSubjectToCashoutLetter {
+    background-color: #ade4f6; /*LightSkyBlue*/
+   }
+ /*END : SB | 01/19/2017 | YRS-AT-3298 |  Stylesheet for Cashout plans*/
+
+ /*START: MMR | 09/19/2017 | YRS-AT-3665 | stylesheet for DC Tools screens to be applied for tab*/
+.InActiveTab {
+    background-color: #4172A9;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 8pt;
+    color: #ffffff;
+    text-align: center;
+    border: solid 1px White;
+    border-bottom: none;
+    height: 30px;
+}
+
+.ActiveTab {
+    background-color: #93BEEE;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 8pt;
+    color: #000000;
+    text-align: center;
+    border: solid 1px White;
+    border-bottom: none;
+    height: 30px;
+}
+
+.InActiveDisabledTab {
+    background-color: #4172A9;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 8pt;
+    color: lightgray;
+    text-align: center;
+    border: solid 1px White;
+    border-bottom: none;
+    height: 30px;
+}
+
+.aestrik {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #C30;
+    vertical-align:top;
+}
+/*END: MMR | 09/19/2017 | YRS-AT-3665 | stylesheet for DC Tools screens to be applied for tab*/
+ /*START : SC | 2019.05.13 | YRS-AT-2601 | Css for common style for all disabled and readonly textboxes*/
+.TextBox_Disabled {    
+    background-color: #EBEBE4;
+    cursor: not-allowed;
+    border: 1px solid #7f9db9;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+input[disabled][type='text'], textarea[disabled]{
+	background-color: #EBEBE4  !important;
+	border: 1px solid #7f9db9;
+	font-size: 8pt;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #333333  !important; /* would be overriden in IE 9 and below*/
+}
+/*END : SC | 2019.05.13 | YRS-AT-2601 | Css for common style for all disabled and readonly textboxes*/
+
+ /*START : Suvarna B. : 2020.05.05 : YRS-AT-4854 : Added legend for highlight the covid request*/
+  .BG_ColourIsCovid {
+                background-color: #FFB6C1; /*LightPink*/
+                  }
+ /*END : Suvarna B. : 2020.05.05 : YRS-AT-4854 : Added legend for highlight the covid requess*/

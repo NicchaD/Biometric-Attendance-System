@@ -1,0 +1,45 @@
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\YMCABusinessObject.dll.config
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\YMCABusinessObject.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\YMCABusinessObject.pdb
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\CommonUtilities.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\CrystalDecisions.Shared.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\YmcaDataAccessObject.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\YMCAObjects.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\YmcaDataAccessObject.pdb
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\bin\Debug\YMCAObjects.pdb
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\obj\Debug\YRSBusinessObject.csprojAssemblyReference.cache
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\obj\Debug\YRSBusinessObject.csproj.CopyComplete
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\obj\Debug\YMCABusinessObject.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCABusinessObject\obj\Debug\YMCABusinessObject.pdb
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\obj\Debug\YMCABusinessObject.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\obj\Debug\YMCABusinessObject.pdb
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\YMCABusinessObject.dll.config
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\YMCABusinessObject.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\YMCABusinessObject.pdb
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\CommonUtilities.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\CrystalDecisions.Shared.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\YmcaDataAccessObject.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\YMCAObjects.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\Microsoft.Practices.Unity.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\YmcaDataAccessObject.pdb
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\bin\Debug\YMCAObjects.pdb
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\obj\Debug\YRSBusinessObject.csproj.CoreCompileInputs.cache
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\obj\Debug\YRSBusinessObject.csproj.CopyComplete
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCABusinessObject\obj\Debug\YRSBusinessObject.csproj.AssemblyReference.cache

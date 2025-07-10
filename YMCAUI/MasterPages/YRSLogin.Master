@@ -1,0 +1,77 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true"  CodeBehind="YRSLogin.master.vb" Inherits="YMCAUI.YRSLogin" %>
+<%@ Register TagPrefix="YRSControls" TagName="YMCA_Footer_WebUserControl" Src="~/UserControls/YMCA_Footer_WebUserControl.ascx" %>
+
+<%--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--%>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>YMCA YRS</title>
+    <style id="Style1" type="text/css" media="screen" runat="server">
+        @import '<%= ResolveUrl("~/JS/jquery-ui/base/jquery.ui.all.css")%>';
+    </style>
+    <style id="Style2" type="text/css" media="screen" runat="server">
+        @import '<%= ResolveUrl("~/CSS/CustomStyleSheet.css")%>';
+    </style>
+    <script type="text/javascript" language="javascript" src='<%= Me.ResolveClientUrl("~/JS/YMCA_JScript.js") %>'></script>
+    <script  src='<%= Me.ResolveClientUrl("~/JS/jquery-1.7.2.min.js") %>' type="text/javascript"></script>
+    <script src='<%= Me.ResolveClientUrl("~/JS/jquery-ui/jquery-ui-1.8.20.custom.min.js") %>' type="text/javascript"></script>
+    <script language="javascript" src='<%= Me.ResolveClientUrl("~/JS/YMCA_JScript_Warn.js") %>' type="text/javascript"></script>
+      <script src='<%= Me.ResolveClientUrl("~/JS/YMCA_JSCRIPT_Loader.js") %>' type="text/javascript"></script><%-- ML | 2019.04.16 | YRS-AT-4388 | To apply css to prevent Double click on button --%>
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+        
+                        </asp:ContentPlaceHolder>
+</head>
+<body class="Div_Center" >
+    <form id="Form1" method="post" clientidmode="Static" runat="server">
+        <div class="Div_Center" >
+             <table cellspacing="0" cellpadding="0" " style="height:700px;width:980px" class="Table_WithoutBorder" id="Table1" border="0">
+				<tr align="left" style="height:5%;">
+                    <!--START: Shilpa N | 03/15/2019 | YRS-AT-4248 | Change CSS of Header in Read Only mode during month end processing-->
+                        <% If (YMCAUI.SecurityCheck.GetApplicationReadonlyHeaderValue()) Then%>                                                        
+					    <td  class="Td_HeaderColorInReadOnlyMode" runat="server" >
+                            <div style="float:left;">
+                                <img  title="logo" alt="YMCA Retirement Fund Logo" src="~/images/ymca_logo.gif" runat="server"/>
+                            </div>
+                    <div style="float:right;text-align:left;PADDING-TOP: 16px">
+                            <%=YMCARET.YmcaBusinessObject.MetaMessageBO.GetMessageByMessageNo(YMCAObjects.MetaMessageList.READONLY_APPLICATION_HEADER_MESSAGE).DisplayText%>&nbsp;&nbsp;
+                        </div></td>
+                        <%Else%>
+                        <td colspan="2" class="Td_BackGroundColorYMCA">
+                            <img title="logo" alt="YMCA Retirement Fund Logo" src="~/images/ymca_logo.gif" runat="server"/>  
+                        </td>
+                        <%End If%>     
+                    <!--END: Shilpa N | 03/15/2019 | YRS-AT-4248 | Change CSS of Header on Read Only mode during month end processing  -->                
+                </tr>
+				<tr align="left" style="height:2%;">
+					<td class="Td_WelcomeNoteContainer"><img title="Image" alt="image" height="10" runat="server" src="~/images/spacer.gif" /></td>
+					<td valign="middle" align="right" class="Td_Home">&nbsp;</td>
+				</tr>
+				<%--<tr>
+					<td class="Td_HeadingLines" colspan="2"><img title="Image" alt="image" height="1" runat="server" src="~/images/spacer.gif" width="1" /></td>
+				</tr>--%>
+				<%--<tr>
+					<td class="Td_BackGroundColorWhite" colspan="2">&nbsp;</td>
+                </tr>--%>
+                <tr style="height: 0%;">
+				    <td width="100%" align="left" >
+						<div id="DivMainMessage" runat="server" enableviewstate="false" style="display:block;">
+						</div>
+				    </td>
+			    </tr>
+                <tr>
+                    <td colspan="2" align="center" style="height:20%;">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr  valign="bottom" style="height:60%;">
+                    <td width="99%" align="center">
+                        <YRSControls:YMCA_Footer_WebUserControl ID="YMCA_Footer_WebUserControl1" runat="server">
+                        </YRSControls:YMCA_Footer_WebUserControl>
+                    </td>
+            </tr>
+        </table>
+        </div>
+     </form>
+</body>
+</html>

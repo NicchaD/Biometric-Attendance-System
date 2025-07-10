@@ -1,0 +1,772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MESSAGE_REIREMENT_ANNUAL_CONTRIBUTION_LIMIT_ESTIMATION" xml:space="preserve">
+    <value>&lt;br&gt; Maximum annual contribution limit $</value>
+  </data>
+  <data name="MESSAGE_REIREMENT_ANNUAL_SALARY_LIMIT_ESTIMATION" xml:space="preserve">
+    <value>&lt;br&gt; Maximum annual salary limit ${0}</value>
+  </data>
+  <data name="MESSAGE_REIREMENT_ANNUAL_TAX_DEFFERED_LIMIT_ESTIMATION" xml:space="preserve">
+    <value>&lt;br&gt; Maximum annual tax-deferred limit ${0}</value>
+  </data>
+  <data name="MESSAGE_REIREMENT_ESTIMATE_MULTIPLE_ACTIVE_EMPLOYMENTS_EXISTS" xml:space="preserve">
+    <value>Annuity Estimates are only available for terminated participants or those that work at only one YMCA. This participant currently works at multiple YMCAs.</value>
+    <comment>This is need to display when employee exists in more than one YMCA.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ADD_LIST" xml:space="preserve">
+    <value>Please select at least one record to add</value>
+    <comment>This is used to display when use clicks add to list without selecting any record.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ADD_LIST_SUCCESS" xml:space="preserve">
+    <value>Selected participant(s) added to the batch for estimation.</value>
+    <comment>This is used to display when user clicks on add to list button</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ANNUTITY_BOTH" xml:space="preserve">
+    <value>Annuity Estimate based on both Retirement Plan and Savings Plan.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ANNUTITY_RETIREMENT" xml:space="preserve">
+    <value>Annuity Estimate based on Retirement Plan only.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ANNUTITY_SAVINGS" xml:space="preserve">
+    <value>Annuity Estimate based on Savings Plan only.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ASSUMPTION_EMPTY" xml:space="preserve">
+    <value>Assumption: Please enter the value in assumption box</value>
+    <comment>This is used to display when user left assumption field blank.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ASSUMPTION_LENGTH" xml:space="preserve">
+    <value>Assumption: Should not be more than {0} character(s)</value>
+    <comment>This is used to display when user enter more than liimit defined in max property of assumption's textbox in parameter tab</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_CLEAR_LIST" xml:space="preserve">
+    <value>List removed from database</value>
+    <comment>This is used to display when user clicks on clear list button on parameter tab.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_CLEAR_PARTICIPANTS" xml:space="preserve">
+    <value>This will remove the participants that are saved in the database. Are your sure you wish to continue?</value>
+    <comment>This is used to display when user clicks on clear list when the saved item are there</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_CONFIRMATION_DELETE" xml:space="preserve">
+    <value>Are you sure want to delete?</value>
+    <comment>This is used to confirm before removing person from seleted person</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_CONFIRM_PROCESS" xml:space="preserve">
+    <value>Are you sure you want to perform retirement estimate for the batch ?</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_DESELECT_ITEM" xml:space="preserve">
+    <value>There are no items to deselect.</value>
+    <comment>This is used to display when user deselect the list. if there are no items which are to be deselected</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_DIFFERENCE_YOU_SURVIVOR" xml:space="preserve">
+    <value>Due to the age difference between you and the Survivor you have selected, this option is not available.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_FUTURE_SAL_DATE" xml:space="preserve">
+    <value>Future Salary Date: Should be greater than today's date</value>
+    <comment>This is used to display if user selects no zero salary increase percentage but fucture sal effective date enters past date or today's date.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_FUTURE_SAL_EMPTY" xml:space="preserve">
+    <value>Future Salary Date: Please enter the future salary date</value>
+    <comment>This is used to display when user is not fill future salary effevtive date but select non zero  future salary increase percentage in parameter tab</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_INSUFFICIENT_BALANCE" xml:space="preserve">
+    <value>Insufficient balance in {0} plan</value>
+    <comment>This is used to display when the insufficient balance in plan seledted from the parameter tab</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_INVALID_PARAMETERS" xml:space="preserve">
+    <value>Invalid Parameters Details</value>
+    <comment>This is used to display when an invalid parameters are entered</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_NO_CLEAR_PARTICIPANTS" xml:space="preserve">
+    <value>There are no saved items.</value>
+    <comment>This is used to display when user clicks on clear list when the saved item are not there</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_NO_ITEM" xml:space="preserve">
+    <value>There are no items.</value>
+    <comment>This is used to display where user clicks on execute button</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_NO_ITEMS" xml:space="preserve">
+    <value>There are not items to remove</value>
+    <comment>This is used when there are no items</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_NO_SAVE_PARTICIPANTS" xml:space="preserve">
+    <value>There are no items to save.</value>
+    <comment>This is used to display where user clicks on save button. and shows that there are no participants names to save participants</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_NO_SHOW_PARTICIPANTS" xml:space="preserve">
+    <value>There are no saved items to retrieve.</value>
+    <comment>This is used to display when user clicks on show button and there are no items to retrieve</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_PERSON_CROSS_AGE" xml:space="preserve">
+    <value>Person has crossed the age specified for estimate</value>
+    <comment>This is used to display when person age is greater than the selected retirement age from parameter tab.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_PROCESSING" xml:space="preserve">
+    <value>Please wait while retirement estimation for the batch is being performed.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_REMOVE_ITEM" xml:space="preserve">
+    <value>There are no items to remove.</value>
+    <comment>This is used to display when user wants remove item from the list. if there are no items which are to be removed</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_REMOVE_LIST" xml:space="preserve">
+    <value>Please select a participant to delete</value>
+    <comment>This is used to display when user clciks on remove from list without selecting any records</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_REMOVE_LIST_SUCCESS" xml:space="preserve">
+    <value>Selected participant(s) removed from this batch.</value>
+    <comment>This is used to display when user clicks on remove to list</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_RESULTS_TRUNCATED" xml:space="preserve">
+    <value>Results truncated. Showing only {0} rows out of {1}</value>
+    <comment>This is used to display when the results are truncated in datagrid</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SAVE_LIST" xml:space="preserve">
+    <value>Currently selected participants saved to database for future use</value>
+    <comment>This is used to disaply when user clicks on save list button</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SAVE_LIST_VALIDATION" xml:space="preserve">
+    <value>No records to save</value>
+    <comment>This is used to display if user clicks on save this list button without selecting any records</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SAVE_PARAMETER" xml:space="preserve">
+    <value>Saved</value>
+    <comment>This is used to display when user clicks on save butoon in parameter tab</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SAVE_PARTICIPANTS" xml:space="preserve">
+    <value>All Participants will be saved to database. Continue?</value>
+    <comment>This is used to display where user clicks on save button. and confirms to save participants</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SELECT_ITEM" xml:space="preserve">
+    <value>There are no items to select.</value>
+    <comment>This is used to display when user select the list. if there are no items which are to be selected</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SHOW_PARTICIPANTS" xml:space="preserve">
+    <value>Warning: Your existing selections will be overwritten. Are your sure you wish to continue?</value>
+    <comment>This is used to display when user clicks on show button and there are  items to retrieve which modify present items</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SUCCESFULLY" xml:space="preserve">
+    <value>Retirement batch estimate process completed.</value>
+    <comment>This Message apperas when the retirement batch estimated sussesfully.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_UNABLE_TO_RETRIEVE" xml:space="preserve">
+    <value>Unable to retrive account information</value>
+    <comment>This is used to display when the account is cannot be retrieved </comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_ANNUITY_DETAILS_MISSING" xml:space="preserve">
+    <value>&lt;br&gt; * Annuity details are missing for the participant, cannot proceed.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_ELEGIBILITY_CRITERTIA" xml:space="preserve">
+    <value>Eligibility criteria is not met:</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_INSUFFICENT_SERVICE" xml:space="preserve">
+    <value>&lt;br&gt; * Insufficient service</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_INSUFFICIENT_ACCOUNT" xml:space="preserve">
+    <value>&lt;br&gt; * Insufficient account balances</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_INVALID_FUND_EVENT" xml:space="preserve">
+    <value>&lt;br&gt; * Invalid fund event data encountered</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_MAXIMUM_CONTRIBUTION" xml:space="preserve">
+    <value>Please specify the maximum Contribution Limit for the year, to proceed further.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_MAXIMUM_YMCA_ACCT_THRESHOLD" xml:space="preserve">
+    <value>Please specify the maximum Ymca Acct threshold limit with key 'BA_MAX_LIMIT_55_ABOVE' , to proceed further.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_MAXIMUM_YMCA_ACCT_UNDER_KEY" xml:space="preserve">
+    <value>Please specify the maximum Ymca Acct threshold limit under key 'REFUND_MAX_PIA' , to proceed further.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_META_KEY_NOT_DEFINED" xml:space="preserve">
+    <value>Meta key EXACT_AGE_EFFECTIVE_DATE is not defind.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_NORMAL_INTREST_RATE_UNDER_KEY" xml:space="preserve">
+    <value>Please specify the normal interest rate  under key 'EST_NORMAL_PROJECTED_INTEREST_RATE' , to proceed further.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_NORMAL_RETIREMENT_NOT_PERMITTED" xml:space="preserve">
+    <value>&lt;br&gt; * Normal retirement not permitted for this fund event</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_NOT_ENOUGH_FUNDS" xml:space="preserve">
+    <value>There is not enough funds in both the plans of the participant. Please specify additional funds to proceed.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_NOT_ENOUGH_FUNDS_SELECTED_PLANTYPE" xml:space="preserve">
+    <value>There is not enough funds in the selected plan of the participant. Please specify additional funds to proceed.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_NOT_ENOUGH_TO_RETIRE" xml:space="preserve">
+    <value>&lt;br&gt; * Not enough funds to retire</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_NUMPAYPERIOD_NOT_DEFINED" xml:space="preserve">
+    <value>Numpayperiod is not defined. Unable to proceed further.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_ORIGINAL_PARTICIPANT_IS_YOUNG" xml:space="preserve">
+    <value>&lt;br&gt; * Original participant is too young</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_PARICIPANT_ANNUITY_DETAILS_MISSING" xml:space="preserve">
+    <value> Annuity details are missing for the participant, cannot proceed.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_PARTICIPANT_NOT_HAVE_CONTRIBUTIONS" xml:space="preserve">
+    <value>Participant does not have contributions to any basic account, so please specify the Future Salary and its Effective Date to proceed further.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_PARTICIPANT_STATUS_PREELIGIBLE" xml:space="preserve">
+    <value>Participant's fund status is Pre-Eligible &amp; does not have contributions to any basic account, so please specify the Future Salary and its Effective Date to proceed further.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_PENDING_REFUND_EXISTS" xml:space="preserve">
+    <value>&lt;br&gt; *  Pending refund exists</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_PERSON_IS_TOO_OLD" xml:space="preserve">
+    <value>&lt;br&gt; * Person is too old for disability</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_PERSON_IS_YOUNG" xml:space="preserve">
+    <value>&lt;br&gt; *  Person is too young</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_UNFUNDED_TRANS_EXISTS" xml:space="preserve">
+    <value>&lt;br&gt; * Unfunded transaction exists</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_WITH_RETIREMENT" xml:space="preserve">
+    <value> with RETIREMENT Plan</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_WITH_SAVINGS" xml:space="preserve">
+    <value> with TD Savings Plan</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_ANNUAL_SALARY_INCREASE" xml:space="preserve">   
+    <!--Shilpa N | 04/17/2019 | YRS-AT-3392 | Commented existing message and added new message-->
+    <!-- <value>&lt;br&gt; Annual Salary Increase Effective Date: Salary Increase not used because Increase Month is missing.</value>-->
+    <value>Annual Salary Increase Month is required if Annual Salary Increase % is entered.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_ANNUITY_BASED_ON_YMCA" xml:space="preserve">
+    <value>Annuity Estimate will be based upon YMCA Account funds only.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_ANNUITY_BASED_ON_YMCA_BOTH_PLANS" xml:space="preserve">
+    <value>Annuity Estimate will be based upon YMCA Account plus Savings Plan funds.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_ANNUTITY_BOTH" xml:space="preserve">
+    <value>Annuity Estimate based on both Retirement Plan and Savings Plan.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_ANNUTITY_RETIREMENT" xml:space="preserve">
+    <value>Annuity Estimate based on Retirement Plan only</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_ANNUTITY_SAVINGS" xml:space="preserve">
+    <value>Annuity Estimate based on Savings Plan only.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_BA_MAX_LIMIT_55_ABOVE" xml:space="preserve">
+    <value>Age is $$SS_MIN_AGE$$ &amp; above and current YMCA Account balance is greater than $ $$BA_MAX_LIMIT_55_ABOVE$$. Hence partial withdrawal estimate will not consider YMCA ACCOUNT.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_BA_MAX_LIMIT_UNDER_55" xml:space="preserve">
+    <value>Age is under $$SS_MIN_AGE$$ and current YMCA Account balance is greater than $$BA_MAX_LIMIT_UNDER_55$$. Hence partial withdrawal estimate will not consider YMCA ACCOUNT.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_BENIFICARY_DATE" xml:space="preserve">
+    <value>Please enter birthdate.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_BENIFICIARY_BIRTHDATE_RELATION" xml:space="preserve">
+    <value>Please enter beneficiary birthdate and relation.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_BENIFICIARY_FIRST_LAST_NAME" xml:space="preserve">
+    <value>Please enter beneficiary first/last name.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_BENIFICIARY_RELATIONSHIP" xml:space="preserve">
+    <value>Please select relationship.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_CANNOT_BE_AFTER_RETDATE" xml:space="preserve">
+    <value>- Start date cannot be after the retirement date</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_CHARACTERS_EXCEEDED" xml:space="preserve">
+    <value>The number of characters entered have exceeded the maximum limit</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_CONTRIBUTION_CURRENCY_FORMAT" xml:space="preserve">
+    <value> - Contribution should be in Currency Format</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_CONTRIBUTION_RANGE" xml:space="preserve">
+    <value>- Contribution should be in the range of 0 - 100</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_COPY_TO_IDM" xml:space="preserve">
+    <value>Copy report to IDM</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_CURRENT_ACCOUNT_IS_INVALID" xml:space="preserve">
+    <value>Current account selection is no longer valid.  Please select accounts to exclude from this estimate on the Accounts tab.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_DATA_HAS_CHANGED" xml:space="preserve">
+    <value>Data for estimate has changed.Please re-calculate.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_DTH_BENEFIT_ANN_PURCHASE_RESTRICTION" xml:space="preserve">
+    <value>"Percentage To Use" and "$ Amount To Use" fields are not available for annuitizing the death benefit since person will not attain age $$RETIRE_SERVICE_MIN_AGE$$ as of $$RDB_ADB_2019Plan_Change_CutOFF_Date$$</value>
+    <comment>This is used to diplay when user has not attained $RETIRE_SERVICE_MIN_AGE as of RDB_ADB_2019Plan_Change_CutOFF_Date</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_EARLIER_THAN_FIRST_OF_MONTH" xml:space="preserve">
+    <value>- Start date cannot be earlier than the first of this month</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_END_WORK_DATE" xml:space="preserve">
+    <value> End Work Date: Should be less than Retirement Date</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_ENTER_BENIFICIARY_BIRTHDATE" xml:space="preserve">
+    <value>Please enter beneficiary's date of birth.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_ENTER_BENIFICIARY_BIRTHDATE_RELATION" xml:space="preserve">
+    <value>Please enter beneficiary's date of birth and relation.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_ENTER_BENIFICIARY_FIRSTNAME" xml:space="preserve">
+    <value>Please enter beneficiary's first/last name.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_ENTER_BENIFICIARY_RELATION" xml:space="preserve">
+    <value>Please select beneficiary's relationship.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_ENTER_CONTRIBUTIONS" xml:space="preserve">
+    <value>- Please enter some contributions</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_FUTURE_SALARY" xml:space="preserve">
+    <value>Future Salary : Invalid currency format</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_FUTURE_SALARYDATE_MISSING" xml:space="preserve">
+    <value>Future Salary Date : Future Salary not used because Start Date is missing.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_FUTURE_SALARY_DATE_END_WORK_DATE" xml:space="preserve">
+    <value>Future Salary Date: Should be less than End Work Date</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_FUTURE_SALARY_DATE_GREATER_THAN_TODAYDATE" xml:space="preserve">
+    <value> Future Salary Date: Should be greater than today's Date</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_FUTURE_SALARY_DATE_LESS_THAN_RETIREMENT" xml:space="preserve">
+    <value>Future Salary Date: Should be less than Retirement Date</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_INCREASE_EFFECTIVE_DATE" xml:space="preserve">
+    <value>Annual Salary Increase Effective Date: Should be greater than today's Date</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_INVALID_CURRENCY_FORMAT" xml:space="preserve">
+    <value>Modified Salary : Invalid currency format</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_INVALID_DATA" xml:space="preserve">
+    <value>Invalid Data in Accounts Tab</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_INVALID_EMPLOYEMENT" xml:space="preserve">
+    <value>Invalid Employment Details</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_JOINTSURVIVOUR_AGE_DIFFERENCE" xml:space="preserve">
+    <value>Joint &amp; Survivor annuity options marked as *N/A are not available due to the age difference between you and your survivor.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_LEGACY_ACCOUNT_REFUND_MAX_PIA" xml:space="preserve">
+    <value>Current YMCA(LEGACY) ACCOUNT balance is greater than $ $$REFUND_MAX_PIA$$. Hence partial withdrawal estimate will not consider YMCA(LEGACY) ACCOUNT.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_LEGACY_ACCOUNT_REFUND_MAX_PIA_AT_TERMINATION" xml:space="preserve">
+    <value>YMCA(LEGACY) ACCOUNT balance is greater than $ $$REFUND_MAX_PIA$$ at termination. Hence partial withdrawal estimate will not consider YMCA(LEGACY) ACCOUNT.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_MINIMUM_PIA_TORETIRE" xml:space="preserve">
+    <value>Minimum $ $$$MinimumPIAToRetire$$ balance required after Withdrawal for Retirement plan, so this withdrawal is not permitted as requested.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_MULTIPLE_ACTIVE_EMPLOYEMENTS" xml:space="preserve">
+    <value>Multiple active employments exist. Please 'Update Employment' and terminate any that are to be excluded from the estimate</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_NEGATIVE_ANNUITY" xml:space="preserve">
+    <value>Amount entered would result in negative annuity amounts at age 62. Cannot proceed.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_NOT_ACTIVE_PLANS" xml:space="preserve">
+    <value>Not active plans to retire with.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_NOT_ENOUGH_FUNDS_RETIREMENT" xml:space="preserve">
+    <value>There isn't enough funds in Retirement Plan. Would you like to use Savings Plan instead?</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_NOT_ENOUGH_FUNDS_SAVINGS" xml:space="preserve">
+    <value>There isn't enough funds in Savings Plan. Would you like to use Retirement Plan instead?</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_PARTICIPANT_WITHDRAWAL_FUNDS_FROM_BASIC_ACCOUNTS" xml:space="preserve">
+    <!--  SB | 03/08/2017 | YRS-AT-2625 | Old message replaced by new message for the paid service withdrawal 
+  <value>Participant has withdrawn funds from their basic accounts. Check if the participant has the required 60 months of paid service since the withdrawal.</value>-->
+    <value>Participant took a Personal Account withdrawal and has not accrued 5 years of paid service since the withdrawal. Therefore, disability annuity is not permitted.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_PLEASE_ENTER_NUMERIC" xml:space="preserve">
+    <value>Please enter a Numeric Value</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_PURCHASE_ANNUITY" xml:space="preserve">
+    <value>Do you wish to purchase this annuity ?</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_RETIREE_BIRTH_DATE" xml:space="preserve">
+    <value>Retiree Birth Date is missing.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_RETIREMENT_DATE" xml:space="preserve">
+    <value>Retirement Date: Should be less than or equal to first of the month following the last Termination date</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_RETIREMENT_GREATER_TOTAL_AMOUNT" xml:space="preserve">
+    <value>Amount Requested for Withdrawal is greater than the amount allowed. Hence withdrawal estimate is not possible</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_RETIREMENT_MIN_PARTIAL_LIMIT" xml:space="preserve">
+    <value>Partial Request Amount should be greater than or equal to $$$MIN_PARTIAL_WITHDRAWAL_LIMIT$$.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_RETIREMENT_PARTIAL_CURRENCY_FORMAT" xml:space="preserve">
+    <value>Retirement partial  amount should be in Currency Format</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_SAVING_PARTIAL_CURRENCY_FORMAT" xml:space="preserve">
+    <value>Savings partial  amount should be in Currency Format</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_SELECT_VALID_CONTRIBUTION" xml:space="preserve">
+    <value>- Please select a valid contribution type</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_STARTDATE_CANNOT_BLANK" xml:space="preserve">
+    <value>- Start date cannot be blank</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_START_DATE_CANNOT_BE_FIRST_HIREDATE" xml:space="preserve">
+    <value>- Start date cannot be earlier than the first hiredate</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_START_DATE_FOR_LUMPSUM" xml:space="preserve">
+    <value>- Start date for lumpsum contribution cannot be within current month. Please use a date on or after {0} .</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_STOP_DATE_AFTER_START_DATE" xml:space="preserve">
+    <value>- Stop date has to be after Start Date</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_STOP_DATE_RETIREMENT_DATE" xml:space="preserve">
+    <value>- Stop date cannot be beyond the Retirement Date</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_THRESHOLD_EXCLUSION" xml:space="preserve">
+    <value>There is not enough balance with the plan as one/more of the account(s) has been excluded due to either not having balances or exceeding defined threshold limit.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_UNABLE_TO_INITIALIZE" xml:space="preserve">
+    <value>Unable to initialize employment history for the member.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_VALIDATING_ELECTIVE_ACCOUNTS" xml:space="preserve">
+    <value>&lt;br&gt; There was a problem with validating the Elective Accounts information</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCCESING_PURCHASE_PARTICIPANT_NO_60_MONTHS_PAID_SERVICE" xml:space="preserve">
+    <value>Participant does not have the required 60 months of paid service.  Disability process cannot proceed.</value>
+    <comment>This is used to display when the participant doesn not have the required 60 months of paid service . and disabilty process cannot be processed</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESING_HANDLE_MESSAGEBOX" xml:space="preserve">
+    <value>Do you still want to purchase this annuity ?</value>
+    <comment>This is used to display when the person press purchase button to confirm the purchase</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESING_SELECT_ANNUITY" xml:space="preserve">
+    <value>Please select an annuity to puchase</value>
+    <comment>This is used to display when user user purchase annuity without selecting any annuity</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_ANNUITY_CALUCULATION_PROBLEM" xml:space="preserve">
+    <value>Problem occured in Annuity calculation</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_ANNUITY_DETAILS_MISSING" xml:space="preserve">
+    <value>Annuity details are missing for the participant.</value>
+    <comment>This is used to display to user that retirement annuity details are missing</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_ANNUITY_INSUFFICIENT" xml:space="preserve">
+    <value>The amount of annuity is insufficient to allow for the Social Security leveling option.</value>
+    <comment>This is used to display the indufficent annuity for the social security option</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_BENEFICIARY_DELETE" xml:space="preserve">
+    <value>Please select a Beneficiary to be deleted.</value>
+    <comment>This is used to display without selecting the benficiary when user clicks on delete button</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_BENEFICIARY_VIEW_NOTES" xml:space="preserve">
+    <value>Please select notes to display.</value>
+    <comment>This is used to display when user wants to view notes withoust selecting notes</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_BENFICIARY_INFORMATION_CHANGED" xml:space="preserve">
+    <value>Beneficiary information has changed. Please Re-calculate.</value>
+    <comment>This is used to display when the benificiary information has changed </comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_BENIFICIARY_EDIT" xml:space="preserve">
+    <value>Please select a Beneficiary to be updated.</value>
+    <comment>This is used to display when user clicks on edit button without selecting benificiary</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_BENIFICIARY_PERCENTS" xml:space="preserve">
+    <value>beneficiary percents do not total 100%.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_CANCEL_CHANGES" xml:space="preserve">
+    <value>Are you sure you want to cancel and lose changes ?</value>
+    <comment>This is used to display  when user clicks on cancel button if any changes are made and not saved</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_CANNOT_ADD_DUPLICATE_WITHHOLDING" xml:space="preserve">
+    <value>Cannot add duplicate withholding</value>
+    <comment>This is used to display that user Cannot add duplicate withholding</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_CONTINGENT_LEVEL1_MEMBER" xml:space="preserve">
+    <value>Contingent level 1 member</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_CONTINGENT_LEVEL1_RETIRED" xml:space="preserve">
+    <value>Contingent level 1 retired death benefit</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_CONTINGENT_LEVEL1_RETIRED_INSURED" xml:space="preserve">
+    <value>Contingent Level 1 retired insured reserve percents do not total 100%.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_CONTINGENT_LEVEL2_MEMBER" xml:space="preserve">
+    <value>Contingent level 2 member</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_CONTINGENT_LEVEL2_RETIRED" xml:space="preserve">
+    <value>Contingent level 2 retired death benefit</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_CONTINGENT_LEVEL2_RETIRED_INSURED" xml:space="preserve">
+    <value>Contingent Level 2 retired insured reserve percents do not total 100%.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_CONTINGENT_LEVEL3_MEMBER" xml:space="preserve">
+    <value>Contingent level 3 member</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_CONTINGENT_LEVEL3_RETIRED" xml:space="preserve">
+    <value>Contingent level 3 retired death benefit</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_CONTINGENT_LEVEL3_RETIRED_INSURED" xml:space="preserve">
+    <value>Contingent Level 3 retired insured reserve percents do not total 100%.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_EMPLOYEMENT_TERMINATION_DATE" xml:space="preserve">
+    <value>This specified retirement date is earlier than the employment termination date.  Are you sure you want to continue ?</value>
+    <comment>This is used to display to user that specified retirement date is earlier than employment termination date. are you sure you want to continue ?</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_ENDDATE_GREATERTHAN_STARTDATE" xml:space="preserve">
+    <value>The End Date has to be greater than the Start Date.</value>
+    <comment>This is used to display to user that when the user entered the date less thanthe start date</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_FEDARALTAXWITHOLDING_REQUIRED" xml:space="preserve">
+    <value>Federal tax withholding information is required to purchase this annuity</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_FINAL_CONTRIBUTION_NOT_RECIEVED" xml:space="preserve">
+    <value>We have not received the final contribution based upon the termination date.  Processing cannot continue until the final contribution has been received and funded.</value>
+    <comment>This is used to display when the participants final contribution wasnot recieved and shows to user to that cannot be continued further process</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_INVALID_WITHHOLDING" xml:space="preserve">
+    <value>Invalid Withholding type encountered while getting the withheld amount.</value>
+    <comment>This is used to display the invalid withholding  type has been encounters while getting the withheld amount</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_JOINT_SURVIOUR_ANNUITY_RESET_MESSAGE" xml:space="preserve">
+    <value>Due to a change in the annuity beneficiary information for {0}, the selected option may no longer be available.
+The annuity option has reverted to M. &lt;/br&gt;Please re-select the desired option.</value>
+    <comment>This message will be displayed whenever selected joint survivor annuity has been selected &amp; user has modified beneficiary details and clicks on recalculate button then selected annuity will reset to M annuity for their respective plan wise beneficiary.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_MOVE_BENIFICIARY" xml:space="preserve">
+    <value>Please select a Benefeciary to move</value>
+    <comment>This is used to display when user wants to move a record without selecting any record</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_NO_KEY_PHONYSSNO" xml:space="preserve">
+    <value>No Key defined for Placeholder SSNo in AtsMetaConfiguration.</value>
+    <comment>This is used to display for the user that there is no keyy defined for phony ssno in atsmetaconfiguration</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PARTICIPANT_ACCOUNT_LOCKED" xml:space="preserve">
+    <value>Participant account is locked. Please refer to Customer Service Supervisor.</value>
+    <comment>This is used to display when the participant is locked while purchasing</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PARTICIPANT_ACCOUNT_LOCKED_WITH_REASON" xml:space="preserve">
+    <value>Participant account is locked due to {0}. Please refer to Customer Service Supervisor.</value>
+    <comment>This is used to display when the participant is locked with the reason while purchasing </comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PARTICIPANT_DATA_HAS_CHANGED" xml:space="preserve">
+    <value>The data has been changed. Please Re-Calculate before Purchasing</value>
+    <comment>This is used to display when the data has been changed and remin to recaluculate before purchasing</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PRIMARY_MEMBER" xml:space="preserve">
+    <value>Primary member</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PRIMARY_RETIRED_DEATH_BENIFIT" xml:space="preserve">
+    <value>Primary retired death benefit</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PRIMARY_RETIRED_INSURED" xml:space="preserve">
+    <value>Primary retired insured reserve beneficiary percents do not total 100%.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PURCHASE_CONTINUE_PHONY_SSNO" xml:space="preserve">
+    <value>Beneficiary defined under {0} plan has placeholder SSN</value>
+    <comment>This is used to display the confirmation message that to continue with phony ssno</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PURCHASE_DAILY_INTEREST" xml:space="preserve">
+    <value>Daily Interest records dated before the purchase date exist.  Please correct before proceeding.</value>
+    <comment>This is used to display to user that for the purchase date exists whenddaily intrest records are dated</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PURCHASE_FAILED" xml:space="preserve">
+    <value>PURCHASE FAILED</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PURCHASE_INVALIDSSNNO" xml:space="preserve">
+    <value>Invalid SSNo entered, Please enter a Valid SSNo.</value>
+    <comment>This is used to display to user that ssn no entered is the invalid?</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PURCHASE_PARTICIPANT_WITHDRAWL_FUNDS" xml:space="preserve">
+    <!--  SB | 03/08/2017 | YRS-AT-2625 | Old message replaced by new message for the paid service withdrawal 
+    <value>Participant has withdrawn funds from their basic accounts. Does the participant have the required 60 months of paid service since the withdrawal?</value>-->
+    <value>Participant took a Personal Account withdrawal and has not accrued 5 years of paid service since the withdrawal. Therefore, disability annuity is not permitted.</value>
+    <comment>This is used to display when the person press purchase button, when the participant has withdrawal funds in their basic accounts, and to confirm that participant has the required 60months of paid service since the withdrawal</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PURCHASE_SUCCESFULL" xml:space="preserve">
+    <value>Annuity purchase process successfully completed for {0}, {1}</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_RETIREE_BIRTH_DATE_MISSING" xml:space="preserve">
+    <value>Retiree Birth Date is missing.</value>
+    <comment>This is used to display to user that participant birth date is missing </comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_RETIREMENT_DEATH_BENIFIT_AMOUNT" xml:space="preserve">
+    <value>Amount to use cannot be greater than 90% of the Retirement Death Benefit.</value>
+    <comment>This is used to display when user enters an amount to use which is greater than 90% of the retirement death benifit </comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_SELECT_SIMILAR_ANNUITY" xml:space="preserve">
+    <value>Please select similar type of annuity for both plans</value>
+    <comment>This is used to display to user that to select simlar annuity for both plans</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_SOCIAL_SECURITY_LEVEL_OPTION_UNAVAILABLE" xml:space="preserve">
+    <value>The Social Security Leveling option is not available for persons under age 55.</value>
+    <comment>This is used to display to user that social security leveling option is not available for the persons who are under the age 55</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_SPLIT_RETIREMENT" xml:space="preserve">
+    <value>Pre-plan split retirement cannot proceed with only money in Savings Plan.</value>
+    <comment>This is used to display when the user wants to split amount with only savings plan money</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_TAXWITHHOLDING_EXCEEDS" xml:space="preserve">
+    <value>Tax withholding cannot exceed taxable amount of annuity. Please review federal withholding information and modify if necessary.</value>
+    <comment>This is used to diplay when the tax witholding is exceeded taxabale amount of annuity. and prompts the user to review fedaral withholding information </comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_TERMINATION_DATE_DOESNOT_EXISTS" xml:space="preserve">
+    <value>No Termination date.Please check the employment record of person.</value>
+    <comment>This is used to display to user that there is no termination date . and to show to user to verify the employement record</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_UNABLETO_INITIALIZE_EMPLOYEMENT" xml:space="preserve">
+    <value>Unable to initialize employment history for the member.</value>
+    <comment>This is to display that there is a problem in initilizing employement history for the member  </comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_UPDATE_FEDERAL_WITHHOLDING" xml:space="preserve">
+    <value>Please select a Federal Withholding record to be updated.</value>
+    <comment>This is used to display when user wants  to udate ferdal withholding record without slecting any record</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_UPDATE_GENERAL_WITHHOLDING" xml:space="preserve">
+    <value>Please select a General Withholding record to be updated.</value>
+    <comment>This is used to display when user wants to update general withholding record without selecting any record</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_ZERO_ANNUITY" xml:space="preserve">
+    <value>Can not buy zero annuity</value>
+    <comment>This is used to display when the user wants to verify the address </comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_USED_FOR_ESTIMATE_CALUCULATION" xml:space="preserve">
+    <value>used for estimate calculation</value>
+  </data>
+  <data name="MESSAGE_RETIRMENT_MAXIMUM_ELIGIBLE_AMOUNT" xml:space="preserve">
+    <value>Maximum eligible amount for partial withdrawal value is: $$$EligibleAmount$$</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_BLOCK_JSANNUITY_FOR_QDRO" xml:space="preserve">
+    <value>Alternate payees cannot designate a new spouse for Joint &amp; Survivor annuities. Select a different annuity beneficiary, or proceed to show estimates for J options as N/A.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_BLOCK_JSANNUITY_FOR_QDRO" xml:space="preserve">
+    <value> *  Alternate payees cannot designate a spouse for Joint &amp; Survivor annuities</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_TD_FINAL_CONTRIBUTION_NOT_RECIEVED" xml:space="preserve">
+    <value>We have not received the final contribution based upon the TD contract termination date. </value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PURCHASE_CONFIRM_POINTS" xml:space="preserve">
+    <value>Please note following point(s)</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESSING_PURCHASE_PAID_LOAN" xml:space="preserve">
+    <value>Paid Loan Exists</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_PROCESING_CONFIRM_MESSAGEBOX" xml:space="preserve">
+    <value>Do you wish to purchase this annuity ?</value>
+    <comment>This is used to display when the person press purchase button to confirm the purchase when no other confirmation points exists</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_BA_COMBINED_ACCOUNT" xml:space="preserve">
+    <value>YMCA ACCOUNT balance is greater than $ $$BA_MAX_COMBINED_LIMIT$$. Hence partial withdrawal estimate will not consider YMCA ACCOUNT</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BOC_MAXIMUM_YMCA_ACCT_AND_YMCA_LEC_ACCT_THRESHOLD" xml:space="preserve">
+    <value>Please specify the maximum Ymca Acct threshold limit with key 'BA_MAX_LIMIT_55_ABOVE'  and Ymca Legacy Acct threshold limit under key 'REFUND_MAX_PIA' , to proceed further.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_ESTIMATE_MANUALTRANSACTION_EXISTS" xml:space="preserve">
+    <value>Manual transactions exist. Review the account for inclusion or exclusion of these amounts when calculating projected contributions.</value>
+  </data>
+</root>

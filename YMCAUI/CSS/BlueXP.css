@@ -1,0 +1,24 @@
+
+.MenuGroup
+{
+    BORDER-RIGHT: #ffffff 2px groove;
+    BORDER-TOP: #ffffff 2px groove;
+    BORDER-LEFT: #ffffff 2px groove;
+    BORDER-BOTTOM: #ffffff 2px groove
+}
+.MenuItem
+{
+    FONT-SIZE: 12px;
+    CURSOR: hand;
+    COLOR: #ffffff;
+    FONT-FAMILY: Tahoma;
+    BACKGROUND-COLOR: #b9d4ed
+}
+.MenuItemOver
+{
+    FONT-SIZE: 12px;
+    CURSOR: hand;
+    COLOR: #ffffff;
+    FONT-FAMILY: Tahoma;
+    BACKGROUND-COLOR: #245edc
+}

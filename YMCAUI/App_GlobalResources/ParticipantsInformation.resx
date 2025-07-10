@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DIFFRENT_YMCA_EXIST_ON_SAME_TERMDATE" xml:space="preserve">
+    <value>Multiple employment records exist with the same termination date. Please contact IT for Data Correction.</value>
+  </data>
+  <data name="EMPLOYEE_REACTIVATION" xml:space="preserve">
+    <value>Do you want to continue with employee reactivation?</value>
+  </data>
+  <data name="MESSAGE_LOAN_HAS_FREEZED" xml:space="preserve">
+    <value>Loan freeze successful. An email has been sent to participant.</value>
+  </data>
+  <data name="MESSAGE_LOAN_HAS_FREEZED_EMAIL_ERROR" xml:space="preserve">
+    <value>Loan freeze successful. However, due to an error, an email could not be sent to participant.</value>
+  </data>
+  <data name="MESSAGE_LOAN_HAS_UNFREEZED" xml:space="preserve">
+    <value>Unfreeze of Loan is successful. An email has been sent to participant.</value>
+  </data>
+  <data name="MESSAGE_LOAN_HAS_UNFREEZED_EMAIL_ERROR" xml:space="preserve">
+    <value>Unfreeze of Loan is successful. However, due to an error, an email could not be sent to participant.</value>
+  </data>
+  <data name="MESSAGE_LOAN_PAYOFFAMOUNT_EXISTING_WARNING" xml:space="preserve">
+    <value>A saved payoff amount already exists. Do you wish to save a new Loan Payoff amount which may be higher due to additional interest due?</value>
+  </data>
+  <data name="MESSAGE_LOAN_PAYOFFAMOUNT_NEW_WARNING" xml:space="preserve">
+    <value>Are you sure you want to save the computed loan payoff amount?</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_EXHAUSTEDDBRMDSETTLEMENTEFFORTS_ALIVE" xml:space="preserve">
+    <value>Checking this box will remove the participant from the Required Minimum Distribution disbursement process and may result in missed RMD's and possible excise taxes. You should only check this box if all efforts to contact the participant have been exhausted. Do you wish to proceed?</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_EXHAUSTEDDBRMDSETTLEMENTEFFORTS_DECEASED" xml:space="preserve">
+    <value>Checking this box may result in forfeiture of benefits owed to beneficiaries. You should only check this box if all efforts to contact beneficiaries have been exhausted. Do you wish to proceed?</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_ACTIVATE_AS_PRIMARY_NOTE" xml:space="preserve">
+    <value>Secondary address has been changed as primary</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_BENEFIT_LVL2_LVL3_NOT_SUPPORTED" xml:space="preserve">
+    <value>Contingent levels 2 &amp; 3 are no longer supported.  Please select Benefit Level ‘Level 1’</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_CANNOT_LOCATE_SPOUSE_INVALID" xml:space="preserve">
+    <value>Spouse Waiver date / Cannot Locate Spouse field is not applicable to this person. Please blank out / de-select the option to proceed.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_CANNOT_LOCATE_SPOUSE_VALIDATION" xml:space="preserve">
+    <value>Please either fill in the Spousal Waiver date or select the Cannot Locate Spouse option (not  both) as there is no spouse primary beneficiary with 100% benefit specified.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_CONTINGENT_LVL2_LVL3_NOT_EXISTS" xml:space="preserve">
+    <value>This person has contingent beneficiary levels 2 or 3 which are no longer supported.  Please update those beneficiaries to level 1 or delete them.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_DEATHSETTLEMENT_RMDREGENERATIONMESSAGEWARNING" xml:space="preserve">
+    <value>Since deceased participant has a backdated termination, RMD needs to be re-generated for the participant.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_DEATHSETTLEMENT_RMDREGENERATIONWARNING" xml:space="preserve">
+    <value>Since deceased participant has a backdated termination, RMD needs to be re-generated for the participant. Beneficiary Settlement can only happen after re-generating RMD.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_DEATH_CALC_RUN" xml:space="preserve">
+    <value>As changes were made to the beneficiary details, it is required to re-run death calculator for the participant and also re-generate the death benefit application form for the beneficiary.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_DELETE_SETTLED_BENEFICIARY" xml:space="preserve">
+    <value>The selected beneficiary has already been settled therefore you may not delete this beneficiary.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_EDIT_SETTLED_BENEFICIARY" xml:space="preserve">
+    <value>The selected beneficiary has already been settled therefore you may not edit details of this beneficiary.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_FREEZE_PHANTOMINT" xml:space="preserve">
+    <value>Are you sure you want to freeze the phantom interest?</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_REP_FIRST_AND_LAST_NAME" xml:space="preserve">
+    <value>Please enter the rep first name and rep Last Name.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_REP_FIRST_NAME" xml:space="preserve">
+    <value>Please enter the rep first name.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_REP_LAST_NAME" xml:space="preserve">
+    <value>Please enter the rep last name.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_RESTRICT_WEB_ACCT_INFO" xml:space="preserve">
+    <value>Person already has a web account, first delete it (by clicking on Reset button from Web Acct Info pop up dialog) &amp; then update for restricting web acct. creation.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_RESTRICT_WEB_ACCT_INFO_EXISTS" xml:space="preserve">
+    <value>Participant already has a web account.  If you proceed, the participant will not be able to access it.  Are you sure you want to restrict access?</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_RESTRICT_WEB_ACCT_INFO_NOT_EXISTS" xml:space="preserve">
+    <value>Participant will  be restricted from creating a web account.  Are you sure you want to restrict?</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_SPOUSALCONSENT_OTHER_THAN_MARRIED" xml:space="preserve">
+    <value>Spouse Waiver date / Cannot Locate Spouse field should 
+be specified only for Married persons who either does not have spouse beneficiary defined or defined with benefit less than 100%. Please blank out / de-select the option to proceed.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_SPOUSAL_WAVIER_DATE_VALIDATION" xml:space="preserve">
+    <value>Please fill in Spousal Wavier date (on the Main screen) as benefit for spouse beneficiary is less than 100%.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_SPOUSE_WITH_FULL_BENFIT" xml:space="preserve">
+    <value>Spouse Waiver date / Cannot Locate Spouse field should be specified if there is no spouse beneficiary defined or defined with benefit less than 100%. Please blank out / de-select the option to proceed.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_INFO_UNFREEZE_PHANTOMINT" xml:space="preserve">
+    <value>Are you sure you want to unfreeze the phantom interest?</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_NON_RMD_ELIGIBILE" xml:space="preserve">
+    <value>This participant is not eligible for RMD, you cannot check this flag.</value>
+  </data>
+  <data name="MESSAGE_PARTICIPANT_SETTLEMENT_PENDING_FOR_REQUEST" xml:space="preserve">
+    <value>Beneficiary information not available as QDRO settlement pending for selected request.</value>
+  </data>
+  <data name="REACTIVE_SUCCESS" xml:space="preserve">
+    <value>Reactivation Successful and Fund Status changed from {0} to {1}.</value>
+  </data>
+  <data name="RECORD_EXIST" xml:space="preserve">
+    <value>Record exist after termination date.</value>
+  </data>
+  <data name="SAVE_CHANGES" xml:space="preserve">
+    <value>Please save the changes before proceding</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TD_CONTRACT" xml:space="preserve">
+    <value>Do you want to re-activate TD contract?</value>
+  </data>
+  <data name="TERMINATION_DATE_PRIOR_MONTH_YES_NO" xml:space="preserve">
+    <value>Termination date is in a prior month.&lt;br&gt;Do you wish to continue?</value>
+  </data>
+</root>

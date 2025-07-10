@@ -1,0 +1,291 @@
+/**
+* Styles for the proweb best practice code
+*/
+
+/******************************************************************************
+General display rules (proweb class)
+******************************************************************************/
+div.proweb
+{
+	/*	width: 700px;
+border: 1px solid;   
+	padding: 1em 1em 1em 1em;*/
+	border-color: #AAAAB8 #AAAAB8 #AAAAB8 #AAAAB8;
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+}
+
+/* All labels (text that relate to an input box) */
+div.proweb label
+{
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+	float: left;
+	width: 12em;
+	text-align: left;
+	background: none;
+}
+
+/* All non-label text is stored in dt tags */
+div.proweb dt
+{
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+	text-align: justify;
+}
+
+/* dd tag is used as a holder for the dt results */
+div.proweb dd
+{
+	border: 1px solid;
+	border-color: white;
+}
+
+/* General settings for all input types */
+div.proweb input
+{
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: normal;
+	/*background: #EAECF6;  */
+	border: 1px solid; 
+	border-color: #AAAAB8 #AAAAB8 #AAAAB8 #AAAAB8;
+}
+
+/******************************************************************************
+This covers page behind when the popup div is shown (makes non-editable)
+******************************************************************************/
+div.proweb_cover
+{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: #333333;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5
+}
+
+/******************************************************************************
+The message that tells the user that the database is being searched
+******************************************************************************/
+div.wait_message
+{
+	left:35%;
+	top:30%;
+	border-top: 1px solid;
+	border-left: 3px solid;
+	border-right: 1px solid;
+	border-bottom: 3px solid;
+	border-color: #000000 #000000 #000333 #000333;
+	padding: 2em 2em 2em 2em;
+	position: absolute;
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+	background-color: #C2DFFF;
+}
+
+/******************************************************************************
+Control for the right hand details box (and left when required)
+******************************************************************************/
+div.proweb_details
+{
+	position: relative;
+	float: right;
+	left: 0;
+	top: 10;
+	width:220px;
+	border: 1px solid;
+	padding: 1em 1em 1em 1em;
+	border-color: #AAAAB8 #AAAAB8 #AAAAB8 #AAAAB8;
+	background-color:white;
+}
+
+div.proweb_details_left
+{
+	position: relative;
+	float: left;
+	left: 0;
+	top: 10;
+	width:220px;
+	padding: 1em 1em 1em 1em;
+	background-color:white;
+}
+
+/* Settings for all labels in the right div */
+div.proweb_details_left label,
+div.proweb_details label
+{
+	font-weight: normal;
+	width: 50px;
+	float: left;
+}
+
+/******************************************************************************
+Control for the pop-up divs when the address is unsure
+******************************************************************************/
+div.proweb_popup
+{
+	left:20%;
+	top:20%;
+	border-top: 1px solid;
+	border-left: 3px solid;
+	border-right: 1px solid;
+	border-bottom: 3px solid;
+	border-color: #000000 #000000 #000333 #000333;
+	padding: 1em 1em 1em 1em;
+	width: 700px;
+	height: 350px;
+	position: absolute;
+	z-index:100;
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+	background-color: white;
+	overflow: auto;
+}
+
+/* dd tag is used as a holder for the dt results */
+div.proweb_popup dd
+{
+	border: 1px solid;
+	border-color: #FFFFFF;
+}
+
+/* A special class to display the postcode as a non-linkable field by results*/
+div.proweb_popup label.qas_postcode
+{
+	position: absolute;
+	left: 370px;
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	width: 80px;
+}
+
+/******************************************************************************
+Control for the inline divs when the address is unsure
+******************************************************************************/
+div.proweb_nonpopup
+{
+	border: 1px solid;
+	padding: 1em 1em 1em 1em;
+	border-color: #AAAAB8 #AAAAB8 #AAAAB8 #AAAAB8;
+	width: 700px;
+	height: 315px;
+	z-index:100;
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+	background-color: white;
+	overflow: auto;
+}
+
+/* dd tag is used as a holder for the dt results */
+div.proweb_nonpopup dd
+{
+	border: 1px solid;
+	border-color: #FFFFFF;
+}
+
+/* A special class to display the postcode as a non-linkable field by results*/
+div.proweb_popup label.qas_postcode
+{
+	left: 370px;
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	width: 80px;
+}
+
+/******************************************************************************
+Properties shared between the pop-up or in-page div elements
+******************************************************************************/
+/* Format for the messages that appear at the top of the div box */
+div.proweb_popup dt.qas_message,
+div.proweb_nonpopup dt.qas_message
+{
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+	text-align: justify;
+	padding: 1em 1em 1em 1em;
+	border: 1px solid;
+	border-color: #AAAAB8 #AAAAB8 #AAAAB8 #AAAAB8;
+	background-color: #C2DFFF;
+}
+
+/* Any link that appears on the page should be a dt of this class */
+div.proweb_popup dt.qas_link,
+div.proweb_nonpopup dt.qas_link
+{
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+	text-align: justify;
+	text-decoration: underline;
+	color: #3333CC;
+	padding: 0.5em 0em 0em 0em;
+	cursor: hand;
+}
+
+/* DT class for the titel of a widget where required */
+div.proweb_popup dt.qas_title,
+div.proweb_nonpopup dt.qas_title
+{
+	font-family: Tahoma;
+	font-size: 13px; 
+	font-weight: bold;
+	padding: 15px 10px 10px 0px;
+}
+
+/* General settings for all input types */
+div.proweb_popup input.text.qas_refinebutton,
+div.proweb_nonpopup input.text.qas_refinebutton
+{
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+	background: #EAECF6;  
+	border: 1px solid; 
+	border-color: #AAAAB8 #AAAAB8 #AAAAB8 #AAAAB8;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+/* General settings for all input types */
+div.proweb_popup input,
+div.proweb_nonpopup input
+{
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+	background: #EAECF6;  
+	border: 1px solid; 
+	border-color: #AAAAB8 #AAAAB8 #AAAAB8 #AAAAB8;
+}
+
+/* Hack for firefox */
+div.proweb_popup input,
+div.proweb_nonpopup input
+{
+	font-family: Tahoma;
+	font-size: 11px; 
+	font-weight: bold;
+	background: #EAECF6;  
+	border: 1px solid; 
+	border-color: #AAAAB8 #AAAAB8 #AAAAB8 #AAAAB8;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+

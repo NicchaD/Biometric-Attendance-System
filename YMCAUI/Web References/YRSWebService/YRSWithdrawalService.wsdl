@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="TestSchemaManager">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestSchemaManagerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestSchemaManagerResult" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WebServiceReturn">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnStatus" type="tns:Status" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MessageCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WebServiceDataSet">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+          <s:element minOccurs="0" maxOccurs="1" name="Version" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WebServiceXMLString" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="Status">
+        <s:restriction base="s:string">
+          <s:enumeration value="Failure" />
+          <s:enumeration value="Success" />
+          <s:enumeration value="Warning" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetParticipantFundEventsForWebsite">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PersID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantFundEventsForWebsiteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetParticipantFundEventsForWebsiteResult" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FundEventId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetParticipantDataResult" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XMLProperties" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="CreatePDFSyncronously" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveRefundRequestResult" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestForWebsiteVer0">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XMLProperties" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="CreatePDFSyncronously" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestForWebsiteVer0Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveRefundRequestForWebsiteVer0Result" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRefundRequests">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FundEventId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRefundRequestsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRefundRequestsResult" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRefundReports">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="requestID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="createPDF" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="parameterFundEventId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRefundReportsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRefundReportsResult" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReportsForWebsite">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FundNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReportsForWebsiteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReportsForWebsiteResult" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantDataForWebsiteVer0">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FundEventId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantDataForWebsiteVer0Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetParticipantDataForWebsiteVer0Result" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServiceVersion">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetServiceVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetServiceVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantForSpecOrDisbData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FundEventId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="WithdrawalType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantForSpecOrDisbDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetParticipantForSpecOrDisbDataResult" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestForSpecOrDisb">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XMLProperties" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="CreatePDFSyncronously" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestForSpecOrDisbResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveRefundRequestForSpecOrDisbResult" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestAndProcess">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XMLProperties" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="CreatePDFSyncronously" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestAndProcessResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveRefundRequestAndProcessResult" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantDataForWebsiteVer1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PersId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantDataForWebsiteVer1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetParticipantDataForWebsiteVer1Result" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantRefRequestStatusForWebsiteVer1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PersId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantRefRequestStatusForWebsiteVer1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetParticipantRefRequestStatusForWebsiteVer1Result" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestForWebsiteVer1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XMLProperties" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="CreatePDFSyncronously" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestForWebsiteVer1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveRefundRequestForWebsiteVer1Result" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantDataForWebsiteVer2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PersId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantDataForWebsiteVer2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetParticipantDataForWebsiteVer2Result" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestForYRS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XMLProperties" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="CreatePDFSyncronously" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestForYRSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveRefundRequestForYRSResult" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantData_C19">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FundEventId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParticipantData_C19Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetParticipantData_C19Result" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestForYRS_C19">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XMLProperties" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="CreatePDFSyncronously" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveRefundRequestForYRS_C19Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveRefundRequestForYRS_C19Result" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="TestSchemaManagerSoapIn">
+    <wsdl:part name="parameters" element="tns:TestSchemaManager" />
+  </wsdl:message>
+  <wsdl:message name="TestSchemaManagerSoapOut">
+    <wsdl:part name="parameters" element="tns:TestSchemaManagerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantFundEventsForWebsiteSoapIn">
+    <wsdl:part name="parameters" element="tns:GetParticipantFundEventsForWebsite" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantFundEventsForWebsiteSoapOut">
+    <wsdl:part name="parameters" element="tns:GetParticipantFundEventsForWebsiteResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetParticipantData" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetParticipantDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequest" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestForWebsiteVer0SoapIn">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestForWebsiteVer0" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestForWebsiteVer0SoapOut">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestForWebsiteVer0Response" />
+  </wsdl:message>
+  <wsdl:message name="GetRefundRequestsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRefundRequests" />
+  </wsdl:message>
+  <wsdl:message name="GetRefundRequestsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRefundRequestsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRefundReportsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRefundReports" />
+  </wsdl:message>
+  <wsdl:message name="GetRefundReportsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRefundReportsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReportsForWebsiteSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReportsForWebsite" />
+  </wsdl:message>
+  <wsdl:message name="GetReportsForWebsiteSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReportsForWebsiteResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantDataForWebsiteVer0SoapIn">
+    <wsdl:part name="parameters" element="tns:GetParticipantDataForWebsiteVer0" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantDataForWebsiteVer0SoapOut">
+    <wsdl:part name="parameters" element="tns:GetParticipantDataForWebsiteVer0Response" />
+  </wsdl:message>
+  <wsdl:message name="GetServiceVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServiceVersion" />
+  </wsdl:message>
+  <wsdl:message name="GetServiceVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServiceVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantForSpecOrDisbDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetParticipantForSpecOrDisbData" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantForSpecOrDisbDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetParticipantForSpecOrDisbDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestForSpecOrDisbSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestForSpecOrDisb" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestForSpecOrDisbSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestForSpecOrDisbResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestAndProcessSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestAndProcess" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestAndProcessSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestAndProcessResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantDataForWebsiteVer1SoapIn">
+    <wsdl:part name="parameters" element="tns:GetParticipantDataForWebsiteVer1" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantDataForWebsiteVer1SoapOut">
+    <wsdl:part name="parameters" element="tns:GetParticipantDataForWebsiteVer1Response" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantRefRequestStatusForWebsiteVer1SoapIn">
+    <wsdl:part name="parameters" element="tns:GetParticipantRefRequestStatusForWebsiteVer1" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantRefRequestStatusForWebsiteVer1SoapOut">
+    <wsdl:part name="parameters" element="tns:GetParticipantRefRequestStatusForWebsiteVer1Response" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestForWebsiteVer1SoapIn">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestForWebsiteVer1" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestForWebsiteVer1SoapOut">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestForWebsiteVer1Response" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantDataForWebsiteVer2SoapIn">
+    <wsdl:part name="parameters" element="tns:GetParticipantDataForWebsiteVer2" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantDataForWebsiteVer2SoapOut">
+    <wsdl:part name="parameters" element="tns:GetParticipantDataForWebsiteVer2Response" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestForYRSSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestForYRS" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestForYRSSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestForYRSResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantData_C19SoapIn">
+    <wsdl:part name="parameters" element="tns:GetParticipantData_C19" />
+  </wsdl:message>
+  <wsdl:message name="GetParticipantData_C19SoapOut">
+    <wsdl:part name="parameters" element="tns:GetParticipantData_C19Response" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestForYRS_C19SoapIn">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestForYRS_C19" />
+  </wsdl:message>
+  <wsdl:message name="SaveRefundRequestForYRS_C19SoapOut">
+    <wsdl:part name="parameters" element="tns:SaveRefundRequestForYRS_C19Response" />
+  </wsdl:message>
+  <wsdl:portType name="YRSWithdrawalServiceSoap">
+    <wsdl:operation name="TestSchemaManager">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Test</wsdl:documentation>
+      <wsdl:input message="tns:TestSchemaManagerSoapIn" />
+      <wsdl:output message="tns:TestSchemaManagerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantFundEventsForWebsite">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Gets Participant Information</wsdl:documentation>
+      <wsdl:input message="tns:GetParticipantFundEventsForWebsiteSoapIn" />
+      <wsdl:output message="tns:GetParticipantFundEventsForWebsiteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get Final Participant Data</wsdl:documentation>
+      <wsdl:input message="tns:GetParticipantDataSoapIn" />
+      <wsdl:output message="tns:GetParticipantDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">To Save Refund Request</wsdl:documentation>
+      <wsdl:input message="tns:SaveRefundRequestSoapIn" />
+      <wsdl:output message="tns:SaveRefundRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForWebsiteVer0">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">To Save Refund Request for website Version 0</wsdl:documentation>
+      <wsdl:input message="tns:SaveRefundRequestForWebsiteVer0SoapIn" />
+      <wsdl:output message="tns:SaveRefundRequestForWebsiteVer0SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRefundRequests">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get Pending Refund Requests details</wsdl:documentation>
+      <wsdl:input message="tns:GetRefundRequestsSoapIn" />
+      <wsdl:output message="tns:GetRefundRequestsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRefundReports">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get Report</wsdl:documentation>
+      <wsdl:input message="tns:GetRefundReportsSoapIn" />
+      <wsdl:output message="tns:GetRefundReportsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportsForWebsite">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">GetReportsForWebsite</wsdl:documentation>
+      <wsdl:input message="tns:GetReportsForWebsiteSoapIn" />
+      <wsdl:output message="tns:GetReportsForWebsiteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantDataForWebsiteVer0">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">GetParticipantDataForWebsiteVer0</wsdl:documentation>
+      <wsdl:input message="tns:GetParticipantDataForWebsiteVer0SoapIn" />
+      <wsdl:output message="tns:GetParticipantDataForWebsiteVer0SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceVersion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">GetAssemblyVersion of YRSWebService</wsdl:documentation>
+      <wsdl:input message="tns:GetServiceVersionSoapIn" />
+      <wsdl:output message="tns:GetServiceVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantForSpecOrDisbData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get final Participant which withdrawal type is Special or Disability data  </wsdl:documentation>
+      <wsdl:input message="tns:GetParticipantForSpecOrDisbDataSoapIn" />
+      <wsdl:output message="tns:GetParticipantForSpecOrDisbDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForSpecOrDisb">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">To save special or disability Refund Request</wsdl:documentation>
+      <wsdl:input message="tns:SaveRefundRequestForSpecOrDisbSoapIn" />
+      <wsdl:output message="tns:SaveRefundRequestForSpecOrDisbSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestAndProcess">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">To Save Refund Request And Refund Process</wsdl:documentation>
+      <wsdl:input message="tns:SaveRefundRequestAndProcessSoapIn" />
+      <wsdl:output message="tns:SaveRefundRequestAndProcessSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantDataForWebsiteVer1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">GetParticipantDataForWebsiteVer1</wsdl:documentation>
+      <wsdl:input message="tns:GetParticipantDataForWebsiteVer1SoapIn" />
+      <wsdl:output message="tns:GetParticipantDataForWebsiteVer1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantRefRequestStatusForWebsiteVer1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">GetParticipantRefRequestStatusForWebsiteVer1</wsdl:documentation>
+      <wsdl:input message="tns:GetParticipantRefRequestStatusForWebsiteVer1SoapIn" />
+      <wsdl:output message="tns:GetParticipantRefRequestStatusForWebsiteVer1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForWebsiteVer1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">To Save Refund Request for website version 1</wsdl:documentation>
+      <wsdl:input message="tns:SaveRefundRequestForWebsiteVer1SoapIn" />
+      <wsdl:output message="tns:SaveRefundRequestForWebsiteVer1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantDataForWebsiteVer2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">GetParticipantDataForWebsiteVer2</wsdl:documentation>
+      <wsdl:input message="tns:GetParticipantDataForWebsiteVer2SoapIn" />
+      <wsdl:output message="tns:GetParticipantDataForWebsiteVer2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForYRS">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Save Refund Request for YRS</wsdl:documentation>
+      <wsdl:input message="tns:SaveRefundRequestForYRSSoapIn" />
+      <wsdl:output message="tns:SaveRefundRequestForYRSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantData_C19">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get Final Participant Data</wsdl:documentation>
+      <wsdl:input message="tns:GetParticipantData_C19SoapIn" />
+      <wsdl:output message="tns:GetParticipantData_C19SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForYRS_C19">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Save Refund Request for YRS</wsdl:documentation>
+      <wsdl:input message="tns:SaveRefundRequestForYRS_C19SoapIn" />
+      <wsdl:output message="tns:SaveRefundRequestForYRS_C19SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="YRSWithdrawalServiceSoap" type="tns:YRSWithdrawalServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestSchemaManager">
+      <soap:operation soapAction="http://tempuri.org/TestSchemaManager" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantFundEventsForWebsite">
+      <soap:operation soapAction="http://tempuri.org/GetParticipantFundEventsForWebsite" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantData">
+      <soap:operation soapAction="http://tempuri.org/GetParticipantData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequest">
+      <soap:operation soapAction="http://tempuri.org/SaveRefundRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForWebsiteVer0">
+      <soap:operation soapAction="http://tempuri.org/SaveRefundRequestForWebsiteVer0" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRefundRequests">
+      <soap:operation soapAction="http://tempuri.org/GetRefundRequests" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRefundReports">
+      <soap:operation soapAction="http://tempuri.org/GetRefundReports" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportsForWebsite">
+      <soap:operation soapAction="http://tempuri.org/GetReportsForWebsite" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantDataForWebsiteVer0">
+      <soap:operation soapAction="http://tempuri.org/GetParticipantDataForWebsiteVer0" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceVersion">
+      <soap:operation soapAction="http://tempuri.org/GetServiceVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantForSpecOrDisbData">
+      <soap:operation soapAction="http://tempuri.org/GetParticipantForSpecOrDisbData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForSpecOrDisb">
+      <soap:operation soapAction="http://tempuri.org/SaveRefundRequestForSpecOrDisb" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestAndProcess">
+      <soap:operation soapAction="http://tempuri.org/SaveRefundRequestAndProcess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantDataForWebsiteVer1">
+      <soap:operation soapAction="http://tempuri.org/GetParticipantDataForWebsiteVer1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantRefRequestStatusForWebsiteVer1">
+      <soap:operation soapAction="http://tempuri.org/GetParticipantRefRequestStatusForWebsiteVer1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForWebsiteVer1">
+      <soap:operation soapAction="http://tempuri.org/SaveRefundRequestForWebsiteVer1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantDataForWebsiteVer2">
+      <soap:operation soapAction="http://tempuri.org/GetParticipantDataForWebsiteVer2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForYRS">
+      <soap:operation soapAction="http://tempuri.org/SaveRefundRequestForYRS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantData_C19">
+      <soap:operation soapAction="http://tempuri.org/GetParticipantData_C19" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForYRS_C19">
+      <soap:operation soapAction="http://tempuri.org/SaveRefundRequestForYRS_C19" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="YRSWithdrawalServiceSoap12" type="tns:YRSWithdrawalServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestSchemaManager">
+      <soap12:operation soapAction="http://tempuri.org/TestSchemaManager" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantFundEventsForWebsite">
+      <soap12:operation soapAction="http://tempuri.org/GetParticipantFundEventsForWebsite" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantData">
+      <soap12:operation soapAction="http://tempuri.org/GetParticipantData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequest">
+      <soap12:operation soapAction="http://tempuri.org/SaveRefundRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForWebsiteVer0">
+      <soap12:operation soapAction="http://tempuri.org/SaveRefundRequestForWebsiteVer0" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRefundRequests">
+      <soap12:operation soapAction="http://tempuri.org/GetRefundRequests" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRefundReports">
+      <soap12:operation soapAction="http://tempuri.org/GetRefundReports" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportsForWebsite">
+      <soap12:operation soapAction="http://tempuri.org/GetReportsForWebsite" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantDataForWebsiteVer0">
+      <soap12:operation soapAction="http://tempuri.org/GetParticipantDataForWebsiteVer0" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceVersion">
+      <soap12:operation soapAction="http://tempuri.org/GetServiceVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantForSpecOrDisbData">
+      <soap12:operation soapAction="http://tempuri.org/GetParticipantForSpecOrDisbData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForSpecOrDisb">
+      <soap12:operation soapAction="http://tempuri.org/SaveRefundRequestForSpecOrDisb" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestAndProcess">
+      <soap12:operation soapAction="http://tempuri.org/SaveRefundRequestAndProcess" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantDataForWebsiteVer1">
+      <soap12:operation soapAction="http://tempuri.org/GetParticipantDataForWebsiteVer1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantRefRequestStatusForWebsiteVer1">
+      <soap12:operation soapAction="http://tempuri.org/GetParticipantRefRequestStatusForWebsiteVer1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForWebsiteVer1">
+      <soap12:operation soapAction="http://tempuri.org/SaveRefundRequestForWebsiteVer1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantDataForWebsiteVer2">
+      <soap12:operation soapAction="http://tempuri.org/GetParticipantDataForWebsiteVer2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForYRS">
+      <soap12:operation soapAction="http://tempuri.org/SaveRefundRequestForYRS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipantData_C19">
+      <soap12:operation soapAction="http://tempuri.org/GetParticipantData_C19" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRefundRequestForYRS_C19">
+      <soap12:operation soapAction="http://tempuri.org/SaveRefundRequestForYRS_C19" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="YRSWithdrawalService">
+    <wsdl:port name="YRSWithdrawalServiceSoap" binding="tns:YRSWithdrawalServiceSoap">
+      <soap:address location="http://localhost:4608/YRSWithdrawalService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="YRSWithdrawalServiceSoap12" binding="tns:YRSWithdrawalServiceSoap12">
+      <soap12:address location="http://localhost:4608/YRSWithdrawalService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

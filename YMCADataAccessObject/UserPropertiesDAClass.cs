@@ -1,0 +1,199 @@
+//*******************************************************************************
+// Copyright YMCA Retirement Fund All Rights Reserved. 
+//
+// Project Name		:	YMCA-YRS
+// FileName			:	UserProperties.cs
+// Author Name		:	Vartika Jain
+// Employee ID		:	33495
+// Email			:	vartika.jain@3i-infotech.com
+// Contact No		:	8733
+// Creation Time	:	8/25/2005 6:36:14 PM
+// Program Specification Name	:	
+// Unit Test Plan Name			:	
+// Description					:	<<Please put the brief description here...>>
+//*******************************************************************************
+//Modification History
+//****************************************************
+//Modified by          Date          Description
+//****************************************************
+//Manthan Rajguru      2015.09.16    YRS-AT-2550: YRS data cleanup: copyright comments and namespace (Changed the Namespace reference from 'Infotech' to 'YMCARET')
+//*****************************************************
+
+using System;
+using System.Data;
+using System.Globalization;
+using System.Security.Permissions;
+using Microsoft.Practices.EnterpriseLibrary.Data;
+using System.Data.Common;
+
+namespace YMCARET.YmcaDataAccessObject
+{
+	/// <summary>
+	/// Summary description for UserProperties.
+	/// </summary>
+	public sealed class UserPropertiesDAClass
+	{
+		
+		public static DataSet SearchGroupsForUser(string parameterUserId)
+		{
+			DataSet dsSearchGroupsForUser = null;
+			Database db = null;
+			DbCommand CommandSearchGroupsForUser = null;
+			try
+			{
+				db=DatabaseFactory.CreateDatabase("YRS");
+	
+				CommandSearchGroupsForUser = db.GetStoredProcCommand("yrs_usp_VRUGX_SelectGroups");
+				if (CommandSearchGroupsForUser==null) return null;
+                db.AddInParameter(CommandSearchGroupsForUser,"@varchar_UserId", DbType.String, parameterUserId);
+				dsSearchGroupsForUser = new DataSet();
+				dsSearchGroupsForUser.Locale=CultureInfo.InvariantCulture;
+				db.LoadDataSet(CommandSearchGroupsForUser,dsSearchGroupsForUser,"UserGroupRef");
+				System.AppDomain.CurrentDomain.SetData("DataSetGroupsForUser",dsSearchGroupsForUser);
+				return dsSearchGroupsForUser;
+
+			}
+			catch
+			{
+				throw;
+			}
+		}
+		public static int InsertUserDetails(string paramFirstName,string paramMiddleInitial,string paramLastName,string paramPhone, string paramExtn,string paramFax,string paramPassword,string paramActive,string paramUserName,string paramGroupList)
+		{
+			Database db= null;
+			DbCommand insertCommandWrapper = null;
+			int output_err;
+		try
+			{
+				db= DatabaseFactory.CreateDatabase("YRS");
+				
+				insertCommandWrapper= db.GetStoredProcCommand("yrs_usp_VRU_InsertUserDetails");
+                db.AddInParameter(insertCommandWrapper, "@varchar_FirstName", DbType.String, paramFirstName);
+                db.AddInParameter(insertCommandWrapper, "@varchar_MiddleInitial", DbType.String, paramMiddleInitial);
+                db.AddInParameter(insertCommandWrapper, "@varchar_LastName", DbType.String, paramLastName);
+                db.AddInParameter(insertCommandWrapper, "@varchar_phone", DbType.String, paramPhone);
+                db.AddInParameter(insertCommandWrapper, "@varchar_extn", DbType.String, paramExtn);
+                db.AddInParameter(insertCommandWrapper, "@varchar_fax", DbType.String, paramFax);
+                db.AddInParameter(insertCommandWrapper, "@varchar_password", DbType.String, paramPassword);
+                db.AddInParameter(insertCommandWrapper, "@varchar_active", DbType.String, paramActive);
+                db.AddInParameter(insertCommandWrapper, "@varchar_UserName", DbType.String, paramUserName);
+                db.AddInParameter(insertCommandWrapper, "@varchar_GroupList", DbType.String, paramGroupList);
+                db.AddOutParameter(insertCommandWrapper, "@integer_Output", DbType.Int16, 6);
+				
+				db.ExecuteNonQuery(insertCommandWrapper);
+                output_err = Convert.ToInt16(db.GetParameterValue(insertCommandWrapper, "@integer_Output"));
+				return output_err;
+			}	
+			catch
+			{
+				throw;
+			}
+		}
+		public static void UpdateUserDetails(int paramUserId,string paramFirstName,string paramMiddleInitial,string paramLastName,string paramPhone, string paramExtn,string paramFax,string paramPassword,string paramActive,string paramUserName,string paramGroupList)
+		{
+			Database db= null;
+			DbCommand updateCommandWrapper = null;
+			try
+			{
+				db= DatabaseFactory.CreateDatabase("YRS");
+				
+				updateCommandWrapper = db.GetStoredProcCommand("yrs_usp_VRU_UpdateUserDetails");
+
+				db.AddInParameter(updateCommandWrapper,"@integer_UserId",DbType.Int32,paramUserId);
+                db.AddInParameter(updateCommandWrapper, "@varchar_FirstName", DbType.String, paramFirstName);
+                db.AddInParameter(updateCommandWrapper, "@varchar_MiddleInitial", DbType.String, paramMiddleInitial);
+                db.AddInParameter(updateCommandWrapper, "@varchar_LastName", DbType.String, paramLastName);
+                db.AddInParameter(updateCommandWrapper, "@varchar_phone", DbType.String, paramPhone);
+
+                db.AddInParameter(updateCommandWrapper, "@varchar_extn", DbType.String, paramExtn);
+                db.AddInParameter(updateCommandWrapper, "@varchar_fax", DbType.String, paramFax);
+                db.AddInParameter(updateCommandWrapper, "@varchar_password", DbType.String, paramPassword);
+                db.AddInParameter(updateCommandWrapper, "@varchar_active", DbType.String, paramActive);
+                db.AddInParameter(updateCommandWrapper, "@varchar_UserName", DbType.String, paramUserName);
+
+                db.AddInParameter(updateCommandWrapper, "@varchar_GroupList", DbType.String, paramGroupList);
+				db.ExecuteNonQuery(updateCommandWrapper);
+			}
+			catch
+			{
+				throw; 
+			}
+		}
+		public static void DeleteUserDetails(int paramUserId)
+		{
+			Database db= null;
+			DbCommand deleteCommandWrapper = null;
+			try
+			{
+				db= DatabaseFactory.CreateDatabase("YRS");
+				deleteCommandWrapper=db.GetStoredProcCommand("yrs_usp_VRU_DeleteUserDetails");
+                db.AddInParameter(deleteCommandWrapper, "@integer_UserKey", DbType.Int32, paramUserId);
+				db.ExecuteNonQuery(deleteCommandWrapper);
+			}
+			catch
+			{
+				throw;
+			}
+		}
+		public static void DeleteUserAccExceptions(int paramUserId, int paramItemCode)
+		{
+			Database db = null;
+			DbCommand commandDeleteUserAccExceptions= null;
+			try
+			{
+				db=DatabaseFactory.CreateDatabase("YRS");
+				commandDeleteUserAccExceptions=db.GetStoredProcCommand("yrs_usp_VRUAE_DeleteUserAccExceptions");
+				db.AddInParameter(commandDeleteUserAccExceptions,"@integer_UserId",DbType.Int16,paramUserId);
+				db.AddInParameter(commandDeleteUserAccExceptions,"@integer_ItemCode",DbType.Int16,paramItemCode);
+				db.ExecuteNonQuery(commandDeleteUserAccExceptions);
+                
+			}
+			catch
+			{
+				throw;
+			}
+		}
+		public static void UpdateUserAccExceptions(int paramUserId, int paramItemCode,int paramAccess)
+		{
+			Database db = null;
+			DbCommand commandUpdateUserAccExceptions= null;
+			try
+			{
+				db=DatabaseFactory.CreateDatabase("YRS");
+				commandUpdateUserAccExceptions=db.GetStoredProcCommand("yrs_usp_VRUAE_UpdateUserAccExceptions");
+				db.AddInParameter(commandUpdateUserAccExceptions,"@integer_UserId",DbType.Int16,paramUserId);
+                db.AddInParameter(commandUpdateUserAccExceptions, "@integer_ItemCode", DbType.Int16, paramItemCode);
+                db.AddInParameter(commandUpdateUserAccExceptions, "@integer_access", DbType.Int16, paramAccess);
+				db.ExecuteNonQuery(commandUpdateUserAccExceptions);
+
+			}
+			catch
+			{
+				throw;
+			}
+
+		}
+		public static DataSet GetUserKey(string paramUsername)
+		{
+			DataSet dsSearchUserKey = null;
+			Database db = null;
+			DbCommand CommandSearchUserKey = null;
+			try
+			{
+				db=DatabaseFactory.CreateDatabase("YRS");
+				if(db==null) return null;
+				CommandSearchUserKey=db.GetStoredProcCommand("yrs_usp_VRU_LookUpAddedUserkey");
+                if(CommandSearchUserKey==null) return null;
+				db.AddInParameter(CommandSearchUserKey,"@varchar_Username",DbType.String,paramUsername);
+				dsSearchUserKey=new DataSet();
+				db.LoadDataSet(CommandSearchUserKey,dsSearchUserKey,"UserKey");
+				return dsSearchUserKey;
+
+			}
+			catch
+			{
+				throw;
+			}
+		}
+	}
+}

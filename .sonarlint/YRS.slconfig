@@ -1,0 +1,16 @@
+{
+  "ServerUri": "http://localhost:9090",
+  "Organization": null,
+  "ProjectKey": "my:JSTS",
+  "ProjectName": "492_My Utilization_Code",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AXkingiXlA_DKjV1Qde0",
+      "ProfileTimestamp": "2021-04-30T11:53:55Z"
+    },
+    "VB": {
+      "ProfileKey": "AXkdfdUUlE33AqYZwdqJ",
+      "ProfileTimestamp": "2021-05-25T07:55:42Z"
+    }
+  }
+}

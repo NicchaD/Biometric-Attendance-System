@@ -1,0 +1,3208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\MSBuild.Microsoft.VisualStudio.Web.targets.14.0.0.3\build\MSBuild.Microsoft.VisualStudio.Web.targets.props" Condition="Exists('..\packages\MSBuild.Microsoft.VisualStudio.Web.targets.14.0.0.3\build\MSBuild.Microsoft.VisualStudio.Web.targets.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{93071263-8CC7-4857-A8E3-832DA8182F41}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>YMCAUI</RootNamespace>
+    <AssemblyName>YMCAUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <CodeAnalysisRuleSet>..\.sonarlint\my_jstsvb.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <PrecompileBeforePublish>false</PrecompileBeforePublish>
+    <PackageAsSingleFile>true</PackageAsSingleFile>
+    <CodeAnalysisRuleSet>..\.sonarlint\my_jstsvb.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+    <CodeAnalysisRuleSet>..\.sonarlint\my_jstsvb.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\References\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonUtilities">
+      <HintPath>..\References\CommonUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\CrystalDecisions.web.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomControls">
+      <HintPath>..\References\CustomControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=5.0.414.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\References\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\References\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception">
+      <HintPath>..\References\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.UI.WebControls, Version=1.0.2.226, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Web.UI.WebControls.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.32.2608.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="RJS.Web.WebControl.PopCalendar, Version=4.9.2069.14683, Culture=neutral, PublicKeyToken=1d13e785eb1df5d1">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\RJS.Web.WebControl.PopCalendar.dll</HintPath>
+    </Reference>
+    <Reference Include="skmMenu, Version=2.2.2838.31166, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\skmMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\my_jsts\VB\SonarLint.xml">
+      <Link>SonarLint.xml</Link>
+    </AdditionalFiles>
+    <Content Include="AccountTypesForm.aspx" />
+    <Content Include="ACHDebitExportForm.aspx" />
+    <Content Include="ACHDebitExportUpdateForm.aspx" />
+    <Content Include="ACHDebitImportForm.aspx" />
+    <Content Include="ACHDebitReceiptApplicationForm.aspx" />
+    <Content Include="AddAdditionalAccounts.aspx" />
+    <Content Include="AddBeneficiary.aspx" />
+    <Content Include="AddContactWebForm.aspx" />
+    <Content Include="AddEditQDRO.aspx" />
+    <Content Include="AddEmployment.aspx" />
+    <Content Include="AddNotes.aspx" />
+    <Content Include="AddOfficerWebForm.aspx" />
+    <Content Include="AddResolutionWebForm.aspx" />
+    <Content Include="AddStatewithholdingtax.aspx" />
+    <Content Include="AdminSessionManagement.aspx" />
+    <Content Include="AnnuityBasisTypes.aspx" />
+    <Content Include="AnnuityBeneficiaryDeath.aspx" />
+    <Content Include="AnnuityBenefitDeathFollowup.aspx" />
+    <Content Include="Apps\AdminSession.xml" />
+    <Content Include="Apps\DlyIntManagment.xml" />
+    <Content Include="Apps\DlyIntProcessLog.xml" />
+    <Content Include="BeneficiaryInformation.aspx" />
+    <Content Include="BeneficiarySettlementForm.aspx" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\CrystalDecisions.CrystalReports.Engine.dll" />
+    <Content Include="bin\CrystalDecisions.Shared.dll" />
+    <Content Include="bin\CrystalDecisions.Web.dll" />
+    <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll" />
+    <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll" />
+    <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll" />
+    <Content Include="bin\Microsoft.Practices.Unity.dll" />
+    <Content Include="bin\Microsoft.Practices.Unity.Interception.dll" />
+    <Content Include="bin\Microsoft.Web.UI.WebControls.dll" />
+    <Content Include="bin\PdfSharp.dll" />
+    <Content Include="bin\RJS.Web.WebControl.PopCalendar.dll" />
+    <Content Include="bin\skmMenu.dll" />
+    <Content Include="bin\YMCAUI.dll" />
+    <Content Include="bottom.html" />
+    <Content Include="CallReport.aspx" />
+    <Content Include="CashApplication.aspx" />
+    <Content Include="CashApplicationFundingIndividual.aspx" />
+    <Content Include="CashOut.aspx" />
+    <Content Include="CashOutIDMWrite.aspx" />
+    <Content Include="BatchRequestCreation.aspx" />
+    <Content Include="CashReceiptsEntryForm.aspx" />
+    <Content Include="ChooseAnnuityForm.aspx" />
+    <Content Include="CopyFilesUtilityForm.aspx" />
+    <Content Include="crystalreportviewers12\ActiveXControls\PrintControl.cab" />
+    <Content Include="crystalreportviewers12\allInOne.js" />
+    <Content Include="crystalreportviewers12\allStrings_cs.js" />
+    <Content Include="crystalreportviewers12\allStrings_da.js" />
+    <Content Include="crystalreportviewers12\allStrings_de.js" />
+    <Content Include="crystalreportviewers12\allStrings_en.js" />
+    <Content Include="crystalreportviewers12\allStrings_es.js" />
+    <Content Include="crystalreportviewers12\allStrings_fi.js" />
+    <Content Include="crystalreportviewers12\allStrings_fr.js" />
+    <Content Include="crystalreportviewers12\allStrings_hu.js" />
+    <Content Include="crystalreportviewers12\allStrings_it.js" />
+    <Content Include="crystalreportviewers12\allStrings_ja.js" />
+    <Content Include="crystalreportviewers12\allStrings_ko.js" />
+    <Content Include="crystalreportviewers12\allStrings_nb.js" />
+    <Content Include="crystalreportviewers12\allStrings_nl.js" />
+    <Content Include="crystalreportviewers12\allStrings_pl.js" />
+    <Content Include="crystalreportviewers12\allStrings_pt.js" />
+    <Content Include="crystalreportviewers12\allStrings_ru.js" />
+    <Content Include="crystalreportviewers12\allStrings_sk.js" />
+    <Content Include="crystalreportviewers12\allStrings_sv.js" />
+    <Content Include="crystalreportviewers12\allStrings_th.js" />
+    <Content Include="crystalreportviewers12\allStrings_zh_CN.js" />
+    <Content Include="crystalreportviewers12\allStrings_zh_TW.js" />
+    <Content Include="crystalreportviewers12\css\cedefault.css" />
+    <Content Include="crystalreportviewers12\css\default.css" />
+    <Content Include="crystalreportviewers12\css\exception.css" />
+    <Content Include="crystalreportviewers12\css\prompting.css" />
+    <Content Include="crystalreportviewers12\html\calendar.html" />
+    <Content Include="crystalreportviewers12\html\calendarbottom.html" />
+    <Content Include="crystalreportviewers12\html\calendartop.html" />
+    <Content Include="crystalreportviewers12\images\buttonl.gif" />
+    <Content Include="crystalreportviewers12\images\buttonm.gif" />
+    <Content Include="crystalreportviewers12\images\buttonr.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortActive100.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortActive150.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortActive200.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortActive250.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortActive300.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortActive350.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortActive400.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortActive50.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortHover100.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortHover150.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortHover200.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortHover250.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortHover300.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortHover350.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortHover400.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortHover50.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortInactive100.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortInactive150.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortInactive200.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortInactive250.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortInactive300.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortInactive400.gif" />
+    <Content Include="crystalreportviewers12\images\isort\DownArrowSortInactive50.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortActive100.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortActive150.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortActive200.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortActive250.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortActive300.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortActive350.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortActive400.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortActive50.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortHover100.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortHover150.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortHover200.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortHover250.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortHover300.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortHover350.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortHover400.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortHover50.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortInactive100.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortInactive150.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortInactive200.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortInactive250.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortInactive300.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortInactive400.gif" />
+    <Content Include="crystalreportviewers12\images\isort\UpArrowSortInactive50.gif" />
+    <Content Include="crystalreportviewers12\js\calendar.js" />
+    <Content Include="crystalreportviewers12\js\calendar_param.js" />
+    <Content Include="crystalreportviewers12\js\crviewerinclude.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\ArgumentNormalizer.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\bobjcallback.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\Calendar.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\common.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\crv.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\Dialogs.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\dom.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\event.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\html.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\calendar.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\delete.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\export.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\first.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\grouptree_toggle.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\last.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\logo.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\magnify.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\min.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\next.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\panel_toggle.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\param_adv.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\param_datafetching.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\param_dirty.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\param_info.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\param_panel.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\param_run.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\param_warning.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\plus.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\prev.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\print.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\refresh.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\search.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\separator.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\StackedTab.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\style.css" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\toolbar.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\images\up.gif" />
+    <Content Include="crystalreportviewers12\js\crviewer\initDhtmlLib.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\IOAdapters.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\Parameter.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\ParameterController.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\ParameterPanel.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\ParameterUI.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\PromptPage.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\ReportAlbum.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\ReportPage.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\ReportView.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\Separator.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\SharedWidgetHolder.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\StackedPanel.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\StateManager.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_cs.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_da.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_de.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_en.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_es.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_fi.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_fr.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_hu.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_it.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_ja.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_ko.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_nb.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_nl.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_pl.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_pt.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_ru.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_sk.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_sv.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_th.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_zh_CN.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\strings_zh_TW.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\Toolbar.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\ToolPanel.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\Tooltip.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\Viewer.js" />
+    <Content Include="crystalreportviewers12\js\crviewer\ViewerListener.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\bolist.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\calendar.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\dialog.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\dom.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\empty.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\borders.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\help.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\loading.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\lov.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\min.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\plus.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\print.css" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\print_fe.css" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\prompt.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\resizepattern.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\bolist.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\button.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\buttonIcons.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\critical_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\dialogelements.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\dialogframe.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\dialogframeleftright.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\dialogframetopbottom.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\dialogtitle.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\down.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\iconsep.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\information_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\left.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\menus.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\node.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\progress.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\resize.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\right.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\scroll_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\sep.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\sep_solid.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\style.css" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\style.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\style_fe.css" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\tabs.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\up.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\wait01.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\wait02.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_coloredline\warning_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\bolist.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\button.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\buttonIcons.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\critical_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\dialogelements.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\dialogframe.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\dialogframeleftright.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\dialogframetopbottom.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\dialogtitle.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\down.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\iconsep.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\information_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\left.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\menus.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\node.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\progress.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\resize.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\right.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\scroll_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\sep.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\sep_solid.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\style.css" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\style.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\style_fe.css" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\tabs.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\up.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\wait01.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\wait02.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_corporate\warning_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\bolist.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\button.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\buttonIcons.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\critical_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\dialogelements.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\dialogframe.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\dialogframeleftright.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\dialogframetopbottom.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\dialogtitle.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\down.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\iconsep.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\information_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\left.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\menus.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\node.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\progress.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\resize.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\right.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\scroll_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\sep.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\sep_solid.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\style.css" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\style.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\style_fe.css" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\tabs.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\up.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\wait01.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\wait02.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_default\warning_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\bolist.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\button.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\buttonIcons.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\critical_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\critical_icon.png" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\dialogelements.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\dialogframe.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\dialogframeleftright.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\dialogframetopbottom.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\dialogtitle.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\down.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\hgrab.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\iconsep.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\information_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\left.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\menus.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\node.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\panemenu.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\panetitle.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\progress.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\resize.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\right.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\scroll_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\sep.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\sep_solid.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\style.css" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\style.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\style_fe.css" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\tabs.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\up.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\vgrab.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\wait01.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\wait02.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\skin_standard\warning_icon.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\swap.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\transp.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\images\tree.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\cs\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\da\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\de\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\en\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\es\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\fi\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\fr\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\hu\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\it\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\ja\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\ko\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\nb\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\nl\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\pl\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\pt\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\ru\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\sk\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\sv\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\th\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\zh_CN\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\language\zh_TW\labels.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\lov.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\menu.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\palette.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\prompttree.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\psheet.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\andorwidget.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\basicDialog.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\blockWhileWait.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\bolist.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\borderswidget.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\buttons.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\calendar.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\checktree.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\default.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\dim.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\dim_close.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\dim_o.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\dim_open.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\empty.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\eventsDialog.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\fieldswidget.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\format.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\framezone.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\grabber.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\iconlistpopupwidget.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\iconscrollmenuwidget.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\imgtabs.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\inconwidget.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\infowidget.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\lov.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\measure.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\measure_o.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\menu.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\navigation.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\palettes.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\pane.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\parent_dialog.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\progressBar.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\prompttree.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\qualif.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\scrolltabs.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\simplelist.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\skinIntl.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\tabs.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\textcombowidget.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\tooltipwidget.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\treeicons.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\treeview.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\unv_close.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\unv_o.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\unv_open.gif" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\samples\waitDialog.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\treeview.js" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\validator\default.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\validator\validator_res.html" />
+    <Content Include="crystalreportviewers12\js\dhtmllib\waitdialog.js" />
+    <Content Include="crystalreportviewers12\js\dt_param.js" />
+    <Content Include="crystalreportviewers12\js\external\date.js" />
+    <Content Include="crystalreportviewers12\js\KeyDownEvent.js" />
+    <Content Include="crystalreportviewers12\js\log4javascript\log4javascript.js" />
+    <Content Include="crystalreportviewers12\js\log4javascript\log4javascript_stub.js" />
+    <Content Include="crystalreportviewers12\js\log4javascript\log4javascript_stub_uncompressed.js" />
+    <Content Include="crystalreportviewers12\js\log4javascript\log4javascript_uncompressed.js" />
+    <Content Include="crystalreportviewers12\js\log4javascript\main.css" />
+    <Content Include="crystalreportviewers12\js\MochiKit\3rdParty.txt" />
+    <Content Include="crystalreportviewers12\js\MochiKit\Async.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\Base.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\Color.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\Controls.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\DateTime.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\DOM.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\DragAndDrop.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\Format.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\Iter.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\License.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\Logging.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\LoggingPane.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\MochiKit.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\MockDOM.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\New.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\Signal.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\Sortable.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\Style.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\Test.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\Visual.js" />
+    <Content Include="crystalreportviewers12\js\MochiKit\__package__.js" />
+    <Content Include="crystalreportviewers12\js\previewerror.js" />
+    <Content Include="crystalreportviewers12\js\prompts.js" />
+    <Content Include="crystalreportviewers12\js\prompts_param.js" />
+    <Content Include="crystalreportviewers12\js\strings_cs.js" />
+    <Content Include="crystalreportviewers12\js\strings_da.js" />
+    <Content Include="crystalreportviewers12\js\strings_de.js" />
+    <Content Include="crystalreportviewers12\js\strings_en.js" />
+    <Content Include="crystalreportviewers12\js\strings_es.js" />
+    <Content Include="crystalreportviewers12\js\strings_fi.js" />
+    <Content Include="crystalreportviewers12\js\strings_fr.js" />
+    <Content Include="crystalreportviewers12\js\strings_hu.js" />
+    <Content Include="crystalreportviewers12\js\strings_it.js" />
+    <Content Include="crystalreportviewers12\js\strings_ja.js" />
+    <Content Include="crystalreportviewers12\js\strings_ko.js" />
+    <Content Include="crystalreportviewers12\js\strings_nb.js" />
+    <Content Include="crystalreportviewers12\js\strings_nl.js" />
+    <Content Include="crystalreportviewers12\js\strings_pl.js" />
+    <Content Include="crystalreportviewers12\js\strings_pt.js" />
+    <Content Include="crystalreportviewers12\js\strings_ru.js" />
+    <Content Include="crystalreportviewers12\js\strings_sk.js" />
+    <Content Include="crystalreportviewers12\js\strings_sv.js" />
+    <Content Include="crystalreportviewers12\js\strings_th.js" />
+    <Content Include="crystalreportviewers12\js\strings_zh_CN.js" />
+    <Content Include="crystalreportviewers12\js\strings_zh_TW.js" />
+    <Content Include="crystalreportviewers12\processindicator.js" />
+    <Content Include="crystalreportviewers12\prompting\css\promptengine2.css" />
+    <Content Include="crystalreportviewers12\prompting\css\promptengine_default.css" />
+    <Content Include="crystalreportviewers12\prompting\html\calendar.html" />
+    <Content Include="crystalreportviewers12\prompting\html\calendarbottom.html" />
+    <Content Include="crystalreportviewers12\prompting\html\calendartop.html" />
+    <Content Include="crystalreportviewers12\prompting\images\addallfield.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\addallfield_over.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\addfield.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\addfield_over.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\back.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\back_over.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\button.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\button_left_normal.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\button_middle_normal.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\button_right_normal.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\calendar.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\cfilter.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\cfilter_over.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\dialogelements.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\dialogtitle.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\error.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\errormsg.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\filter.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\filter_over.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\forward.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\forward_over.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\info.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\infomsg.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\minus.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\next.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\next_over.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\plus.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\prev.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\prev_over.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\resize.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\transp.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\warning.gif" />
+    <Content Include="crystalreportviewers12\prompting\images\warningmsg.gif" />
+    <Content Include="crystalreportviewers12\prompting\js\initDhtmlLib.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_calendar.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_calendar2.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_prompts.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_prompts2.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_cs.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_da.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_de.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_en.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_es.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_fi.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_fr.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_hu.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_it.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_ja.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_ko.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_nb.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_nl.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_pl.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_pt.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_ru.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_sk.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_sv.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_th.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_zh_CN.js" />
+    <Content Include="crystalreportviewers12\prompting\js\promptengine_strings_zh_TW.js" />
+    <Content Include="crystalreportviewers12\urlreporting\activexviewer.js" />
+    <Content Include="crystalreportviewers12\urlreporting\appletviewer.js" />
+    <Content Include="CSS\BlueXP.css" />
+    <Content Include="CSS\CustomStyleSheet.css" />
+    <Content Include="CSS\proweb.css" />
+    <Content Include="CSS\styles.css" />
+    <Content Include="DailyInterest.aspx" />
+    <Content Include="DARFileImport.aspx" />
+    <Content Include="DataArchive.aspx" />
+    <Content Include="DCToolsAddYMCACredit.aspx" />
+    <Content Include="DCToolsChangeFundStatus.aspx" />
+    <Content Include="DCToolsReverseAnnuity.aspx" />
+    <Content Include="DCToolsEditRemainingDeathBenefit.aspx" />
+    <Content Include="DeathBenefitFollowupForm.aspx" />
+    <Content Include="DeathBenefitsCalculatorForm.aspx" />
+    <Content Include="DeferredPayment.aspx" />
+    <Content Include="DeferredPaymentDetail.aspx" />
+    <Content Include="DeleteBeneficiary.aspx" />
+    <Content Include="DelinquencyLettersForm.aspx" />
+    <Content Include="DisburesementWithHolding.aspx" />
+    <Content Include="DisbursementsBreakDown.aspx" />
+    <Content Include="DisbursementsReissue.aspx" />
+    <Content Include="DisbursementsReversal.aspx" />
+    <Content Include="DisbursementsRevese.aspx" />
+    <Content Include="DisbursementTypeWebForm.aspx" />
+    <Content Include="DocumentViewer.aspx" />
+    <Content Include="EDIExclusionList.aspx" />
+    <Content Include="EDIOutsourceCheckPrintingForm.aspx" />
+    <Content Include="EmployeeEventsWebForm.aspx" />
+    <Content Include="ErrorForSession.aspx" />
+    <Content Include="ErrorPageForm.aspx" />
+    <Content Include="FindEDIExlcusionInfo.aspx" />
+    <Content Include="FindInfo.aspx" />
+    <Content Include="FindYmcaInfo.aspx" />
+    <Content Include="FT\CopyFilestoFileServer.aspx" />
+    <Content Include="FT\RefundReportViewer.aspx" />
+    <Content Include="FT\ReportPrinter.aspx" />
+    <Content Include="FT\ReportViewer.aspx" />
+    <Content Include="FT\ReportViewer_1.aspx" />
+    <Content Include="FT\ReportViewer_2.aspx" />
+    <Content Include="FT\ReportViewer_3.aspx" />
+    <Content Include="FT\ReportViewer_4.aspx" />
+    <Content Include="FT\ReportViewer_5.aspx" />
+    <Content Include="FundEventStatusForm.aspx" />
+    <Content Include="GenerateError.aspx" />
+    <Content Include="GenerateRMD.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="GroupMembers.aspx" />
+    <Content Include="GroupProperties.aspx" />
+    <Content Include="Helper.aspx" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\am1.gif" />
+    <Content Include="images\am2.gif" />
+    <Content Include="images\arrow.gif" />
+    <Content Include="images\ARW01DN.ICO" />
+    <Content Include="images\bgline.gif" />
+    <Content Include="images\bgline2.gif" />
+    <Content Include="images\bglineCopy.gif" />
+    <Content Include="images\ButtonCashApp.gif" />
+    <Content Include="images\Calendar.gif" />
+    <Content Include="images\cancel.gif" />
+    <Content Include="images\Cancel2.jpg" />
+    <Content Include="images\Cash-UnApplied.jpg" />
+    <Content Include="images\changepass.gif" />
+    <Content Include="images\changepassCopy.gif" />
+    <Content Include="images\changepassword.gif" />
+    <Content Include="images\clear.gif" />
+    <Content Include="images\close.gif" />
+    <Content Include="images\collapse.gif" />
+    <Content Include="images\collapse.GIF" />
+    <Content Include="images\complete.jpg" />
+    <Content Include="images\curve1red.gif" />
+    <Content Include="images\curve2.gif" />
+    <Content Include="images\curve2red.gif" />
+    <Content Include="images\delete.gif" />
+    <Content Include="images\details.gif" />
+    <Content Include="images\dkk.gif" />
+    <Content Include="images\Edit-Record.jpg" />
+    <Content Include="images\edit.gif" />
+    <Content Include="images\editmodule.gif" />
+    <Content Include="images\edits.gif" />
+    <Content Include="images\edituser.gif" />
+    <Content Include="images\error.gif" />
+    <Content Include="images\exitwizard.gif" />
+    <Content Include="images\expand.gif" />
+    <Content Include="images\expand.GIF" />
+    <Content Include="images\gbp.gif" />
+    <Content Include="images\help.gif" />
+    <Content Include="images\help48.JPG" />
+    <Content Include="images\helpCopy.gif" />
+    <Content Include="images\history.gif" />
+    <Content Include="images\hline.gif" />
+    <Content Include="images\home.gif" />
+    <Content Include="images\homeCopy.gif" />
+    <Content Include="images\icicilogo.gif" />
+    <Content Include="images\icon-error.gif" />
+    <Content Include="images\icon-success.gif" />
+    <Content Include="images\icon-warning.gif" />
+    <Content Include="images\icon_new_window.gif" />
+    <Content Include="images\letter.gif" />
+    <Content Include="images\loader.gif" />
+    <Content Include="images\login2.gif" />
+    <Content Include="images\logout.gif" />
+    <Content Include="images\logoutCopy.gif" />
+    <Content Include="images\modulemaster.gif" />
+    <Content Include="images\mylist.gif" />
+    <Content Include="images\mylist2.GIF" />
+    <Content Include="images\newuser.gif" />
+    <Content Include="images\newuser2.gif" />
+    <Content Include="images\Notes.JPG" />
+    <Content Include="images\nullify.gif" />
+    <Content Include="images\OK48.JPG" />
+    <Content Include="images\pending.jpg" />
+    <Content Include="images\pm1.gif" />
+    <Content Include="images\pm2.gif" />
+    <Content Include="images\print.gif" />
+    <Content Include="images\printico.gif" />
+    <Content Include="images\priority.gif" />
+    <Content Include="images\process.gif" />
+    <Content Include="images\qar.gif" />
+    <Content Include="images\reject.gif" />
+    <Content Include="images\reset.gif" />
+    <Content Include="images\reset2.gif" />
+    <Content Include="images\Save.jpg" />
+    <Content Include="images\search.gif" />
+    <Content Include="images\select.gif" />
+    <Content Include="images\selected.gif" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\stop.JPG" />
+    <Content Include="images\submit.gif" />
+    <Content Include="images\submit1.gif" />
+    <Content Include="images\tick.jpg" />
+    <Content Include="images\timepicker.gif" />
+    <Content Include="images\timepicker2.gif" />
+    <Content Include="images\titleback.gif" />
+    <Content Include="images\usd.gif" />
+    <Content Include="images\user.gif" />
+    <Content Include="images\usericon.gif" />
+    <Content Include="images\usericon3.gif" />
+    <Content Include="images\verify2.gif" />
+    <Content Include="images\view.gif" />
+    <Content Include="images\visa.gif" />
+    <Content Include="images\W3Ccss.gif" />
+    <Content Include="images\waiting.gif" />
+    <Content Include="images\warning.jpg" />
+    <Content Include="images\wizard.gif" />
+    <Content Include="images\workflow.gif" />
+    <Content Include="images\workgrouptd.gif" />
+    <Content Include="images\YMCAMain.jpg" />
+    <Content Include="images\ymca_logo.gif" />
+    <Content Include="InterestProcessing.aspx" />
+    <Content Include="InterestProcessingStart.aspx" />
+    <Content Include="InterestRatesWebForm.aspx" />
+    <Content Include="JS\dom-drag.js" />
+    <Content Include="JS\jquery-1.5.1.min.js" />
+    <Content Include="JS\jquery-1.7.2.min.js" />
+    <Content Include="JS\jquery-ui\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="JS\jquery-ui\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="JS\jquery-ui\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="JS\jquery-ui\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="JS\jquery-ui\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="JS\jquery-ui\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="JS\jquery-ui\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="JS\jquery-ui\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="JS\jquery-ui\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="JS\jquery-ui\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="JS\jquery-ui\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="JS\jquery-ui\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="JS\jquery-ui\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.accordion.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.all.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.autocomplete.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.base.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.button.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.core.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.datepicker.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.dialog.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.progressbar.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.resizable.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.selectable.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.slider.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.tabs.css" />
+    <Content Include="JS\jquery-ui\base\jquery.ui.theme.css" />
+    <Content Include="JS\jquery-ui\jquery-ui-1.8.13.custom.min.js" />
+    <Content Include="JS\jquery-ui\jquery-ui-1.8.20.custom.min.js" />
+    <Content Include="JS\proweb.js" />
+    <Content Include="JS\timepicker.js" />
+    <Content Include="JS\YMCA_CRScript.js" />
+    <Content Include="JS\YMCA_JScript.js" />
+    <Content Include="JS\YMCA_JScript_DisableTextBox.js" />
+    <Content Include="JS\YMCA_JSCRIPT_Loader.js" />
+    <Content Include="JS\YMCA_JScript_Warn.js" />
+    <Content Include="LACExceptions.aspx" />
+    <Content Include="LACLoansProcessing.aspx" />
+    <Content Include="LACRate.aspx" />
+    <Content Include="LACStatistics.aspx" />
+    <Content Include="LACWebLoans.aspx" />
+    <Content Include="LoanInformation.aspx" />
+    <Content Include="LoanOffsetDefaultUnfreeze.aspx" />
+    <Content Include="LoanOptions.aspx" />
+    <Content Include="LoanProcessing.aspx" />
+    <Content Include="LoanRequest.aspx" />
+    <Content Include="LockBoxErrorForm.aspx" />
+    <Content Include="LockBoxExportToExcel.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="LookupsMaintenance.aspx" />
+    <Content Include="MainWebForm.aspx" />
+    <Content Include="ManualTransactions.aspx" />
+    <Content Include="MasterPages\Images\arrow.gif" />
+    <Content Include="MasterPages\Images\spacer.gif" />
+    <Content Include="MetaAnnuityTypesMain.aspx" />
+    <Content Include="MetaConfigMaintenance.aspx" />
+    <Content Include="MetaCountryTypeMain.aspx" />
+    <Content Include="MetaErrorCodesMaintenanceWebForm.aspx" />
+    <Content Include="MetaMessages.aspx" />
+    <Content Include="MetaPaperTypes.aspx" />
+    <Content Include="MetaPositionsMaintenance.aspx" />
+    <Content Include="MetaPrinters.aspx" />
+    <Content Include="MetaProjectedInterest.aspx" />
+    <Content Include="MetaReports.aspx" />
+    <Content Include="MetaSafeHarborFactorsWebForm.aspx" />
+    <Content Include="MetaVestingTypeCode.aspx" />
+    <Content Include="MonthlyExpDividend.aspx" />
+    <Content Include="MonthlyPayrollRevised.aspx" />
+    <Content Include="MRDRequestandProcessing.aspx" />
+    <Content Include="NonRetiredQDRO.aspx" />
+    <Content Include="NotesMasterWebForm.aspx" />
+    <Content Include="ParticipantsInformation.aspx" />
+    <Content Include="PaymentManager.aspx" />
+    <Content Include="PDFDownloader.aspx" />
+    <Content Include="PDFViewer.aspx" />
+    <Content Include="PopCalendar\Calendar.gif" />
+    <Content Include="PopCalendar\CSS\Classic.css" />
+    <Content Include="PopCalendar\CSS\Classic_Images\baddate.gif" />
+    <Content Include="PopCalendar\CSS\Classic_Images\close.gif" />
+    <Content Include="PopCalendar\CSS\Classic_Images\closedown.gif" />
+    <Content Include="PopCalendar\CSS\Classic_Images\down.gif" />
+    <Content Include="PopCalendar\CSS\Classic_Images\drop1.gif" />
+    <Content Include="PopCalendar\CSS\Classic_Images\drop2.gif" />
+    <Content Include="PopCalendar\CSS\Classic_Images\left1.gif" />
+    <Content Include="PopCalendar\CSS\Classic_Images\left2.gif" />
+    <Content Include="PopCalendar\CSS\Classic_Images\right1.gif" />
+    <Content Include="PopCalendar\CSS\Classic_Images\right2.gif" />
+    <Content Include="PopCalendar\CSS\Classic_Images\special.gif" />
+    <Content Include="PopCalendar\CSS\Classic_Images\up.gif" />
+    <Content Include="PopCalendar\CSS\Modern.css" />
+    <Content Include="PopCalendar\CSS\Small.css" />
+    <Content Include="PopCalendar\DisableCalendar.gif" />
+    <Content Include="PopCalendar\PopCalendar.js" />
+    <Content Include="PopCalendar\PopCalendarFunctions.js" />
+    <Content Include="PopUpCaller.aspx" />
+    <Content Include="PreNotification.aspx" />
+    <Content Include="ProcessCashOut.aspx" />
+    <Content Include="ProwebHandler.aspx" />
+    <Content Include="ReceiptsLockBoxImportForm.aspx" />
+    <Content Include="RefundBeneficiary.aspx" />
+    <Content Include="RefundProcessing.aspx" />
+    <Content Include="RefundProcessing_C19.aspx" />
+    <Content Include="RefundRequestCancel.aspx" />
+    <Content Include="RefundRequestForm.aspx" />
+    <Content Include="RefundRequestForm_C19.aspx" />
+    <Content Include="RefundRequestWebForm.aspx" />
+    <Content Include="RefundRequestWebForm_C19.aspx" />
+    <Content Include="RegenerateMRD.aspx" />
+    <Content Include="ReissueRefundForm.aspx" />
+    <Content Include="ReleaseVersion.aspx" />
+    <Content Include="RetiredQDRO.aspx" />
+    <Content Include="RetireesDeathDatesWebForm.aspx" />
+    <Content Include="RetireesFrmMoverWebForm.aspx" />
+    <Content Include="RetireesInformationWebForm.aspx" />
+    <Content Include="RetireesPowerAttorneyWebForm.aspx" />
+    <Content Include="RetirementEstimateBatchWebForm.aspx" />
+    <Content Include="RetirementEstimateWebForm.aspx" />
+    <Content Include="RetirementProcessingForm.aspx" />
+    <Content Include="ReverseFeedImport.aspx" />
+    <Content Include="RMDBatchRequestAndProcessing.aspx" />
+    <Content Include="RMDCloseForm.aspx" />
+    <Content Include="RMDReminderLetters.aspx" />
+    <Content Include="RMDPrintLetters.aspx" />
+    <Content Include="RMDSpecialQDROLetters.aspx" />
+    <Content Include="RollIn.aspx" />
+    <Content Include="RollInReminderForm.aspx" />
+    <Content Include="RolloverReceiptsPopup.aspx" />
+    <Content Include="SafeHarbor.aspx" />
+    <Content Include="SearchContact.aspx" />
+    <Content Include="SearchOfficer.aspx" />
+    <Content Include="SecuredControls.aspx" />
+    <Content Include="SecurityCheck.aspx" />
+    <Content Include="SecurityReports.aspx" />
+    <Content Include="SelectBank.aspx" />
+    <Content Include="SelectTitle.aspx" />
+    <Content Include="SelectYmca.aspx" />
+    <Content Include="SelectYmcaBranch.aspx" />
+    <Content Include="ShowAnnuityDetails.aspx" />
+    <Content Include="ShowBalancesQDRONonRetired.aspx" />
+    <Content Include="ShowBalancesQDRORetired.aspx" />
+    <Content Include="ShowHistory.aspx" />
+    <Content Include="SimpleXML.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SpecialCashout.aspx" />
+    <Content Include="SpecialDividendRates.aspx" />
+    <Content Include="SplitFundsforSettlement.aspx" />
+    <Content Include="StatusPage.aspx" />
+    <Content Include="StatusPageForm.aspx" />
+    <Content Include="TerminationWatcher.aspx" />
+    <Content Include="TerminationWatcherAddNotes.aspx" />
+    <Content Include="TerminationWatcherAddUser.aspx" />
+    <Content Include="TerminationWatcherProcessPurge.aspx" />
+    <Content Include="top.html" />
+    <Content Include="TopNew.htm" />
+    <Content Include="UnfundedUEINs.aspx" />
+    <Content Include="UpdateSSN.aspx" />
+    <Content Include="UpdateTrackingNumber.aspx" />
+    <Content Include="UnFundingTransmittalForm.aspx" />
+    <Content Include="UpdateAddressDetails.aspx" />
+    <Content Include="UpdateBankInfo.aspx" />
+    <Content Include="UpdateBankInformationWebForm.aspx" />
+    <Content Include="UpdateBeneficiaries.aspx" />
+    <Content Include="UpdateCheckCashDate.aspx" />
+    <Content Include="UpdateFedWithHoldingInfo.aspx" />
+    <Content Include="UpdateGenHoldings.aspx" />
+    <Content Include="UpdateNotes.aspx" />
+    <Content Include="UpdateParticipantEmploymentService.aspx" />
+    <Content Include="UserControls\AddressUserControl.ascx" />
+    <Content Include="UserControls\AddressUserControl_new.ascx" />
+    <Content Include="UserControls\AddressWebUserControl.ascx" />
+    <Content Include="UserControls\BatchProcessProgressControl.ascx" />
+    <Content Include="UserControls\BatchProcessProgressUCWebMethods.aspx" />
+    <Content Include="UserControls\DataGridPager.ascx" />
+    <Content Include="UserControls\DateUserControl.ascx" />
+    <Content Include="UserControls\Enhance_AddressWebUserControl.ascx" />
+    <Content Include="UserControls\NewAddressUserControl.ascx" />
+    <Content Include="UserControls\RolloverInstitution.ascx" />
+    <Content Include="UserControls\StateWithholdingListingControl.ascx" />
+    <Content Include="UserControls\Telephone_WebUserControl.ascx" />
+    <Content Include="UserControls\VoidDisbursement.ascx" />
+    <Content Include="UserControls\VoidUserControl.ascx" />
+    <Content Include="UserControls\YMCA_Footer_WebUserControl.ascx" />
+    <Content Include="UserControls\YMCA_Header_WebUserControl.ascx" />
+    <Content Include="UserControls\YMCA_Toolbar_WebUserControl.ascx" />
+    <Content Include="UserGroupAdministration.aspx" />
+    <Content Include="UserMembership.aspx" />
+    <Content Include="UserPermissionExceptions.aspx" />
+    <Content Include="UserPermissions.aspx" />
+    <Content Include="UserProperties.aspx" />
+    <Content Include="UserSession.aspx" />
+    <Content Include="VDReplaceDisbursements.aspx" />
+    <Content Include="VoidAndTransferAnnuity.aspx" />
+    <Content Include="VoidAndTransferAnnuity_SearchBeneficiary.aspx" />
+    <Content Include="VoidDisbursementReplaceManager.aspx" />
+    <Content Include="VoidDisbursementReverseManager.aspx" />
+    <Content Include="VoidDisbursementVRManager.aspx" />
+    <Content Include="Web References\YRSDMService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
+    <Content Include="Web References\YRSDMService\WebServiceReturn.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\YRSDMService\YRSDMService.disco" />
+    <Content Include="YRSLandingPage.aspx" />
+    <Content Include="MasterPages\YRSLogin.Master" />
+    <Content Include="MasterPages\YRSMain.Master" />
+    <Content Include="MasterPages\YRSPopUp.Master" />
+    <Content Include="FT\IDAutomationHC39M.eot" />
+    <Content Include="FT\IDAutomationHC39M.otf" />
+    <Content Include="FT\IDAutomationHC39M.ttf" />
+    <Content Include="..\.sonarlint\my_jstsvb.ruleset">
+      <Link>my_jstsvb.ruleset</Link>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Reports\AnntyEstColor.rpt" />
+    <None Include="Reports\AnntyEstLong.rpt" />
+    <None Include="Reports\AnntyEstShort.rpt" />
+    <None Include="Reports\Death Benefit Application.rpt" />
+    <None Include="Reports\Initial_RMD_Letter_April_Distribution_Deadline.rpt" />
+    <Content Include="Web References\YRSDMService\YRSDMService.wsdl" />
+    <None Include="Web References\YRSWebService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\YRSWebService\WebServiceReturn.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\YRSWebService\YRSWithdrawalService.disco" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WEBCTRL_CLIENT\1_0\images\folder.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\images\folderopen.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\images\html.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\images\root.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\images\_vti_cnf\folder.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\images\_vti_cnf\folderopen.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\images\_vti_cnf\html.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\images\_vti_cnf\root.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\MultiPage.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0\TabStrip.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0\toolbar.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\f.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\fminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\fplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\i.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\L.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\Lminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\Lplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\minus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\plus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\r.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\Rminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\Rplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\F.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\Fminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\Fplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\I.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\L.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\Lminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\Lplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\minus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\plus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\r.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\Rminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\Rplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\T.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\Tminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\Tplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\white.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\F.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\Fminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\Fplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\I.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\L.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\Lminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\Lplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\minus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\plus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\r.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\Rminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\Rplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\T.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\Tminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\Tplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\rtl\_vti_cnf\white.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\T.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\Tminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\Tplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\white.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\f.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\fminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\fplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\i.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\L.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\Lminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\Lplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\minus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\plus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\r.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\Rminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\Rplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\T.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\Tminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\Tplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeimages\_vti_cnf\white.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0\treeview.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0\webservice.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0\webserviced.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0\_vti_cnf\MultiPage.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0\_vti_cnf\TabStrip.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0\_vti_cnf\toolbar.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0\_vti_cnf\treeview.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0\_vti_cnf\webservice.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0\_vti_cnf\webserviced.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\images\folder.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\images\folderopen.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\images\html.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\images\root.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\MultiPage.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\TabStrip.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\toolbar.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\f.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\fminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\fplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\i.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\L.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\Lminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\Lplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\minus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\plus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\r.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\Rminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\Rplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\F.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\Fminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\Fplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\I.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\L.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\Lminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\Lplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\minus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\plus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\r.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\Rminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\Rplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\T.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\Tminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\Tplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\white.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\T.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\Tminus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\Tplus.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeimages\white.gif" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\treeview.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\webservice.htc" />
+    <Content Include="WEBCTRL_CLIENT\1_0_1\webserviced.htc" />
+    <Content Include="YMCAAddressWebForm.aspx" />
+    <Content Include="YMCAMetrowebForm.aspx" />
+    <Content Include="YMCANetWebForm.aspx" />
+    <Content Include="YMCATelephoneWebForm.aspx" />
+    <Content Include="YMCAWebForm.aspx" />
+    <Content Include="YRSErrorForm.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountTypesForm.aspx.vb">
+      <DependentUpon>AccountTypesForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ACHDebitExportForm.aspx.vb">
+      <DependentUpon>ACHDebitExportForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ACHDebitExportUpdateForm.aspx.vb">
+      <DependentUpon>ACHDebitExportUpdateForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ACHDebitImportForm.aspx.vb">
+      <DependentUpon>ACHDebitImportForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ACHDebitReceiptApplicationForm.aspx.vb">
+      <DependentUpon>ACHDebitReceiptApplicationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAdditionalAccounts.aspx.vb">
+      <DependentUpon>AddAdditionalAccounts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddBeneficiary.aspx.vb">
+      <DependentUpon>AddBeneficiary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddContactWebForm.aspx.vb">
+      <DependentUpon>AddContactWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddEditQDRO.aspx.vb">
+      <DependentUpon>AddEditQDRO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddEmployment.aspx.vb">
+      <DependentUpon>AddEmployment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddNotes.aspx.vb">
+      <DependentUpon>AddNotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddOfficerWebForm.aspx.vb">
+      <DependentUpon>AddOfficerWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddResolutionWebForm.aspx.vb">
+      <DependentUpon>AddResolutionWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddStatewithholdingtax.aspx.designer.vb">
+      <DependentUpon>AddStatewithholdingtax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddStatewithholdingtax.aspx.vb">
+      <DependentUpon>AddStatewithholdingtax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnnuityBeneficiaryDeath.aspx.designer.vb">
+      <DependentUpon>AnnuityBeneficiaryDeath.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AnnuityBeneficiaryDeath.aspx.vb">
+      <DependentUpon>AnnuityBeneficiaryDeath.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnnuityBenefitDeathFollowup.aspx.designer.vb">
+      <DependentUpon>AnnuityBenefitDeathFollowup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AnnuityBenefitDeathFollowup.aspx.vb">
+      <DependentUpon>AnnuityBenefitDeathFollowup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_GlobalResources\CashApplication.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CashApplication.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\DeathMessages.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DeathMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LoginMessages.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RetiredQDRO.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RetiredQDRO.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RollIn.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RollIn.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Withdrawal.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Withdrawal.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CallReport.aspx.designer.vb">
+      <DependentUpon>CallReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CallReport.aspx.vb">
+      <DependentUpon>CallReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CashApplicationFundingIndividual.aspx.designer.vb">
+      <DependentUpon>CashApplicationFundingIndividual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CashApplicationFundingIndividual.aspx.vb">
+      <DependentUpon>CashApplicationFundingIndividual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CashOutIDMWrite.aspx.designer.vb">
+      <DependentUpon>CashOutIDMWrite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CashOutIDMWrite.aspx.vb">
+      <DependentUpon>CashOutIDMWrite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BatchRequestCreation.aspx.designer.vb">
+      <DependentUpon>BatchRequestCreation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BatchRequestCreation.aspx.vb">
+      <DependentUpon>BatchRequestCreation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonClasses\Address.vb" />
+    <Compile Include="AdminSessionManagement.aspx.vb">
+      <DependentUpon>AdminSessionManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnnuityBasisTypes.aspx.vb">
+      <DependentUpon>AnnuityBasisTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_GlobalResources\AddAdditionalAccounts.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AddAdditionalAccounts.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CashoutRefundMessage.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CashoutRefundMessage.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\NonRetiredQDRO.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NonRetiredQDRO.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ParticipantsInformation.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ParticipantsInformation.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RegenerateRMDMessage.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegenerateRMDMessage.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RetirementBatchEstimateMessages.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RetirementBatchEstimateMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RetirementMessages.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RetirementMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\TerminationWatcher.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TerminationWatcher.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Updatenotes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Updatenotes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\withholding.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>withholding.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BeneficiaryInformation.aspx.vb">
+      <DependentUpon>BeneficiaryInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BeneficiarySettlementForm.aspx.vb">
+      <DependentUpon>BeneficiarySettlementForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CashApplication.aspx.vb">
+      <DependentUpon>CashApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CashOut.aspx.vb">
+      <DependentUpon>CashOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CashReceiptsEntryForm.aspx.vb">
+      <DependentUpon>CashReceiptsEntryForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChooseAnnuityForm.aspx.vb">
+      <DependentUpon>ChooseAnnuityForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonClasses\AdminProxyService.vb" />
+    <Compile Include="CommonClasses\AdminWebAccountInfoProxyService.vb" />
+    <Compile Include="CommonClasses\EFTPaymentStatus.vb" />
+    <Compile Include="CommonClasses\EncryptedQueryString.vb" />
+    <Compile Include="CommonClasses\EnumTypes.vb" />
+    <Compile Include="CommonClasses\GridViewCustomSort.vb" />
+    <Compile Include="CommonClasses\HelperFunctions.vb" />
+    <Compile Include="CommonClasses\IDMforAll.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonClasses\LoanClass.vb" />
+    <Compile Include="CommonClasses\LoanStatus.vb" />
+    <Compile Include="CommonClasses\Loans.vb" />
+    <Compile Include="CommonClasses\MailUtil.vb" />
+    <Compile Include="CommonClasses\MessageBoxClass.vb" />
+    <Compile Include="CommonClasses\Notes.vb" />
+    <Compile Include="CommonClasses\Refunds.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonClasses\Refunds_C19.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonClasses\Retirement.vb" />
+    <Compile Include="CommonClasses\RMDLetters.vb" />
+    <Compile Include="CommonClasses\SSRSDataset.vb" />
+    <Compile Include="CommonClasses\ServiceManager.vb" />
+    <Compile Include="CommonClasses\SessionManager.vb" />
+    <Compile Include="CommonClasses\UserInfo.vb" />
+    <Compile Include="CommonClasses\Validation.vb" />
+    <Compile Include="CopyFilesUtilityForm.aspx.vb">
+      <DependentUpon>CopyFilesUtilityForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DailyInterest.aspx.vb">
+      <DependentUpon>DailyInterest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DARFileImport.aspx.designer.vb">
+      <DependentUpon>DARFileImport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DARFileImport.aspx.vb">
+      <DependentUpon>DARFileImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataArchive.aspx.vb">
+      <DependentUpon>DataArchive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DCToolsAddYMCACredit.aspx.designer.vb">
+      <DependentUpon>DCToolsAddYMCACredit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DCToolsAddYMCACredit.aspx.vb">
+      <DependentUpon>DCToolsAddYMCACredit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DCToolsChangeFundStatus.aspx.designer.vb">
+      <DependentUpon>DCToolsChangeFundStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DCToolsChangeFundStatus.aspx.vb">
+      <DependentUpon>DCToolsChangeFundStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DCToolsReverseAnnuity.aspx.designer.vb">
+      <DependentUpon>DCToolsReverseAnnuity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DCToolsReverseAnnuity.aspx.vb">
+      <DependentUpon>DCToolsReverseAnnuity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DCToolsEditRemainingDeathBenefit.aspx.designer.vb">
+      <DependentUpon>DCToolsEditRemainingDeathBenefit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DCToolsEditRemainingDeathBenefit.aspx.vb">
+      <DependentUpon>DCToolsEditRemainingDeathBenefit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeathBenefitFollowupForm.aspx.designer.vb">
+      <DependentUpon>DeathBenefitFollowupForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeathBenefitFollowupForm.aspx.vb">
+      <DependentUpon>DeathBenefitFollowupForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeathBenefitsCalculatorForm.aspx.vb">
+      <DependentUpon>DeathBenefitsCalculatorForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeferredPayment.aspx.vb">
+      <DependentUpon>DeferredPayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeferredPaymentDetail.aspx.vb">
+      <DependentUpon>DeferredPaymentDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteBeneficiary.aspx.designer.vb">
+      <DependentUpon>DeleteBeneficiary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteBeneficiary.aspx.vb">
+      <DependentUpon>DeleteBeneficiary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DelinquencyLettersForm.aspx.vb">
+      <DependentUpon>DelinquencyLettersForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisburesementWithHolding.aspx.vb">
+      <DependentUpon>DisburesementWithHolding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisbursementsBreakDown.aspx.vb">
+      <DependentUpon>DisbursementsBreakDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisbursementsReissue.aspx.vb">
+      <DependentUpon>DisbursementsReissue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisbursementsReversal.aspx.vb">
+      <DependentUpon>DisbursementsReversal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisbursementsRevese.aspx.vb">
+      <DependentUpon>DisbursementsRevese.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisbursementTypeWebForm.aspx.vb">
+      <DependentUpon>DisbursementTypeWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DocumentViewer.aspx.designer.vb">
+      <DependentUpon>DocumentViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentViewer.aspx.vb">
+      <DependentUpon>DocumentViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EDIExclusionList.aspx.vb">
+      <DependentUpon>EDIExclusionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EDIOutsourceCheckPrintingForm.aspx.vb">
+      <DependentUpon>EDIOutsourceCheckPrintingForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeEventsWebForm.aspx.vb">
+      <DependentUpon>EmployeeEventsWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorForSession.aspx.vb">
+      <DependentUpon>ErrorForSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPageForm.aspx.vb">
+      <DependentUpon>ErrorPageForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FindEDIExlcusionInfo.aspx.vb">
+      <DependentUpon>FindEDIExlcusionInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FindInfo.aspx.vb">
+      <DependentUpon>FindInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FindYmcaInfo.aspx.designer.vb">
+      <DependentUpon>FindYmcaInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FindYmcaInfo.aspx.vb">
+      <DependentUpon>FindYmcaInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FT\CopyFilestoFileServer.aspx.vb">
+      <DependentUpon>CopyFilestoFileServer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FT\RefundReportViewer.aspx.vb">
+      <DependentUpon>RefundReportViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FT\ReportPrinter.aspx.vb">
+      <DependentUpon>ReportPrinter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FT\ReportViewer.aspx.vb">
+      <DependentUpon>ReportViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FT\ReportViewer_1.aspx.vb">
+      <DependentUpon>ReportViewer_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FT\ReportViewer_2.aspx.vb">
+      <DependentUpon>ReportViewer_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FT\ReportViewer_3.aspx.vb">
+      <DependentUpon>ReportViewer_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FT\ReportViewer_4.aspx.vb">
+      <DependentUpon>ReportViewer_4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FT\ReportViewer_5.aspx.vb">
+      <DependentUpon>ReportViewer_5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FundEventStatusForm.aspx.vb">
+      <DependentUpon>FundEventStatusForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GenerateError.aspx.vb">
+      <DependentUpon>GenerateError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GenerateRMD.aspx.designer.vb">
+      <DependentUpon>GenerateRMD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GenerateRMD.aspx.vb">
+      <DependentUpon>GenerateRMD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GroupMembers.aspx.vb">
+      <DependentUpon>GroupMembers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GroupProperties.aspx.vb">
+      <DependentUpon>GroupProperties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helper.aspx.designer.vb">
+      <DependentUpon>Helper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.aspx.vb">
+      <DependentUpon>Helper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterestProcessing.aspx.vb">
+      <DependentUpon>InterestProcessing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterestProcessingStart.aspx.vb">
+      <DependentUpon>InterestProcessingStart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterestRatesWebForm.aspx.vb">
+      <DependentUpon>InterestRatesWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LACExceptions.aspx.designer.vb">
+      <DependentUpon>LACExceptions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LACExceptions.aspx.vb">
+      <DependentUpon>LACExceptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LACLoansProcessing.aspx.designer.vb">
+      <DependentUpon>LACLoansProcessing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LACLoansProcessing.aspx.vb">
+      <DependentUpon>LACLoansProcessing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LACRate.aspx.designer.vb">
+      <DependentUpon>LACRate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LACRate.aspx.vb">
+      <DependentUpon>LACRate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LACStatistics.aspx.designer.vb">
+      <DependentUpon>LACStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LACStatistics.aspx.vb">
+      <DependentUpon>LACStatistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LACWebLoans.aspx.designer.vb">
+      <DependentUpon>LACWebLoans.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LACWebLoans.aspx.vb">
+      <DependentUpon>LACWebLoans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoanInformation.aspx.vb">
+      <DependentUpon>LoanInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoanOffsetDefaultUnfreeze.aspx.designer.vb">
+      <DependentUpon>LoanOffsetDefaultUnfreeze.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoanOffsetDefaultUnfreeze.aspx.vb">
+      <DependentUpon>LoanOffsetDefaultUnfreeze.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoanOptions.aspx.vb">
+      <DependentUpon>LoanOptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoanProcessing.aspx.vb">
+      <DependentUpon>LoanProcessing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoanRequest.aspx.vb">
+      <DependentUpon>LoanRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LockBoxErrorForm.aspx.vb">
+      <DependentUpon>LockBoxErrorForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LockBoxExportToExcel.aspx.vb">
+      <DependentUpon>LockBoxExportToExcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LookupsMaintenance.aspx.vb">
+      <DependentUpon>LookupsMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainWebForm.aspx.vb">
+      <DependentUpon>MainWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManualTransactions.aspx.vb">
+      <DependentUpon>ManualTransactions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\YRSLogin.Master.designer.vb">
+      <DependentUpon>YRSLogin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\YRSLogin.Master.vb">
+      <DependentUpon>YRSLogin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\YRSMain.Master.designer.vb">
+      <DependentUpon>YRSMain.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\YRSMain.Master.vb">
+      <DependentUpon>YRSMain.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\YRSPopUp.Master.designer.vb">
+      <DependentUpon>YRSPopUp.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\YRSPopUp.Master.vb">
+      <DependentUpon>YRSPopUp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaAnnuityTypesMain.aspx.vb">
+      <DependentUpon>MetaAnnuityTypesMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaConfigMaintenance.aspx.vb">
+      <DependentUpon>MetaConfigMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaCountryTypeMain.aspx.vb">
+      <DependentUpon>MetaCountryTypeMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaErrorCodesMaintenanceWebForm.aspx.vb">
+      <DependentUpon>MetaErrorCodesMaintenanceWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaMessages.aspx.designer.vb">
+      <DependentUpon>MetaMessages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MetaMessages.aspx.vb">
+      <DependentUpon>MetaMessages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaPaperTypes.aspx.designer.vb">
+      <DependentUpon>MetaPaperTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MetaPaperTypes.aspx.vb">
+      <DependentUpon>MetaPaperTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaPositionsMaintenance.aspx.vb">
+      <DependentUpon>MetaPositionsMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaPrinters.aspx.designer.vb">
+      <DependentUpon>MetaPrinters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MetaPrinters.aspx.vb">
+      <DependentUpon>MetaPrinters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaProjectedInterest.aspx.vb">
+      <DependentUpon>MetaProjectedInterest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaReports.aspx.designer.vb">
+      <DependentUpon>MetaReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MetaReports.aspx.vb">
+      <DependentUpon>MetaReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaSafeHarborFactorsWebForm.aspx.vb">
+      <DependentUpon>MetaSafeHarborFactorsWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaVestingTypeCode.aspx.vb">
+      <DependentUpon>MetaVestingTypeCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonthlyExpDividend.aspx.vb">
+      <DependentUpon>MonthlyExpDividend.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonthlyPayrollRevised.aspx.vb">
+      <DependentUpon>MonthlyPayrollRevised.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MRDRequestandProcessing.aspx.designer.vb">
+      <DependentUpon>MRDRequestandProcessing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MRDRequestandProcessing.aspx.vb">
+      <DependentUpon>MRDRequestandProcessing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NonRetiredQDRO.aspx.vb">
+      <DependentUpon>NonRetiredQDRO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NotesMasterWebForm.aspx.vb">
+      <DependentUpon>NotesMasterWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ParticipantsInformation.aspx.vb">
+      <DependentUpon>ParticipantsInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentManager.aspx.vb">
+      <DependentUpon>PaymentManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PDFDownloader.aspx.designer.vb">
+      <DependentUpon>PDFDownloader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PDFDownloader.aspx.vb">
+      <DependentUpon>PDFDownloader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PDFViewer.aspx.designer.vb">
+      <DependentUpon>PDFViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PDFViewer.aspx.vb">
+      <DependentUpon>PDFViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopUpCaller.aspx.vb">
+      <DependentUpon>PopUpCaller.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PreNotification.aspx.vb">
+      <DependentUpon>PreNotification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProcessCashOut.aspx.designer.vb">
+      <DependentUpon>ProcessCashOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessCashOut.aspx.vb">
+      <DependentUpon>ProcessCashOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReceiptsLockBoxImportForm.aspx.vb">
+      <DependentUpon>ReceiptsLockBoxImportForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RefundBeneficiary.aspx.vb">
+      <DependentUpon>RefundBeneficiary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RefundProcessing.aspx.vb">
+      <DependentUpon>RefundProcessing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RefundProcessing_C19.aspx.vb">
+      <DependentUpon>RefundProcessing_C19.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RefundRequestCancel.aspx.designer.vb">
+      <DependentUpon>RefundRequestCancel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RefundRequestCancel.aspx.vb">
+      <DependentUpon>RefundRequestCancel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RefundRequestForm.aspx.vb">
+      <DependentUpon>RefundRequestForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RefundRequestForm_C19.aspx.vb">
+      <DependentUpon>RefundRequestForm_C19.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RefundRequestWebForm.aspx.vb">
+      <DependentUpon>RefundRequestWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RefundRequestWebForm_C19.aspx.vb">
+      <DependentUpon>RefundRequestWebForm_C19.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegenerateMRD.aspx.designer.vb">
+      <DependentUpon>RegenerateMRD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegenerateMRD.aspx.vb">
+      <DependentUpon>RegenerateMRD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReissueRefundForm.aspx.vb">
+      <DependentUpon>ReissueRefundForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReleaseVersion.aspx.designer.vb">
+      <DependentUpon>ReleaseVersion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReleaseVersion.aspx.vb">
+      <DependentUpon>ReleaseVersion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RetiredQDRO.aspx.vb">
+      <DependentUpon>RetiredQDRO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RetireesDeathDatesWebForm.aspx.vb">
+      <DependentUpon>RetireesDeathDatesWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RetireesFrmMoverWebForm.aspx.vb">
+      <DependentUpon>RetireesFrmMoverWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RetireesInformationWebForm.aspx.vb">
+      <DependentUpon>RetireesInformationWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RetireesPowerAttorneyWebForm.aspx.vb">
+      <DependentUpon>RetireesPowerAttorneyWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RetirementEstimateBatchWebForm.aspx.designer.vb">
+      <DependentUpon>RetirementEstimateBatchWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RetirementEstimateBatchWebForm.aspx.vb">
+      <DependentUpon>RetirementEstimateBatchWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RetirementEstimateWebForm.aspx.vb">
+      <DependentUpon>RetirementEstimateWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RetirementProcessingForm.aspx.vb">
+      <DependentUpon>RetirementProcessingForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReverseFeedImport.aspx.designer.vb">
+      <DependentUpon>ReverseFeedImport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReverseFeedImport.aspx.vb">
+      <DependentUpon>ReverseFeedImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMDBatchRequestAndProcessing.aspx.designer.vb">
+      <DependentUpon>RMDBatchRequestAndProcessing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMDBatchRequestAndProcessing.aspx.vb">
+      <DependentUpon>RMDBatchRequestAndProcessing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMDCloseForm.aspx.designer.vb">
+      <DependentUpon>RMDCloseForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMDCloseForm.aspx.vb">
+      <DependentUpon>RMDCloseForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMDReminderLetters.aspx.designer.vb">
+      <DependentUpon>RMDReminderLetters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMDReminderLetters.aspx.vb">
+      <DependentUpon>RMDReminderLetters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMDPrintLetters.aspx.designer.vb">
+      <DependentUpon>RMDPrintLetters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMDPrintLetters.aspx.vb">
+      <DependentUpon>RMDPrintLetters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMDSpecialQDROLetters.aspx.designer.vb">
+      <DependentUpon>RMDSpecialQDROLetters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMDSpecialQDROLetters.aspx.vb">
+      <DependentUpon>RMDSpecialQDROLetters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RollIn.aspx.designer.vb">
+      <DependentUpon>RollIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RollIn.aspx.vb">
+      <DependentUpon>RollIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RollInReminderForm.aspx.designer.vb">
+      <DependentUpon>RollInReminderForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RollInReminderForm.aspx.vb">
+      <DependentUpon>RollInReminderForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RolloverReceiptsPopup.aspx.vb">
+      <DependentUpon>RolloverReceiptsPopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SafeHarbor.aspx.vb">
+      <DependentUpon>SafeHarbor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchContact.aspx.vb">
+      <DependentUpon>SearchContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchOfficer.aspx.vb">
+      <DependentUpon>SearchOfficer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecuredControls.aspx.vb">
+      <DependentUpon>SecuredControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecurityCheck.aspx.vb">
+      <DependentUpon>SecurityCheck.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecurityReports.aspx.vb">
+      <DependentUpon>SecurityReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectBank.aspx.vb">
+      <DependentUpon>SelectBank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectTitle.aspx.vb">
+      <DependentUpon>SelectTitle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectYmca.aspx.vb">
+      <DependentUpon>SelectYmca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectYmcaBranch.aspx.vb">
+      <DependentUpon>SelectYmcaBranch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowAnnuityDetails.aspx.vb">
+      <DependentUpon>ShowAnnuityDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowBalancesQDRONonRetired.aspx.vb">
+      <DependentUpon>ShowBalancesQDRONonRetired.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowBalancesQDRORetired.aspx.vb">
+      <DependentUpon>ShowBalancesQDRORetired.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowHistory.aspx.vb">
+      <DependentUpon>ShowHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SpecialCashout.aspx.designer.vb">
+      <DependentUpon>SpecialCashout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialCashout.aspx.vb">
+      <DependentUpon>SpecialCashout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SpecialDividendRates.aspx.vb">
+      <DependentUpon>SpecialDividendRates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SplitFundsforSettlement.aspx.vb">
+      <DependentUpon>SplitFundsforSettlement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StatusPage.aspx.designer.vb">
+      <DependentUpon>StatusPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StatusPage.aspx.vb">
+      <DependentUpon>StatusPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StatusPageForm.aspx.vb">
+      <DependentUpon>StatusPageForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TerminationWatcher.aspx.designer.vb">
+      <DependentUpon>TerminationWatcher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TerminationWatcher.aspx.vb">
+      <DependentUpon>TerminationWatcher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TerminationWatcherAddNotes.aspx.designer.vb">
+      <DependentUpon>TerminationWatcherAddNotes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TerminationWatcherAddNotes.aspx.vb">
+      <DependentUpon>TerminationWatcherAddNotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TerminationWatcherAddUser.aspx.designer.vb">
+      <DependentUpon>TerminationWatcherAddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TerminationWatcherAddUser.aspx.vb">
+      <DependentUpon>TerminationWatcherAddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TerminationWatcherProcessPurge.aspx.designer.vb">
+      <DependentUpon>TerminationWatcherProcessPurge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TerminationWatcherProcessPurge.aspx.vb">
+      <DependentUpon>TerminationWatcherProcessPurge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnfundedUEINs.aspx.designer.vb">
+      <DependentUpon>UnfundedUEINs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnfundedUEINs.aspx.vb">
+      <DependentUpon>UnfundedUEINs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateSSN.aspx.designer.vb">
+      <DependentUpon>UpdateSSN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSSN.aspx.vb">
+      <DependentUpon>UpdateSSN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateTrackingNumber.aspx.designer.vb">
+      <DependentUpon>UpdateTrackingNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateTrackingNumber.aspx.vb">
+      <DependentUpon>UpdateTrackingNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnFundingTransmittalForm.aspx.vb">
+      <DependentUpon>UnFundingTransmittalForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateAddressDetails.aspx.vb">
+      <DependentUpon>UpdateAddressDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateBankInfo.aspx.vb">
+      <DependentUpon>UpdateBankInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateBankInformationWebForm.aspx.vb">
+      <DependentUpon>UpdateBankInformationWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateBeneficiaries.aspx.vb">
+      <DependentUpon>UpdateBeneficiaries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateCheckCashDate.aspx.vb">
+      <DependentUpon>UpdateCheckCashDate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateFedWithHoldingInfo.aspx.vb">
+      <DependentUpon>UpdateFedWithHoldingInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateGenHoldings.aspx.vb">
+      <DependentUpon>UpdateGenHoldings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateNotes.aspx.vb">
+      <DependentUpon>UpdateNotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateParticipantEmploymentService.aspx.vb">
+      <DependentUpon>UpdateParticipantEmploymentService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\AddressUserControl.ascx.designer.vb">
+      <DependentUpon>AddressUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AddressUserControl.ascx.vb">
+      <DependentUpon>AddressUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\AddressUserControl_new.ascx.designer.vb">
+      <DependentUpon>AddressUserControl_new.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AddressUserControl_new.ascx.vb">
+      <DependentUpon>AddressUserControl_new.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\AddressWebUserControl.ascx.vb">
+      <DependentUpon>AddressWebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\BatchProcessProgressControl.ascx.designer.vb">
+      <DependentUpon>BatchProcessProgressControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BatchProcessProgressControl.ascx.vb">
+      <DependentUpon>BatchProcessProgressControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\BatchProcessProgressUCWebMethods.aspx.designer.vb">
+      <DependentUpon>BatchProcessProgressUCWebMethods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BatchProcessProgressUCWebMethods.aspx.vb">
+      <DependentUpon>BatchProcessProgressUCWebMethods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\DataGridPager.ascx.vb">
+      <DependentUpon>DataGridPager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\DateUserControl.ascx.vb">
+      <DependentUpon>DateUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Enhance_AddressWebUserControl.ascx.vb">
+      <DependentUpon>Enhance_AddressWebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\NewAddressUserControl.ascx.designer.vb">
+      <DependentUpon>NewAddressUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NewAddressUserControl.ascx.vb">
+      <DependentUpon>NewAddressUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\RolloverInstitution.ascx.designer.vb">
+      <DependentUpon>RolloverInstitution.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RolloverInstitution.ascx.vb">
+      <DependentUpon>RolloverInstitution.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\StateWithholdingListingControl.ascx.designer.vb">
+      <DependentUpon>StateWithholdingListingControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\StateWithholdingListingControl.ascx.vb">
+      <DependentUpon>StateWithholdingListingControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Telephone_WebUserControl.ascx.designer.vb">
+      <DependentUpon>Telephone_WebUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Telephone_WebUserControl.ascx.vb">
+      <DependentUpon>Telephone_WebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\VoidDisbursement.ascx.vb">
+      <DependentUpon>VoidDisbursement.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\VoidUserControl.ascx.vb">
+      <DependentUpon>VoidUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\YmcaDataGrid.vb" />
+    <Compile Include="UserControls\YMCA_Footer_WebUserControl.ascx.vb">
+      <DependentUpon>YMCA_Footer_WebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\YMCA_Header_WebUserControl.ascx.designer.vb">
+      <DependentUpon>YMCA_Header_WebUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\YMCA_Header_WebUserControl.ascx.vb">
+      <DependentUpon>YMCA_Header_WebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\YMCA_Toolbar_WebUserControl.ascx.vb">
+      <DependentUpon>YMCA_Toolbar_WebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserGroupAdministration.aspx.vb">
+      <DependentUpon>UserGroupAdministration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMembership.aspx.vb">
+      <DependentUpon>UserMembership.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPermissionExceptions.aspx.vb">
+      <DependentUpon>UserPermissionExceptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPermissions.aspx.vb">
+      <DependentUpon>UserPermissions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserProperties.aspx.vb">
+      <DependentUpon>UserProperties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserSession.aspx.designer.vb">
+      <DependentUpon>UserSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserSession.aspx.vb">
+      <DependentUpon>UserSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VDReplaceDisbursements.aspx.vb">
+      <DependentUpon>VDReplaceDisbursements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VoidAndTransferAnnuity.aspx.designer.vb">
+      <DependentUpon>VoidAndTransferAnnuity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VoidAndTransferAnnuity.aspx.vb">
+      <DependentUpon>VoidAndTransferAnnuity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VoidAndTransferAnnuity_SearchBeneficiary.aspx.designer.vb">
+      <DependentUpon>VoidAndTransferAnnuity_SearchBeneficiary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VoidAndTransferAnnuity_SearchBeneficiary.aspx.vb">
+      <DependentUpon>VoidAndTransferAnnuity_SearchBeneficiary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VoidDisbursementReplaceManager.aspx.vb">
+      <DependentUpon>VoidDisbursementReplaceManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VoidDisbursementReverseManager.aspx.vb">
+      <DependentUpon>VoidDisbursementReverseManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VoidDisbursementVRManager.aspx.vb">
+      <DependentUpon>VoidDisbursementVRManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web References\YRSDMService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\YRSWebService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="YMCAAddressWebForm.aspx.vb">
+      <DependentUpon>YMCAAddressWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YMCAMetrowebForm.aspx.vb">
+      <DependentUpon>YMCAMetrowebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YMCANetWebForm.aspx.vb">
+      <DependentUpon>YMCANetWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YMCATelephoneWebForm.aspx.vb">
+      <DependentUpon>YMCATelephoneWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YMCAWebForm.aspx.vb">
+      <DependentUpon>YMCAWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YRSErrorForm.aspx.vb">
+      <DependentUpon>YRSErrorForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YRSLandingPage.aspx.designer.vb">
+      <DependentUpon>YRSLandingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YRSLandingPage.aspx.vb">
+      <DependentUpon>YRSLandingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccountTypesForm.aspx.resx">
+      <DependentUpon>AccountTypesForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACHDebitExportForm.aspx.resx">
+      <DependentUpon>ACHDebitExportForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACHDebitExportUpdateForm.aspx.resx">
+      <DependentUpon>ACHDebitExportUpdateForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACHDebitImportForm.aspx.resx">
+      <DependentUpon>ACHDebitImportForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACHDebitReceiptApplicationForm.aspx.resx">
+      <DependentUpon>ACHDebitReceiptApplicationForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAdditionalAccounts.aspx.resx">
+      <DependentUpon>AddAdditionalAccounts.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddBeneficiary.aspx.resx">
+      <DependentUpon>AddBeneficiary.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddContactWebForm.aspx.resx">
+      <DependentUpon>AddContactWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEditQDRO.aspx.resx">
+      <DependentUpon>AddEditQDRO.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployment.aspx.resx">
+      <DependentUpon>AddEmployment.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNotes.aspx.resx">
+      <DependentUpon>AddNotes.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOfficerWebForm.aspx.resx">
+      <DependentUpon>AddOfficerWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddResolutionWebForm.aspx.resx">
+      <DependentUpon>AddResolutionWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSessionManagement.aspx.resx">
+      <DependentUpon>AdminSessionManagement.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnnuityBasisTypes.aspx.resx">
+      <DependentUpon>AnnuityBasisTypes.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="App_GlobalResources\AddAdditionalAccounts.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AddAdditionalAccounts.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\RegenerateRMDMessage.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RegenerateRMDMessage.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\RetirementBatchEstimateMessages.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RetirementBatchEstimateMessages.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\ParticipantsInformation.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ParticipantsInformation.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\NonRetiredQDRO.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>NonRetiredQDRO.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\RetirementMessages.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RetirementMessages.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Updatenotes.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Updatenotes.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\withholding.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>withholding.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\TerminationWatcher.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>TerminationWatcher.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\CashoutRefundMessage.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CashoutRefundMessage.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\DeathMessages.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>DeathMessages.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\CashApplication.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CashApplication.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\RetiredQDRO.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RetiredQDRO.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\RollIn.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RollIn.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\LoginMessages.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LoginMessages.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Withdrawal.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Withdrawal.designer.vb</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="BeneficiaryInformation.aspx.resx">
+      <DependentUpon>BeneficiaryInformation.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeneficiarySettlementForm.aspx.resx">
+      <DependentUpon>BeneficiarySettlementForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashApplication.aspx.resx">
+      <DependentUpon>CashApplication.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashOut.aspx.resx">
+      <DependentUpon>CashOut.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashReceiptsEntryForm.aspx.resx">
+      <DependentUpon>CashReceiptsEntryForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseAnnuityForm.aspx.resx">
+      <DependentUpon>ChooseAnnuityForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyFilesUtilityForm.aspx.resx">
+      <DependentUpon>CopyFilesUtilityForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyInterest.aspx.resx">
+      <DependentUpon>DailyInterest.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataArchive.aspx.resx">
+      <DependentUpon>DataArchive.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeathBenefitsCalculatorForm.aspx.resx">
+      <DependentUpon>DeathBenefitsCalculatorForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeferredPayment.aspx.resx">
+      <DependentUpon>DeferredPayment.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeferredPaymentDetail.aspx.resx">
+      <DependentUpon>DeferredPaymentDetail.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelinquencyLettersForm.aspx.resx">
+      <DependentUpon>DelinquencyLettersForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisburesementWithHolding.aspx.resx">
+      <DependentUpon>DisburesementWithHolding.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisbursementsBreakDown.aspx.resx">
+      <DependentUpon>DisbursementsBreakDown.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisbursementsReissue.aspx.resx">
+      <DependentUpon>DisbursementsReissue.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisbursementsReversal.aspx.resx">
+      <DependentUpon>DisbursementsReversal.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisbursementsRevese.aspx.resx">
+      <DependentUpon>DisbursementsRevese.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisbursementTypeWebForm.aspx.resx">
+      <DependentUpon>DisbursementTypeWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDIExclusionList.aspx.resx">
+      <DependentUpon>EDIExclusionList.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDIOutsourceCheckPrintingForm.aspx.resx">
+      <DependentUpon>EDIOutsourceCheckPrintingForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeEventsWebForm.aspx.resx">
+      <DependentUpon>EmployeeEventsWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorForSession.aspx.resx">
+      <DependentUpon>ErrorForSession.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorPageForm.aspx.resx">
+      <DependentUpon>ErrorPageForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindInfo.aspx.resx">
+      <DependentUpon>FindInfo.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FT\CopyFilestoFileServer.aspx.resx">
+      <DependentUpon>CopyFilestoFileServer.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FT\RefundReportViewer.aspx.resx">
+      <DependentUpon>RefundReportViewer.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FT\ReportPrinter.aspx.resx">
+      <DependentUpon>ReportPrinter.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FT\ReportViewer.aspx.resx">
+      <DependentUpon>ReportViewer.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FT\ReportViewer_1.aspx.resx">
+      <DependentUpon>ReportViewer_1.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FT\ReportViewer_2.aspx.resx">
+      <DependentUpon>ReportViewer_2.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FT\ReportViewer_3.aspx.resx">
+      <DependentUpon>ReportViewer_3.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FT\ReportViewer_4.aspx.resx">
+      <DependentUpon>ReportViewer_4.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FT\ReportViewer_5.aspx.resx">
+      <DependentUpon>ReportViewer_5.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FundEventStatusForm.aspx.resx">
+      <DependentUpon>FundEventStatusForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerateError.aspx.resx">
+      <DependentUpon>GenerateError.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupMembers.aspx.resx">
+      <DependentUpon>GroupMembers.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupProperties.aspx.resx">
+      <DependentUpon>GroupProperties.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterestProcessing.aspx.resx">
+      <DependentUpon>InterestProcessing.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterestProcessingStart.aspx.resx">
+      <DependentUpon>InterestProcessingStart.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterestRatesWebForm.aspx.resx">
+      <DependentUpon>InterestRatesWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanInformation.aspx.resx">
+      <DependentUpon>LoanInformation.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanOptions.aspx.resx">
+      <DependentUpon>LoanOptions.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanProcessing.aspx.resx">
+      <DependentUpon>LoanProcessing.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanRequest.aspx.resx">
+      <DependentUpon>LoanRequest.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LockBoxErrorForm.aspx.resx">
+      <DependentUpon>LockBoxErrorForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LockBoxExportToExcel.aspx.resx">
+      <DependentUpon>LockBoxExportToExcel.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.aspx.resx">
+      <DependentUpon>Login.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logout.aspx.resx">
+      <DependentUpon>Logout.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LookupsMaintenance.aspx.resx">
+      <DependentUpon>LookupsMaintenance.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWebForm.aspx.resx">
+      <DependentUpon>MainWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManualTransactions.aspx.resx">
+      <DependentUpon>ManualTransactions.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetaAnnuityTypesMain.aspx.resx">
+      <DependentUpon>MetaAnnuityTypesMain.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetaConfigMaintenance.aspx.resx">
+      <DependentUpon>MetaConfigMaintenance.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetaCountryTypeMain.aspx.resx">
+      <DependentUpon>MetaCountryTypeMain.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetaErrorCodesMaintenanceWebForm.aspx.resx">
+      <DependentUpon>MetaErrorCodesMaintenanceWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetaPositionsMaintenance.aspx.resx">
+      <DependentUpon>MetaPositionsMaintenance.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetaProjectedInterest.aspx.resx">
+      <DependentUpon>MetaProjectedInterest.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetaSafeHarborFactorsWebForm.aspx.resx">
+      <DependentUpon>MetaSafeHarborFactorsWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetaVestingTypeCode.aspx.resx">
+      <DependentUpon>MetaVestingTypeCode.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthlyExpDividend.aspx.resx">
+      <DependentUpon>MonthlyExpDividend.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthlyPayrollRevised.aspx.resx">
+      <DependentUpon>MonthlyPayrollRevised.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NonRetiredQDRO.aspx.resx">
+      <DependentUpon>NonRetiredQDRO.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotesMasterWebForm.aspx.resx">
+      <DependentUpon>NotesMasterWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParticipantsInformation.aspx.resx">
+      <DependentUpon>ParticipantsInformation.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentManager.aspx.resx">
+      <DependentUpon>PaymentManager.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpCaller.aspx.resx">
+      <DependentUpon>PopUpCaller.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreNotification.aspx.resx">
+      <DependentUpon>PreNotification.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RefundProcessing_C19.aspx.resx">
+      <DependentUpon>RefundProcessing_C19.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Auto_Loan_Closed.rdlc" />
+    <EmbeddedResource Include="Reports\Auto_Loan_Default.rdlc" />
+    <EmbeddedResource Include="Reports\DAR_File_Import.rdlc" />
+    <EmbeddedResource Include="Reports\ReverseFeed_File_Import.rdlc" />
+    <EmbeddedResource Include="Reports\WebLoanList.rdlc" />
+    <EmbeddedResource Include="Reports\Loan_Default.rdlc" />
+    <EmbeddedResource Include="Reports\Auto_Loan_Offset.rdlc" />
+    <EmbeddedResource Include="Reports\Loan_Offset_Default_Aging.rdlc" />
+    <EmbeddedResource Include="Reports\Loan_Unfreeze_Phantom_Interest.rdlc" />
+    <EmbeddedResource Include="Reports\Processed Disbursement Report.rdlc" />
+    <EmbeddedResource Include="Reports\RMD Report.rdlc" />
+    <EmbeddedResource Include="ReceiptsLockBoxImportForm.aspx.resx">
+      <DependentUpon>ReceiptsLockBoxImportForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RefundBeneficiary.aspx.resx">
+      <DependentUpon>RefundBeneficiary.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RefundProcessing.aspx.resx">
+      <DependentUpon>RefundProcessing.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RefundRequestForm.aspx.resx">
+      <DependentUpon>RefundRequestForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RefundRequestWebForm.aspx.resx">
+      <DependentUpon>RefundRequestWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReissueRefundForm.aspx.resx">
+      <DependentUpon>ReissueRefundForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Resources\NonRetiredQDRO.resx" />
+    <None Include="Resources\RegenerateRMDMessage.resx" />
+    <EmbeddedResource Include="Reports\RMDBatchProcessNonEligibleList.rdlc" />
+    <EmbeddedResource Include="Reports\RMDSpecialQDFollowupLetterList.rdlc" />
+    <EmbeddedResource Include="Reports\RMDSpecialQDInitialLetterList.rdlc" />
+    <EmbeddedResource Include="Reports\RMDReminderToNonRespondentList.rdlc" />
+    <EmbeddedResource Include="Reports\RMDReminderToAnnualElectionList.rdlc" />
+    <EmbeddedResource Include="Reports\Roll In Reminder List.rdlc" />
+    <EmbeddedResource Include="Reports\RMDBatchProcessPrintLetterList.rdlc" />
+    <EmbeddedResource Include="Reports\RMDPrintLetterList.rdlc" />
+    <EmbeddedResource Include="Reports\WaivedParticipants.rdlc" />
+    <EmbeddedResource Include="RetiredQDRO.aspx.resx">
+      <DependentUpon>RetiredQDRO.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetireesDeathDatesWebForm.aspx.resx">
+      <DependentUpon>RetireesDeathDatesWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetireesFrmMoverWebForm.aspx.resx">
+      <DependentUpon>RetireesFrmMoverWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetireesInformationWebForm.aspx.resx">
+      <DependentUpon>RetireesInformationWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetireesPowerAttorneyWebForm.aspx.resx">
+      <DependentUpon>RetireesPowerAttorneyWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetirementEstimateWebForm.aspx.resx">
+      <DependentUpon>RetirementEstimateWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetirementProcessingForm.aspx.resx">
+      <DependentUpon>RetirementProcessingForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RolloverReceiptsPopup.aspx.resx">
+      <DependentUpon>RolloverReceiptsPopup.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SafeHarbor.aspx.resx">
+      <DependentUpon>SafeHarbor.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchContact.aspx.resx">
+      <DependentUpon>SearchContact.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchOfficer.aspx.resx">
+      <DependentUpon>SearchOfficer.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecuredControls.aspx.resx">
+      <DependentUpon>SecuredControls.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecurityCheck.aspx.resx">
+      <DependentUpon>SecurityCheck.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecurityReports.aspx.resx">
+      <DependentUpon>SecurityReports.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectBank.aspx.resx">
+      <DependentUpon>SelectBank.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectTitle.aspx.resx">
+      <DependentUpon>SelectTitle.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectYmca.aspx.resx">
+      <DependentUpon>SelectYmca.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectYmcaBranch.aspx.resx">
+      <DependentUpon>SelectYmcaBranch.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAnnuityDetails.aspx.resx">
+      <DependentUpon>ShowAnnuityDetails.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowBalancesQDRONonRetired.aspx.resx">
+      <DependentUpon>ShowBalancesQDRONonRetired.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowBalancesQDRORetired.aspx.resx">
+      <DependentUpon>ShowBalancesQDRORetired.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowHistory.aspx.resx">
+      <DependentUpon>ShowHistory.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecialDividendRates.aspx.resx">
+      <DependentUpon>SpecialDividendRates.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplitFundsforSettlement.aspx.resx">
+      <DependentUpon>SplitFundsforSettlement.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusPageForm.aspx.resx">
+      <DependentUpon>StatusPageForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnFundingTransmittalForm.aspx.resx">
+      <DependentUpon>UnFundingTransmittalForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateAddressDetails.aspx.resx">
+      <DependentUpon>UpdateAddressDetails.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateBankInfo.aspx.resx">
+      <DependentUpon>UpdateBankInfo.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateBankInformationWebForm.aspx.resx">
+      <DependentUpon>UpdateBankInformationWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateBeneficiaries.aspx.resx">
+      <DependentUpon>UpdateBeneficiaries.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateCheckCashDate.aspx.resx">
+      <DependentUpon>UpdateCheckCashDate.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateFedWithHoldingInfo.aspx.resx">
+      <DependentUpon>UpdateFedWithHoldingInfo.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateGenHoldings.aspx.resx">
+      <DependentUpon>UpdateGenHoldings.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateNotes.aspx.resx">
+      <DependentUpon>UpdateNotes.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateParticipantEmploymentService.aspx.resx">
+      <DependentUpon>UpdateParticipantEmploymentService.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\AddressWebUserControl.ascx.resx">
+      <DependentUpon>AddressWebUserControl.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DataGridPager.ascx.resx">
+      <DependentUpon>DataGridPager.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DateUserControl.ascx.resx">
+      <DependentUpon>DateUserControl.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Enhance_AddressWebUserControl.ascx.resx">
+      <DependentUpon>Enhance_AddressWebUserControl.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\VoidDisbursement.ascx.resx">
+      <DependentUpon>VoidDisbursement.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\VoidUserControl.ascx.resx">
+      <DependentUpon>VoidUserControl.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\YMCA_Footer_WebUserControl.ascx.resx">
+      <DependentUpon>YMCA_Footer_WebUserControl.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\YMCA_Toolbar_WebUserControl.ascx.resx">
+      <DependentUpon>YMCA_Toolbar_WebUserControl.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserGroupAdministration.aspx.resx">
+      <DependentUpon>UserGroupAdministration.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMembership.aspx.resx">
+      <DependentUpon>UserMembership.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPermissionExceptions.aspx.resx">
+      <DependentUpon>UserPermissionExceptions.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPermissions.aspx.resx">
+      <DependentUpon>UserPermissions.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserProperties.aspx.resx">
+      <DependentUpon>UserProperties.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VDReplaceDisbursements.aspx.resx">
+      <DependentUpon>VDReplaceDisbursements.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoidDisbursementReplaceManager.aspx.resx">
+      <DependentUpon>VoidDisbursementReplaceManager.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoidDisbursementReverseManager.aspx.resx">
+      <DependentUpon>VoidDisbursementReverseManager.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoidDisbursementVRManager.aspx.resx">
+      <DependentUpon>VoidDisbursementVRManager.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YMCAAddressWebForm.aspx.resx">
+      <DependentUpon>YMCAAddressWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YMCAMetrowebForm.aspx.resx">
+      <DependentUpon>YMCAMetrowebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YMCANetWebForm.aspx.resx">
+      <DependentUpon>YMCANetWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YMCATelephoneWebForm.aspx.resx">
+      <DependentUpon>YMCATelephoneWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YMCAWebForm.aspx.resx">
+      <DependentUpon>YMCAWebForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YRSErrorForm.aspx.resx">
+      <DependentUpon>YRSErrorForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cachingconfiguration.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="dataconfiguration.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="exceptionhandlingconfiguration.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="FT\Web.config" />
+    <Content Include="loggingconfiguration.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="loggingdistributorconfiguration.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="PopCalendar\Thumbs.db" />
+    <None Include="Reports\12th business day letter.rpt" />
+    <None Include="Reports\14th business day letter.rpt" />
+    <None Include="Reports\16th business day letter - Employee.rpt" />
+    <None Include="Reports\16th business day letter - Employer.rpt" />
+    <None Include="Reports\16th business day letter.rpt" />
+    <None Include="Reports\9th business day letter.rpt" />
+    <None Include="Reports\AccouTobeChanged.rpt" />
+    <None Include="Reports\Active Default Letter.rpt" />
+    <None Include="Reports\birefltr.rpt" />
+    <None Include="Reports\Cash Out.rpt" />
+    <None Include="Reports\DeathBenefitOptions.rpt" />
+    <None Include="Reports\DeferredAssociationAnnuityAgreementForm.rpt" />
+    <None Include="Reports\Delinquency List.rpt" />
+    <None Include="Reports\DelinquencyReport.rpt" />
+    <None Include="Reports\Disbursement Request.rpt" />
+    <None Include="Reports\First Annuity Checks Request.rpt" />
+    <None Include="Reports\HardshipWithdrawalofTDForm.rpt" />
+    <None Include="Reports\HWL_4_TDOnly.rpt" />
+    <None Include="Reports\HWL_5_TDAndOtherAcc.rpt" />
+    <None Include="Reports\Loan Letter to Association.rpt" />
+    <None Include="Reports\Loan Letter to Participant.rpt" />
+    <None Include="Reports\Loan Reamortization Letters.rpt" />
+    <None Include="Reports\Loan Satisfied-PA.rpt" />
+    <None Include="Reports\Loan Satisfied-part.rpt" />
+    <None Include="Reports\Loan Summary.rpt" />
+    <None Include="Reports\Loan_Suspension_Ltr_to_LPA-COVID-19.rpt" />
+    <None Include="Reports\Loan_Suspension_Ltr_to_Part-COVID-19.rpt" />
+    <None Include="Reports\Military-PA.rpt" />
+    <None Include="Reports\Military-part.rpt" />
+    <None Include="Reports\Pre-Notification.rpt" />
+    <None Include="Reports\Pre-RetirementDeathBenefitsClaimForm.rpt" />
+    <None Include="Reports\ReleaseBlank.rpt" />
+    <None Include="Reports\ReleaseBlank1kto5k.rpt" />
+    <None Include="Reports\ReleaseBlankLess1K.rpt" />
+    <None Include="Reports\ReleaseBlankOver5k.rpt" />
+    <None Include="Reports\RetireeDeathBenefitsClaimForm.rpt" />
+    <None Include="Reports\RL_2_FullorPartialRefund.rpt" />
+    <None Include="Reports\RL_3_FullPIAOver15000.rpt" />
+    <None Include="Reports\RL_6a_Over70PIAOver15000.rpt" />
+    <None Include="Reports\RL_6c_Over70PIAUnder5000.rpt" />
+    <None Include="Reports\YMCA ACH Report.rpt" />
+    <None Include="Reports\YRSParticipantHistoryReportBySSNo.rpt" />
+    <None Include="Reports\RMDSpecialQDFollowupLetter.rpt" />
+    <None Include="Reports\RMDSpecialQDInitialLetter.rpt" />
+    <None Include="Reports\RMDReminderToAnnualElection.rpt" />
+    <None Include="Reports\RMDReminderToNonRespondent.rpt" />
+    <None Include="Web References\YRSWebService\YRSWithdrawalService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="PopCalendar\CSS\Small_Images\" />
+    <Folder Include="WEBCTRL_CLIENT\1_0_1\images\_vti_cnf\" />
+    <Folder Include="WEBCTRL_CLIENT\1_0_1\treeimages\rtl\_vti_cnf\" />
+    <Folder Include="WEBCTRL_CLIENT\1_0_1\treeimages\_vti_cnf\" />
+    <Folder Include="WEBCTRL_CLIENT\1_0_1\_vti_cnf\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YMCABusinessObject\YRSBusinessObject.csproj">
+      <Project>{766e471f-e56d-40a8-8344-231ca84e31e4}</Project>
+      <Name>YRSBusinessObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YMCAModules\YRSModules.csproj">
+      <Project>{7bd532d3-307c-4ec4-aeeb-2e1c60d1da1d}</Project>
+      <Name>YRSModules</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YMCAObjects\YRSObjects.csproj">
+      <Project>{24cf89c0-8b7a-4f03-8c00-844de7341380}</Project>
+      <Name>YRSObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://10.1.48.182/YRSService_E08_DEV/YRSWithdrawalService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\YRSWebService\</RelPath>
+      <UpdateFromURL>http://10.1.48.182/YRSService_E08_DEV/YRSWithdrawalService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>YMCAUI_YRSWebService_YRSWithdrawalService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:35605/YRSDMService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\YRSDMService\</RelPath>
+      <UpdateFromURL>http://localhost:35605/YRSDMService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>YMCAUI_YRSDMService_YRSDMService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(SolutionDir)\packages\MSBuild.Microsoft.VisualStudio.Web.targets.14.0.0\tools\VSToolsPath\WebApplications\Microsoft.WebApplication.targets" Condition="('$(VSToolsPath)' == '' Or !Exists('$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets')) And Exists('$(SolutionDir)\packages\MSBuild.Microsoft.VisualStudio.Web.targets.14.0.0\tools\VSToolsPath\WebApplications\Microsoft.WebApplication.targets')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>4247</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:4287/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MSBuild.Microsoft.VisualStudio.Web.targets.14.0.0.3\build\MSBuild.Microsoft.VisualStudio.Web.targets.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuild.Microsoft.VisualStudio.Web.targets.14.0.0.3\build\MSBuild.Microsoft.VisualStudio.Web.targets.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

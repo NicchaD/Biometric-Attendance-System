@@ -1,0 +1,2255 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.3.0.0",
+        "fileVersion": "4.3.0-3.22423.10 (b35bb0ba)",
+        "semanticVersion": "4.3.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/CacheManager.cs",
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 21,
+                  "endLine": 162,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/CommonClass/CommonClass.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 9,
+                  "endLine": 41,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/CommonClass/CommonClass.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 25,
+                  "endLine": 100,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/DCTools/ReverseAnnuity.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 9,
+                  "endLine": 30,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/MetaMessageList.cs",
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 82,
+                  "endLine": 214,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/MetaMessageList.cs",
+                "region": {
+                  "startLine": 215,
+                  "startColumn": 79,
+                  "endLine": 215,
+                  "endColumn": 86
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/MetaMessageList.cs",
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 82,
+                  "endLine": 216,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/MetaMessageList.cs",
+                "region": {
+                  "startLine": 250,
+                  "startColumn": 9,
+                  "endLine": 250,
+                  "endColumn": 94
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/MetaMessageList.cs",
+                "region": {
+                  "startLine": 593,
+                  "startColumn": 9,
+                  "endLine": 593,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/RMDModule.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 1,
+                  "endLine": 6,
+                  "endColumn": 152
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/YMCAActionEntry.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 9,
+                  "endLine": 22,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/YMCAEventArguments/PINVerificationEventArgs.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 9,
+                  "endLine": 19,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'YMCARemainingDeathBenefitAmount' to match pascal case naming rules, consider using 'YmcaRemainingDeathBenefitAmount'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/DCTools/YMCARemainingDeathBenefitAmount.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 18,
+                  "endLine": 25,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'YMCACredit' to match pascal case naming rules, consider using 'YmcaCredit'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/DCTools/YMCACredit.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 18,
+                  "endLine": 21,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2342",
+          "level": "warning",
+          "message": "Rename this enumeration to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EnumTypes.cs",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 17,
+                  "endLine": 144,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'IDMDocumentCodes' to match pascal case naming rules, consider using 'IdmDocumentCodes'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EnumTypes.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 25,
+                  "endLine": 46,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 30,
+                  "endLine": 26,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 30,
+                  "endLine": 28,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 30,
+                  "endLine": 27,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 30,
+                  "endLine": 30,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 30,
+                  "endLine": 31,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'APPROVED' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 30,
+                  "endLine": 26,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 30,
+                  "endLine": 32,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'DECLINED' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 30,
+                  "endLine": 28,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 30,
+                  "endLine": 33,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 30,
+                  "endLine": 25,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'CANCEL' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 30,
+                  "endLine": 27,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'PAID' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 30,
+                  "endLine": 30,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 30,
+                  "endLine": 29,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'PEND' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 30,
+                  "endLine": 31,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'REJECTED' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 30,
+                  "endLine": 32,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'WITHDRAWN' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 30,
+                  "endLine": 33,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'ACCEPTED' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 30,
+                  "endLine": 25,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'EXP' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 30,
+                  "endLine": 29,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 30,
+                  "endLine": 34,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 30,
+                  "endLine": 35,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 30,
+                  "endLine": 38,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'DISB' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 30,
+                  "endLine": 34,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 30,
+                  "endLine": 37,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'PROOF' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 30,
+                  "endLine": 35,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'UNFREEZE' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 30,
+                  "endLine": 38,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'FREEZE' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/LoanStatus.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 30,
+                  "endLine": 37,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'RMDModule' to match pascal case naming rules, consider using 'RmdModule'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/RMDModule.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 11,
+                  "endLine": 16,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'RMDPrintLetters' to match pascal case naming rules, consider using 'RmdPrintLetters'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/RMDModule.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 18,
+                  "endLine": 21,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 20,
+                  "endLine": 24,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 23,
+                  "endLine": 61,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 23,
+                  "endLine": 37,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 23,
+                  "endLine": 85,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 23,
+                  "endLine": 121,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 23,
+                  "endLine": 109,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 23,
+                  "endLine": 49,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 23,
+                  "endLine": 97,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 23,
+                  "endLine": 73,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 23,
+                  "endLine": 145,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 38,
+                  "endLine": 169,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 21,
+                  "endLine": 133,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/EmailTemplate.cs",
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 21,
+                  "endLine": 157,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'YMCAActionEntry' to match pascal case naming rules, consider using 'YmcaActionEntry'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/YMCAActionEntry.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 18,
+                  "endLine": 16,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename struct 'ActionYRSActivityLog' to match pascal case naming rules, consider using 'ActionYrsActivityLog'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/YMCAActionEntry.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 19,
+                  "endLine": 51,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2342",
+          "level": "warning",
+          "message": "Rename this enumeration to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/YMCAActionEntry.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 17,
+                  "endLine": 42,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2342",
+          "level": "warning",
+          "message": "Rename this enumeration to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/YMCAActionEntry.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 17,
+                  "endLine": 36,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PaymentMethod.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 30,
+                  "endLine": 27,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'CHECK' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PaymentMethod.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 30,
+                  "endLine": 27,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PaymentMethod.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 30,
+                  "endLine": 28,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'EFT' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PaymentMethod.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 30,
+                  "endLine": 28,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PaymentMethod.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 30,
+                  "endLine": 29,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'APPROVED_EFT' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PaymentMethod.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 30,
+                  "endLine": 29,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PaymentMethod.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 18,
+                  "endLine": 25,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'dCachePeriod' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/CacheManager.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 20,
+                  "endLine": 32,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PINVerificationEventArgs' to match pascal case naming rules, consider using 'PinVerificationEventArgs'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/YMCAEventArguments/PINVerificationEventArgs.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 18,
+                  "endLine": 15,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'YMCAEventArgs' to match pascal case naming rules, consider using 'YmcaEventArgs'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/YMCAEventArguments/YMCAEventArgs.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 27,
+                  "endLine": 8,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_sw' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 27,
+                  "endLine": 21,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_perfMessages' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 30,
+                  "endLine": 22,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_infoMessages' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 30,
+                  "endLine": 23,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_title' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 24,
+                  "endLine": 24,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_writer' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 27,
+                  "endLine": 25,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_eventLogEnabled' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 22,
+                  "endLine": 27,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/ReturnObject.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 18,
+                  "endLine": 29,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3881",
+          "level": "warning",
+          "message": "Fix this implementation of 'IDisposable' to conform to the dispose pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 18,
+                  "endLine": 19,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 18,
+                  "endLine": 19,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 21,
+                  "endLine": 72,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Provide 'protected' overridable implementation of 'Dispose(bool)' on 'PerformanceTracer' or mark the type as 'sealed'.",
+              "1": "'PerformanceTracer.Dispose()' should call 'Dispose(true)' and 'GC.SuppressFinalize(this)'."
+            }
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'private' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/YMCAEvents/YMCAEvents.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 25,
+                  "endLine": 8,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'YMCAEvents' to match pascal case naming rules, consider using 'YmcaEvents'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/YMCAEvents/YMCAEvents.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 25,
+                  "endLine": 8,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2342",
+          "level": "warning",
+          "message": "Rename this enumeration to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/CommonClass/CommonClass.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 21,
+                  "endLine": 115,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'YMCAEventDelegates' to match pascal case naming rules, consider using 'YmcaEventDelegates'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/YMCAEvents/YMCAEventDelegates.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/CommonClass/CommonClass.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 13,
+                  "endLine": 59,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/CommonClass/CommonClass.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 13,
+                  "endLine": 111,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'key' to 'removedKey' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/CacheManager.cs",
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 40,
+                  "endLine": 149,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 13,
+                  "endLine": 48,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'Operation name can't be null or empty when instantiating the Performance Tracer' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 23,
+                  "endLine": 36,
+                  "endColumn": 131
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'stTitle' to 'title' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 38,
+                  "endLine": 68,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'stMessage' to 'message' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 54,
+                  "endLine": 68,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'stTitle' to 'title' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 45,
+                  "endLine": 55,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'stMessage' to 'message' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 61,
+                  "endLine": 55,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/CommonClass/CommonClass.cs",
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 13,
+                  "endLine": 179,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAObjects/PerformanceTracer.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 19,
+                  "endLine": 48,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S108": {
+          "id": "S108",
+          "shortDescription": "Nested blocks of code should not be left empty",
+          "fullDescription": "Most of the time a block of code is empty when a piece of code is really missing. So such empty block must be either filled or removed.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-108",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1104": {
+          "id": "S1104",
+          "shortDescription": "Fields should not have public accessibility",
+          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S2223": {
+          "id": "S2223",
+          "shortDescription": "Non-constant static fields should not be visible",
+          "fullDescription": "A static field that is neither constant nor read-only is not thread-safe. Correctly accessing these fields from different threads needs synchronization with locks. Improper synchronization may lead to unexpected results, thus publicly visible static fields are best suited for storing non-changing data shared by many consumers. To enforce this intent, these fields should be marked readonly or converted to constants.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2223",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S2292": {
+          "id": "S2292",
+          "shortDescription": "Trivial properties should be auto-implemented",
+          "fullDescription": "Trivial properties, which include no logic but setting and getting a backing field should be converted to auto-implemented properties, yielding cleaner and more readable code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2292",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S2342": {
+          "id": "S2342",
+          "shortDescription": "Enumeration types should comply with a naming convention",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks that all enum names match a provided regular expression.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2342",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S2486": {
+          "id": "S2486",
+          "shortDescription": "Generic exceptions should not be ignored",
+          "fullDescription": "When exceptions occur, it is usually a bad idea to simply ignore them. Instead, it is better to handle them properly, or at least to log them.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2486",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S2737": {
+          "id": "S2737",
+          "shortDescription": "\"catch\" clauses should do more than rethrow",
+          "fullDescription": "A catch clause that only rethrows the caught exception has the same effect as omitting the catch altogether and letting it bubble up automatically, but with more code and the additional detriment of leaving maintainers scratching their heads. ",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2737",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that's not marked readonly but is only set in the constructor, it could cause confusion about the field's intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S3881": {
+          "id": "S3881",
+          "shortDescription": "\"IDisposable\" should be implemented correctly",
+          "fullDescription": "The IDisposable interface is a mechanism to release unmanaged resources, if not implemented correctly this could result in resource leaks or more severe bugs.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3881",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S3928": {
+          "id": "S3928",
+          "shortDescription": "Parameter names used into ArgumentException constructors should match an existing one ",
+          "fullDescription": "Some constructors of the ArgumentException, ArgumentNullException, ArgumentOutOfRangeException and DuplicateWaitObjectException classes must be fed with a valid parameter name. This rule raises an issue in two cases:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3928",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "The name of a parameter in an externally visible. This rule raises an issue when method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

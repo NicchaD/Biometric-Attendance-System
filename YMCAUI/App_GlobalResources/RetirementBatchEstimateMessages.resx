@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ADD_LIST" xml:space="preserve">
+    <value>Please select at least one record to add</value>
+    <comment>This is used to display when use clicks add to list without selecting any record.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ADD_LIST_SUCCESS" xml:space="preserve">
+    <value>Added to list</value>
+    <comment>This is used to display when user clicks on add to list button</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ANNUTITY_BOTH" xml:space="preserve">
+    <value>Annuity Estimate based on both Retirement Plan and Savings Plan.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ANNUTITY_RETIREMENT" xml:space="preserve">
+    <value>Annuity Estimate based on Retirement Plan only.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ANNUTITY_SAVINGS" xml:space="preserve">
+    <value>Annuity Estimate based on Savings Plan only.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ASSUMPTION_EMPTY" xml:space="preserve">
+    <value>Assumption: Please enter the value in assumption box</value>
+    <comment>This is used to display when user left assumption field blank.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_ASSUMPTION_LENGTH" xml:space="preserve">
+    <value>Assumption: Should not be more than {0} character(s)</value>
+    <comment>This is used to display when user enter more than liimit defined in max property of assumption's textbox in parameter tab</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_CLEAR_LIST" xml:space="preserve">
+    <value>List removed from database</value>
+    <comment>This is used to display when user clicks on clear list button on parameter tab.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_CLEAR_PARTICIPANTS" xml:space="preserve">
+    <value>This will remove the participants that are saved in the database. Are your sure you wish to continue?</value>
+    <comment>This is used to display when user clicks on clear list when the saved item are there</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_CONFIRMATION_DELETE" xml:space="preserve">
+    <value>Are you sure want to delete?</value>
+    <comment>This is used to confirm before removing person from seleted person</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_DESELECT_ITEM" xml:space="preserve">
+    <value>There are no items to deselect.</value>
+    <comment>This is used to display when user deselect the list. if there are no items which are to be deselected</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_DIFFERENCE_YOU_SURVIVOR" xml:space="preserve">
+    <value>Due to the age difference between you and the Survivor you have selected, this option is not available.</value>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_FUTURE_SAL_DATE" xml:space="preserve">
+    <value>Future Salary Date: Should be greater than today's date</value>
+    <comment>This is used to display if user selects no zero salary increase percentage but fucture sal effective date enters past date or today's date.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_FUTURE_SAL_EMPTY" xml:space="preserve">
+    <value>Future Salary Date: Please enter the future salary date</value>
+    <comment>This is used to display when user is not fill future salary effevtive date but select non zero  future salary increase percentage in parameter tab</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_INSUFFICIENT_BALANCE" xml:space="preserve">
+    <value>Insufficient balance in {0} plan</value>
+    <comment>This is used to display when the insufficient balance in plan seledted from the parameter tab</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_INVALID_PARAMETERS" xml:space="preserve">
+    <value>Invalid Parameters Details</value>
+    <comment>This is used to display when an invalid parameters are entered</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_NO_CLEAR_PARTICIPANTS" xml:space="preserve">
+    <value>There are no saved items.</value>
+    <comment>This is used to display when user clicks on clear list when the saved item are not there</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_NO_ITEM" xml:space="preserve">
+    <value>There are no items.</value>
+    <comment>This is used to display where user clicks on execute button</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_NO_ITEMS" xml:space="preserve">
+    <value>There are not items to remove</value>
+    <comment>This is used when there are no items</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_NO_SAVE_PARTICIPANTS" xml:space="preserve">
+    <value>There are no items to save.</value>
+    <comment>This is used to display where user clicks on save button. and shows that there are no participants names to save participants</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_NO_SHOW_PARTICIPANTS" xml:space="preserve">
+    <value>There are no saved items to retrieve.</value>
+    <comment>This is used to display when user clicks on show button and there are no items to retrieve</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_PERSON_CROSS_AGE" xml:space="preserve">
+    <value>Person has crossed the age specified for estimate</value>
+    <comment>This is used to display when person age is greater than the selected retirement age from parameter tab.</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_REMOVE_ITEM" xml:space="preserve">
+    <value>There are no items to remove.</value>
+    <comment>This is used to display when user wants remove item from the list. if there are no items which are to be removed</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_REMOVE_LIST" xml:space="preserve">
+    <value>Please select a participant to delete</value>
+    <comment>This is used to display when user clciks on remove from list without selecting any records</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_REMOVE_LIST_SUCCESS" xml:space="preserve">
+    <value>Selected participants removed for this estimate</value>
+    <comment>This is used to display when user clicks on remove to list</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_RESULTS_TRUNCATED" xml:space="preserve">
+    <value>Results truncated. Showing only {0} rows out of {1}</value>
+    <comment>This is used to display when the results are truncated in datagrid</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SAVE_LIST" xml:space="preserve">
+    <value>Currently selected participants saved to database for future use</value>
+    <comment>This is used to disaply when user clicks on save list button</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SAVE_LIST_VALIDATION" xml:space="preserve">
+    <value>No records to save</value>
+    <comment>This is used to display if user clicks on save this list button without selecting any records</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SAVE_PARAMETER" xml:space="preserve">
+    <value>Saved</value>
+    <comment>This is used to display when user clicks on save butoon in parameter tab</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SAVE_PARTICIPANTS" xml:space="preserve">
+    <value>All Participants will be saved to database. Continue?</value>
+    <comment>This is used to display where user clicks on save button. and confirms to save participants</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SELECT_ITEM" xml:space="preserve">
+    <value>There are no items to select.</value>
+    <comment>This is used to display when user select the list. if there are no items which are to be selected</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_SHOW_PARTICIPANTS" xml:space="preserve">
+    <value>Warning: Your existing selections will be overwritten. Are your sure you wish to continue?</value>
+    <comment>This is used to display when user clicks on show button and there are  items to retrieve which modify present items</comment>
+  </data>
+  <data name="MESSAGE_RETIREMENT_BATCH_ESTIMATE_UNABLE_TO_RETRIEVE" xml:space="preserve">
+    <value>Unable to retrive account information</value>
+    <comment>This is used to display when the account is cannot be retrieved </comment>
+  </data>
+</root>

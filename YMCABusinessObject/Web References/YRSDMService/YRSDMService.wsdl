@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="YRSMethod">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MethodName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="inputString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YRSMethodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YRSMethodResult" type="tns:WebServiceReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WebServiceReturn">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnStatus" type="tns:Status" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MessageCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WebServiceDataSet">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+          <s:element minOccurs="0" maxOccurs="1" name="Version" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WebServiceXMLString" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="Status">
+        <s:restriction base="s:string">
+          <s:enumeration value="Failure" />
+          <s:enumeration value="Success" />
+          <s:enumeration value="Warning" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="WebServiceReturn" nillable="true" type="tns:WebServiceReturn" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="YRSMethodSoapIn">
+    <wsdl:part name="parameters" element="tns:YRSMethod" />
+  </wsdl:message>
+  <wsdl:message name="YRSMethodSoapOut">
+    <wsdl:part name="parameters" element="tns:YRSMethodResponse" />
+  </wsdl:message>
+  <wsdl:message name="YRSMethodHttpGetIn">
+    <wsdl:part name="MethodName" type="s:string" />
+    <wsdl:part name="inputString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YRSMethodHttpGetOut">
+    <wsdl:part name="Body" element="tns:WebServiceReturn" />
+  </wsdl:message>
+  <wsdl:message name="YRSMethodHttpPostIn">
+    <wsdl:part name="MethodName" type="s:string" />
+    <wsdl:part name="inputString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YRSMethodHttpPostOut">
+    <wsdl:part name="Body" element="tns:WebServiceReturn" />
+  </wsdl:message>
+  <wsdl:portType name="YRSDMServiceSoap">
+    <wsdl:operation name="YRSMethod">
+      <wsdl:input message="tns:YRSMethodSoapIn" />
+      <wsdl:output message="tns:YRSMethodSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="YRSDMServiceHttpGet">
+    <wsdl:operation name="YRSMethod">
+      <wsdl:input message="tns:YRSMethodHttpGetIn" />
+      <wsdl:output message="tns:YRSMethodHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="YRSDMServiceHttpPost">
+    <wsdl:operation name="YRSMethod">
+      <wsdl:input message="tns:YRSMethodHttpPostIn" />
+      <wsdl:output message="tns:YRSMethodHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="YRSDMServiceSoap" type="tns:YRSDMServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="YRSMethod">
+      <soap:operation soapAction="http://tempuri.org/YRSMethod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="YRSDMServiceSoap12" type="tns:YRSDMServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="YRSMethod">
+      <soap12:operation soapAction="http://tempuri.org/YRSMethod" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="YRSDMServiceHttpGet" type="tns:YRSDMServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="YRSMethod">
+      <http:operation location="/YRSMethod" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="YRSDMServiceHttpPost" type="tns:YRSDMServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="YRSMethod">
+      <http:operation location="/YRSMethod" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="YRSDMService">
+    <wsdl:port name="YRSDMServiceSoap" binding="tns:YRSDMServiceSoap">
+      <soap:address location="http://localhost:35605/YRSDMService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="YRSDMServiceSoap12" binding="tns:YRSDMServiceSoap12">
+      <soap12:address location="http://localhost:35605/YRSDMService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="YRSDMServiceHttpGet" binding="tns:YRSDMServiceHttpGet">
+      <http:address location="http://localhost:35605/YRSDMService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="YRSDMServiceHttpPost" binding="tns:YRSDMServiceHttpPost">
+      <http:address location="http://localhost:35605/YRSDMService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

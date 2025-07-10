@@ -1,0 +1,351 @@
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YRSUI.vbprojAssemblyReference.cache
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.AccountTypesForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ACHDebitExportForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ACHDebitExportUpdateForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ACHDebitImportForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ACHDebitReceiptApplicationForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.AddAdditionalAccounts.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.AddBeneficiary.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.AddContactWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.AddEditQDRO.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.AddEmployment.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.AddNotes.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.AddOfficerWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.AddResolutionWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.AdminSessionManagement.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.AnnuityBasisTypes.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.BeneficiaryInformation.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.BeneficiarySettlementForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.CashApplication.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.CashOut.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.CashReceiptsEntryForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ChooseAnnuityForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.CopyFilesUtilityForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DailyInterest.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DataArchive.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DeathBenefitsCalculatorForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DeferredPayment.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DeferredPaymentDetail.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DelinquencyLettersForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DisburesementWithHolding.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DisbursementsBreakDown.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DisbursementsReissue.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DisbursementsReversal.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DisbursementsRevese.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DisbursementTypeWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.EDIExclusionList.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.EDIOutsourceCheckPrintingForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.EmployeeEventsWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ErrorForSession.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ErrorPageForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.FindInfo.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.CopyFilestoFileServer.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RefundReportViewer.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ReportPrinter.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ReportViewer.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ReportViewer_1.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ReportViewer_2.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ReportViewer_3.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ReportViewer_4.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ReportViewer_5.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.FundEventStatusForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.GenerateError.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.GroupMembers.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.GroupProperties.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.InterestProcessing.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.InterestProcessingStart.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.InterestRatesWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.LoanInformation.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.LoanOptions.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.LoanProcessing.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.LoanRequest.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.LockBoxErrorForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.LockBoxExportToExcel.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.Login.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.Logout.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.LookupsMaintenance.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.MainWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ManualTransactions.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.MetaAnnuityTypesMain.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.MetaConfigMaintenance.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.MetaCountryTypeMain.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.MetaErrorCodesMaintenanceWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.MetaPositionsMaintenance.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.MetaProjectedInterest.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.MetaSafeHarborFactorsWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.MetaVestingTypeCode.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.MonthlyExpDividend.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.MonthlyPayrollRevised.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.Resources.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.NonRetiredQdro.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.NotesMasterWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ParticipantsInformation.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.PaymentManager.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.PopUpCaller.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.PreNotification.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RefundProcessing_C19.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ReceiptsLockBoxImportForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RefundBeneficiary.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RefundProcessing.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RefundRequestForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RefundRequestWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ReissueRefundForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RetiredQDRO.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RetireesDeathDatesWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RetireesFrmMoverWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RetireesInformationWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RetireesPowerAttorneyWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RetirementEstimateWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RetirementProcessingForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.RolloverReceiptsPopup.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.SafeHarbor.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.SearchContact.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.SearchOfficer.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.SecuredControls.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.SecurityCheck.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.SecurityReports.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.SelectBank.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.SelectTitle.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.SelectYmca.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.SelectYmcaBranch.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ShowAnnuityDetails.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ShowBalancesQDRONonRetired.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ShowBalancesQDRORetired.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.ShowHistory.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.SpecialDividendRates.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.SplitFundsforSettlement.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.StatusPageForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UnFundingTransmittalForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UpdateAddressDetails.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UpdateBankInfo.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UpdateBankInformationWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UpdateBeneficiaries.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UpdateCheckCashDate.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UpdateFedWithHoldingInfo.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UpdateGenHoldings.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UpdateNotes.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UpdateParticipantEmploymentService.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.AddressWebUserControl.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DataGridPager.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.DateUserControl.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.Enhance_AddressWebUserControl.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.VoidDisbursement.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.VoidUserControl.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.YMCA_Footer_WebUserControl.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.YMCA_Toolbar_WebUserControl.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UserGroupAdministration.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UserMembership.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UserPermissionExceptions.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UserPermissions.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.UserProperties.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.VDReplaceDisbursements.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.VoidDisbursementReplaceManager.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.VoidDisbursementReverseManager.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.VoidDisbursementVRManager_1.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.YMCAAddressWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.YMCAMetrowebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.YMCAEmailWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.YMCATelephoneWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.YMCAWebForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.YRSErrorForm.resources
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YRSUI.vbproj.GenerateResource.cache
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\YMCAUI.dll.config
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\YMCAUI.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\YMCAUI.pdb
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\CommonUtilities.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\CustomControls.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\Microsoft.ReportViewer.Common.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\YMCABusinessObject.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\YMCAModules.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\YMCAObjects.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\YmcaDataAccessObject.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\YMCABusinessObject.pdb
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\YMCABusinessObject.dll.config
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\YMCAModules.pdb
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\YMCAObjects.pdb
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\bin\YmcaDataAccessObject.pdb
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YRSUI.vbproj.CopyComplete
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.dll
+C:\Barry\TFSLocal\YRS\Dev\YRS\YMCAUI\obj\Debug\YMCAUI.pdb
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\YMCAUI.dll.config
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\YMCAUI.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\YMCAUI.pdb
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\CommonUtilities.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\CustomControls.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\Microsoft.Practices.ServiceLocation.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\Microsoft.ReportViewer.Common.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\Microsoft.ReportViewer.WebForms.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\YMCABusinessObject.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\YMCAModules.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\YMCAObjects.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\YmcaDataAccessObject.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\YMCABusinessObject.pdb
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\YMCABusinessObject.dll.config
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\YMCAModules.pdb
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\YMCAObjects.pdb
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\bin\YmcaDataAccessObject.pdb
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YRSUI.vbproj.AssemblyReference.cache
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.AccountTypesForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ACHDebitExportForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ACHDebitExportUpdateForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ACHDebitImportForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ACHDebitReceiptApplicationForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.AddAdditionalAccounts.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.AddBeneficiary.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.AddContactWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.AddEditQDRO.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.AddEmployment.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.AddNotes.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.AddOfficerWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.AddResolutionWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.AdminSessionManagement.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.AnnuityBasisTypes.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.BeneficiaryInformation.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.BeneficiarySettlementForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.CashApplication.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.CashOut.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.CashReceiptsEntryForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ChooseAnnuityForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.CopyFilesUtilityForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DailyInterest.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DataArchive.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DeathBenefitsCalculatorForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DeferredPayment.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DeferredPaymentDetail.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DelinquencyLettersForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DisburesementWithHolding.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DisbursementsBreakDown.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DisbursementsReissue.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DisbursementsReversal.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DisbursementsRevese.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DisbursementTypeWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.EDIExclusionList.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.EDIOutsourceCheckPrintingForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.EmployeeEventsWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ErrorForSession.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ErrorPageForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.FindInfo.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.CopyFilestoFileServer.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RefundReportViewer.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ReportPrinter.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ReportViewer.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ReportViewer_1.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ReportViewer_2.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ReportViewer_3.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ReportViewer_4.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ReportViewer_5.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.FundEventStatusForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.GenerateError.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.GroupMembers.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.GroupProperties.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.InterestProcessing.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.InterestProcessingStart.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.InterestRatesWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.LoanInformation.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.LoanOptions.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.LoanProcessing.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.LoanRequest.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.LockBoxErrorForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.LockBoxExportToExcel.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.Login.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.Logout.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.LookupsMaintenance.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.MainWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ManualTransactions.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.MetaAnnuityTypesMain.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.MetaConfigMaintenance.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.MetaCountryTypeMain.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.MetaErrorCodesMaintenanceWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.MetaPositionsMaintenance.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.MetaProjectedInterest.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.MetaSafeHarborFactorsWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.MetaVestingTypeCode.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.MonthlyExpDividend.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.MonthlyPayrollRevised.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.Resources.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.NonRetiredQdro.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.NotesMasterWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ParticipantsInformation.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.PaymentManager.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.PopUpCaller.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.PreNotification.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RefundProcessing_C19.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ReceiptsLockBoxImportForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RefundBeneficiary.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RefundProcessing.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RefundRequestForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RefundRequestWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ReissueRefundForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RetiredQDRO.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RetireesDeathDatesWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RetireesFrmMoverWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RetireesInformationWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RetireesPowerAttorneyWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RetirementEstimateWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RetirementProcessingForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.RolloverReceiptsPopup.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.SafeHarbor.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.SearchContact.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.SearchOfficer.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.SecuredControls.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.SecurityCheck.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.SecurityReports.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.SelectBank.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.SelectTitle.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.SelectYmca.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.SelectYmcaBranch.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ShowAnnuityDetails.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ShowBalancesQDRONonRetired.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ShowBalancesQDRORetired.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.ShowHistory.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.SpecialDividendRates.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.SplitFundsforSettlement.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.StatusPageForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UnFundingTransmittalForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UpdateAddressDetails.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UpdateBankInfo.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UpdateBankInformationWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UpdateBeneficiaries.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UpdateCheckCashDate.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UpdateFedWithHoldingInfo.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UpdateGenHoldings.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UpdateNotes.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UpdateParticipantEmploymentService.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.AddressWebUserControl.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DataGridPager.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.DateUserControl.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.Enhance_AddressWebUserControl.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.VoidDisbursement.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.VoidUserControl.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.YMCA_Footer_WebUserControl.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.YMCA_Toolbar_WebUserControl.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UserGroupAdministration.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UserMembership.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UserPermissionExceptions.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UserPermissions.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.UserProperties.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.VDReplaceDisbursements.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.VoidDisbursementReplaceManager.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.VoidDisbursementReverseManager.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.VoidDisbursementVRManager_1.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.YMCAAddressWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.YMCAMetrowebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.YMCAEmailWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.YMCATelephoneWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.YMCAWebForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.YRSErrorForm.resources
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YRSUI.vbproj.GenerateResource.cache
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YRSUI.vbproj.CoreCompileInputs.cache
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.dll
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YMCAUI.pdb
+C:\NICCHA\After Maternity\PQ Tools\KT and Training\SonarQube\Analysis\yrfdevelopers-yrs\YMCAUI\obj\Debug\YRSUI.vbproj.CopyComplete

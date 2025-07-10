@@ -1,0 +1,7 @@
+<DlyIntManagmentScheduler>
+  <DlyIntManagment>
+    <DlyIntSchedulerMode>Active</DlyIntSchedulerMode>
+    <DlyIntStartTime>02:30</DlyIntStartTime>
+    <DlyIntSendMail>True</DlyIntSendMail>
+  </DlyIntManagment>
+</DlyIntManagmentScheduler>

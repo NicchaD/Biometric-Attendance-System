@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB132335-02CA-443C-8B88-335394A0BCA7}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>YmcaDataAccessObject</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>YMCARET.YmcaDataAccessObject</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/YmcaDataAccessObject/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <CodeAnalysisRuleSet>..\.sonarlint\my_jstscsharp.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>..\.sonarlint\my_jstscsharp.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>..\.sonarlint\my_jstscsharp.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommonUtilities">
+      <HintPath>..\References\CommonUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountTypesDAClass.cs" />
+    <Compile Include="ACHDebitExportDAClass.cs" />
+    <Compile Include="ACHDebitImportDAClass.cs" />
+    <Compile Include="AddAdditionalAccountsDAClass.cs" />
+    <Compile Include="AddContactDAClass.cs" />
+    <Compile Include="AddEmploymentDAClass.cs" />
+    <Compile Include="AddOfficerDAClass.cs" />
+    <Compile Include="AddResolutionDAClass.cs" />
+    <Compile Include="AddressDAClass.cs" />
+    <Compile Include="AnnuityBasisTypesDAClass.cs" />
+    <Compile Include="AnnuityBeneficiaryDeathDAClass.cs" />
+    <Compile Include="AnnuityBenefitDeathFollowupDAClass.cs" />
+    <Compile Include="AnnuityPayrollOutSourceDAClass.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="BankAcknowledgementImportDA.cs" />
+    <Compile Include="BeneficiarySettlementDAClass.cs" />
+    <Compile Include="CashApplicationDAClass.cs" />
+    <Compile Include="CashOutDAClass.cs" />
+    <Compile Include="CashReceiptsEntryDAClass.cs" />
+    <Compile Include="CommonDAClass.cs" />
+    <Compile Include="DCToolsDA.cs" />
+    <Compile Include="IATFile.cs" />
+    <Compile Include="LoggerDA.cs" />
+    <Compile Include="MetaMessageDA.cs" />
+    <Compile Include="MetaShellPrintersDAClas .cs" />
+    <Compile Include="MetaShellReportsDAClass .cs" />
+    <Compile Include="MRDDAClass.cs" />
+    <Compile Include="RefundRequest_C19DAClass.cs" />
+    <Compile Include="RetirementBatchEstimateDAClass.cs" />
+    <Compile Include="ReverseFeedImportDA.cs" />
+    <Compile Include="RollInReminderDAClass.cs" />
+    <Compile Include="SecureActDAClass.cs" />
+    <Compile Include="StateWithholdingDAClass.cs" />
+    <Compile Include="StatusDAClass.cs" />
+    <Compile Include="CommonLookUpTablesDAClass.cs" />
+    <Compile Include="ControlSecurityDAClass.cs" />
+    <Compile Include="DailyInterestDA.cs" />
+    <Compile Include="DailyInterestDAClass.cs" />
+    <Compile Include="DataArchiveDAClass.cs" />
+    <Compile Include="DeathBenefitsCalculatorDAClass.cs" />
+    <Compile Include="DeferredPaymentDAClass.cs" />
+    <Compile Include="DelinquencyLettersDAClass.cs" />
+    <Compile Include="DisbursementBreakdownDAClass.cs" />
+    <Compile Include="DisbursementReversalDAClass.cs" />
+    <Compile Include="DisbursementTypeDAClass.cs" />
+    <Compile Include="EDIDAClass.cs" />
+    <Compile Include="EDIExculsionListDAClass.cs" />
+    <Compile Include="EmployeeEventsDAClass.cs" />
+    <Compile Include="FindInfoDAClass.cs" />
+    <Compile Include="FundEventStatusDAClass.cs" />
+    <Compile Include="GroupMembersDAClass.cs" />
+    <Compile Include="GroupPropertiesDAClass.cs" />
+    <Compile Include="InterestProcessingDAClass.cs" />
+    <Compile Include="InterestRatesDAClass.cs" />
+    <Compile Include="LoanInformationDAClass.cs" />
+    <Compile Include="LoginDAClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LookupsMaintenanceDAClass.cs" />
+    <Compile Include="MailDAClass.cs" />
+    <Compile Include="ManualTransactionsDAClass.cs" />
+    <Compile Include="MetaAnnuityTypesMainDAClass.cs" />
+    <Compile Include="MetaConfigMaintenanceDAClass.cs" />
+    <Compile Include="MetaCountryTypeDAClass.cs" />
+    <Compile Include="MetaErrorCodesMaintenanceDAClass.CS" />
+    <Compile Include="MetaPositionsMaintenanceDAClass.cs" />
+    <Compile Include="MetaProjectedInterestDAClass.cs" />
+    <Compile Include="MetaSafeHarborFactorsDAClass.CS" />
+    <Compile Include="MetaShellPaperTypesDAClass.cs" />
+    <Compile Include="MetaVestingTypeCodeDAClass.cs" />
+    <Compile Include="MonthlyPayrollDAClass.cs" />
+    <Compile Include="NonRetiredQDRODAClass.cs" />
+    <Compile Include="NotesDAClass.cs" />
+    <Compile Include="ParticipantsInformationDAClass.cs" />
+    <Compile Include="PaymentManagerDAClass.cs" />
+    <Compile Include="PreNotificationDAClass.cs" />
+    <Compile Include="QdroMemberRetiredDAClass.cs" />
+    <Compile Include="ReceiptsLockBoxImportDAClass.cs" />
+    <Compile Include="RefundBeneficiaryDAClass.cs" />
+    <Compile Include="RefundRequestDAClass.cs" />
+    <Compile Include="RefundRequestRegularDAClass.cs" />
+    <Compile Include="ReissueRefundDAClass.cs" />
+    <Compile Include="RetireesInformationDAClass.CS" />
+    <Compile Include="RetirementDAClass.cs" />
+    <Compile Include="RollOverReceiptsDAClass.cs" />
+    <Compile Include="RolloversDAClass.cs" />
+    <Compile Include="SafeHarborDisbursementDAClass.cs" />
+    <Compile Include="SecurityCheckDAClass.cs" />
+    <Compile Include="SelectBankDAClass.cs" />
+    <Compile Include="SelectTitleDAClass.cs" />
+    <Compile Include="ServiceTimeAndVestingDAClass.cs" />
+    <Compile Include="ShowHistoryDAClass.cs" />
+    <Compile Include="SpecialDividendRatesDAClass.cs" />
+    <Compile Include="SplitFundsforSettlementDAClass.cs" />
+    <Compile Include="TerminationWatcherDA.cs" />
+    <Compile Include="UEINDAClass.cs" />
+    <Compile Include="UnFundingTransmittalDA.cs" />
+    <Compile Include="UpdateBankInformationDAClass.cs" />
+    <Compile Include="UpdateCheckCashDateDAClass.cs" />
+    <Compile Include="UserGroupAdministrationDAClass.cs" />
+    <Compile Include="UserMembershipDAClass.cs" />
+    <Compile Include="UserPermissionExceptionsDAClass.cs" />
+    <Compile Include="UserPermissionsDACLass.cs" />
+    <Compile Include="UserProperties.cs" />
+    <Compile Include="UserPropertiesDAClass.cs" />
+    <Compile Include="VDReplaceDisbursementsDAClass.cs" />
+    <Compile Include="VoidAndTransferAnnuityDAClass.cs" />
+    <Compile Include="VoidDisbursementVRManagerDAClass.cs" />
+    <Compile Include="VoluntaryRefundRequestDAClass.cs" />
+    <Compile Include="YMCAAddressDAClass.cs" />
+    <Compile Include="YMCACommonDAClass.cs" />
+    <Compile Include="YMCADAClass.cs" />
+    <Compile Include="YMCAMenuHistoryDAClass.cs" />
+    <Compile Include="YMCAMetroDAClass.cs" />
+    <Compile Include="YMCANetDAClass.cs" />
+    <Compile Include="YMCATelephoneDAClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YMCAObjects\YRSObjects.csproj">
+      <Project>{24cf89c0-8b7a-4f03-8c00-844de7341380}</Project>
+      <Name>YRSObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.sonarlint\my_jstscsharp.ruleset">
+      <Link>my_jstscsharp.ruleset</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\my_jsts\CSharp\SonarLint.xml">
+      <Link>SonarLint.xml</Link>
+    </AdditionalFiles>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<menu>
+	<MenuPositioning>0</MenuPositioning>	
+	<menuItem>
+		<text> | Activities |</text>
+		<width>150</width>
+		<subMenu>
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>Maintenance</text>
+				<width>150</width>
+				<subMenu>
+						<menuItem>
+							<text>Person</text>
+							<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=Person</url>
+							<width>130</width>							
+						</menuItem>
+						<menuItem>
+							<text>YMCA</text>
+							<url>SecurityCheck.aspx?Form=YMCAWebForm.aspx</url>							
+							<width>130</width>
+						</menuItem>
+				</subMenu>
+			</menuItem>			
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>Withdrawal</text>
+				<width>150</width>
+					<subMenu>
+						<menuItem>
+							<text>Regular</text>
+							 <url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=Refund</url>							
+							<width>130</width>					
+						</menuItem> 
+						<menuItem>
+							<text>Special</text>
+							<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=Refund%26RT=SPEC</url>
+							<width>130</width>							
+						</menuItem>  	 
+						<menuItem>
+							<text>Disability</text>
+							<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=Refund%26RT=DISAB</url>							
+							<width>130</width>							
+						</menuItem>  	 
+						<menuItem> 
+							<text>Re-issue</text>
+							<url>SecurityCheck.aspx?Form=ReissueRefundForm.aspx</url>							
+							<width>130</width>							
+						</menuItem>  												
+					</subMenu>
+			</menuItem>
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>TD Loans</text>
+				<width>150</width>
+				<subMenu>
+					<menuItem>
+						<text>Request Processing</text>
+						<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=LoanRequestAndProcessing</url>
+						<width>130</width>					
+					</menuItem> 
+					<menuItem>
+						<text>Loan Maintenance</text>
+						<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=LoanOptions</url>							
+						<width>130</width>							
+					</menuItem>
+          <menuItem>
+            <text>Loan Utility</text>
+            <url>SecurityCheck.aspx?Form=LoanOffsetDefaultUnfreeze.aspx</url>
+            <width>130</width>
+          </menuItem>
+          <menuItem>
+            <text>Loan Admin</text>
+            <url>SecurityCheck.aspx?Form=LACWebLoans.aspx</url>
+            <width>130</width>
+          </menuItem>
+				</subMenu>
+			</menuItem>
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>Retirement</text>
+				<Width>150</Width>
+				<subMenu>
+					<menuItem>
+						<text>Estimates</text>
+						<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=Estimates</url>
+						<width>130</width>
+					</menuItem>
+					<menuItem>
+						<text>Batch Estimate</text>
+						<url>SecurityCheck.aspx?Form=RetirementEstimateBatchWebForm.aspx</url>
+						<width>130</width>
+					</menuItem>
+					<menuItem>
+						<leftimage>Images/arrow.gif</leftimage>
+						<leftimagealign>right</leftimagealign>
+						<text>Process</text>
+						<Width>150</Width>
+						<subMenu>
+							<menuItem>
+								<text>Normal</text>
+								<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=Process%26RetType=Normal</url>
+								<width>130</width>
+							</menuItem>
+							<menuItem>
+								<text>Disability</text>
+								<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=Process%26RetType=Disability</url>
+								<width>130</width>
+							</menuItem>
+						</subMenu>
+					</menuItem>
+				</subMenu>
+			</menuItem>
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>Death</text>
+				<width>150</width>
+				<subMenu>
+					<menuItem>
+						<text>Calculator</text>
+						<url>SecurityCheck.aspx?Form=DeathBenefitsCalculatorForm.aspx</url>							
+						<width>170</width>
+					</menuItem> 
+					<menuItem>
+						<text>Death Benefit Follow-up</text>
+						<url>SecurityCheck.aspx?Form=DeathBenefitFollowupForm.aspx</url>
+						<width>170</width>
+					</menuItem>
+ 
+					<menuItem>
+						<text>Create Beneficiary Accounts</text>
+						<url>SecurityCheck.aspx?Form=SplitFundsforSettlement.aspx</url>							
+						<width>170</width>
+					</menuItem> 				
+					<menuItem>
+						<text>Beneficiary Settlement</text>
+						<url>SecurityCheck.aspx?Form=BeneficiarySettlementForm.aspx</url>							
+						<width>170</width>							
+					</menuItem>
+          <menuItem>
+            <text>Annuity Beneficiary</text>
+            <url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=Ann_Ben_Death</url>
+            <width>170</width>
+          </menuItem>
+          <menuItem>
+            <text>Annuity Beneficiary Death Cert. Follow-up</text>
+            <url>SecurityCheck.aspx?Form=AnnuityBenefitDeathFollowup.aspx</url>
+            <width>170</width>
+          </menuItem>
+					<menuItem>
+						<text>Reversal</text>
+						<url>#</url>							
+						<width>170</width>
+						<enabled>False</enabled>
+					</menuItem> 
+					
+				</subMenu>
+			</menuItem>			
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>Receipts</text>
+				<width>150</width>
+				<subMenu>
+					<menuItem>
+						<text>Entry</text>
+						<url>SecurityCheck.aspx?Form=CashReceiptsEntryForm.aspx</url>							
+						<width>200</width>
+					</menuItem>  				
+					<menuItem>
+						<text>Lock Box Import</text>
+						<url>SecurityCheck.aspx?Form=ReceiptsLockBoxImportForm.aspx</url>							
+						<width>200</width>
+					</menuItem> 
+					<menuItem>
+						<text>Cash Application</text>
+						<url>SecurityCheck.aspx?Form=CashApplication.aspx</url>							
+						<width>200</width>
+						
+					</menuItem> 
+						
+					<menuItem>
+            					<text>Cash Application - Person</text>
+            					<url>SecurityCheck.aspx?Form=CashApplicationFundingIndividual.aspx</url>
+            					<width>200</width>
+        				</menuItem>
+					<!--<menuItem>
+						<text>Roll In</text>
+						<url>SecurityCheck.aspx?Form=Rollovers.aspx?Name=Receipts</url>							
+						<width>200</width>							
+					</menuItem> -->
+				</subMenu>
+			</menuItem>			
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>Disbursements</text>
+				<width>150</width>
+				<subMenu>
+					<menuItem>
+						<leftimage>Images/arrow.gif</leftimage>
+						<leftimagealign>right</leftimagealign>
+						<text>Payroll</text>
+						<subMenu>								
+							<menuItem>
+								<text>Pre Notification</text>
+								<url>SecurityCheck.aspx?Form=PreNotification.aspx</url>									
+								<width>130</width>
+							</menuItem> 
+							<menuItem>
+								<text>Process</text>
+								<url>SecurityCheck.aspx?Form=MonthlyPayrollRevised.aspx</url>									
+								<width>130</width>
+							</menuItem> 
+								<menuItem>
+								<text>Special Dividends</text>
+								<url>SecurityCheck.aspx?Form=MonthlyExpDividend.aspx</url>									
+								<width>130</width>
+							</menuItem>
+              <!--START: SB | 2019.10.22 | YRS-AT-4599 | 20.7.0 | Added new menu option for Daily Activity Report file processing-->
+              <menuItem>
+                <text>DAR File Import</text>
+                <url>SecurityCheck.aspx?Form=DARFileImport.aspx</url>
+                <width>130</width>
+              </menuItem>
+              <!--END: SB | 2019.10.22 | YRS-AT-4599 | 20.7.0 | Added new menu option for Daily Activity Report file processing-->
+<!--START: PK | 2019.12.30 | YRS-AT-4641 | 20.7.2 | Added new menu option for Reverse Feed import-->
+<menuItem>
+<text>Reverse Feed</text>
+<url>SecurityCheck.aspx?Form=ReverseFeedImport.aspx</url>
+<width>130</width>
+</menuItem>
+             <!--END: PK | 2019.12.30 | YRS-AT-4641 | 20.7.2 | Added new menu option for Reverse Feed import-->            
+</subMenu>
+					</menuItem> 
+					<menuItem>
+						<text>Payment Manager</text>
+						<url>SecurityCheck.aspx?Form=PaymentManager.aspx</url>							
+						<width>130</width>
+					</menuItem>
+					<menuItem>
+						<leftimage>Images/arrow.gif</leftimage>
+						<leftimagealign>right</leftimagealign>
+						<text>Void Annuity</text>
+						<subMenu>								
+							<menuItem>
+								<text>Replace</text>
+								<!--Modified the URL for YMCA Phase V - Part 3 -->
+								<url>SecurityCheck.aspx?Form=VoidDisbursementReplaceManager.aspx?Type=ANNUITY</url>	
+								<width>130</width>
+							</menuItem>	
+							<menuItem>
+								<text>Reverse</text>
+								<!--Modified the URL for YMCA Phase V - Part 3 -->
+								<!--<url>SecurityCheck.aspx?Form=VoidDisbursementVRManager.aspx?Activity=Void</url>-->
+								<url>SecurityCheck.aspx?Form=VoidDisbursementReverseManager.aspx?Type=ANNUITY</url>
+								<width>130</width>
+							</menuItem>
+							<menuItem>
+           							<text>Transfer</text>
+           							<url>SecurityCheck.aspx?Form=VoidAndTransferAnnuity.aspx</url>
+           							<width>130</width>
+        						</menuItem>									
+						</subMenu>
+					</menuItem>
+					<menuItem>
+						<leftimage>Images/arrow.gif</leftimage>
+						<leftimagealign>right</leftimagealign>
+						<text>Void Withdrawal</text>
+						<width>130</width>
+						<subMenu>				
+							<menuItem>
+								<text>Replace</text>
+								<!--Modified the URL for YMCA Phase V - Part 3 -->
+								<url>SecurityCheck.aspx?Form=VoidDisbursementReplaceManager.aspx?Type=REFUND</url>									
+								<width>130</width>
+							</menuItem> 
+							<menuItem>
+								<text>Re-issue</text>
+								<url>SecurityCheck.aspx?Form=VoidDisbursementVRManager.aspx?Activity=Reissue</url>									
+								<width>130</width>
+							</menuItem> 
+							<menuItem>
+								<text>Reverse</text>
+								<!--Modified the URL for YMCA Phase V - Part 3 -->
+								<url>SecurityCheck.aspx?Form=VoidDisbursementReverseManager.aspx?Type=REFUND</url>									
+								<width>130</width>
+							</menuItem>	
+							<menuItem>
+								<text>Safe harbor</text>
+								<url>SecurityCheck.aspx?Form=SafeHarbor.aspx</url>									
+								<width>130</width>
+						
+							</menuItem>	
+							<menuItem>
+								<text>Cash Out</text>
+								<!--<url>SecurityCheck.aspx?Form=CashOut.aspx</url>-->
+								<width>130</width>
+							</menuItem>
+						</subMenu>						
+					</menuItem>		
+					<menuItem>
+						<leftimage>Images/arrow.gif</leftimage>
+						<leftimagealign>right</leftimagealign>
+						<text>Void Loan</text>
+						<width>130</width>
+						<subMenu>				
+							<menuItem>
+								<text>Reverse</text>
+								<!--Modified the URL for YMCA Phase V - Part 3 -->
+								<!--<url>SecurityCheck.aspx?Form=VoidDisbursementVRManager.aspx?Activity=LoanReverse</url>-->
+								<url>SecurityCheck.aspx?Form=VoidDisbursementReverseManager.aspx?Type=TDLOAN</url>
+								<width>130</width>
+							</menuItem>
+							<menuItem>
+								<text>Replace</text>
+								<!--Modified the URL for YMCA Phase V - Part 3 -->
+								<url>SecurityCheck.aspx?Form=VoidDisbursementReplaceManager.aspx?Type=TDLOAN</url>
+								<width>130</width>
+							</menuItem>		
+						</subMenu>							
+					</menuItem>																		
+				</subMenu>												
+			</menuItem>									
+			<!--<menuItem>
+				<text>Roll In</text>
+				<url>SecurityCheck.aspx?Form=Rollovers.aspx?Name=Rollover</url>					
+				<width>150</width>				
+			</menuItem>	-->
+			<menuItem>
+    				<leftimage>Images/arrow.gif</leftimage>
+    				<leftimagealign>right</leftimagealign>
+        			<text>Roll In</text>        
+      					<subMenu>
+       						<menuItem>
+        						<text>Roll In/Receipt</text>    
+        						<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=Rollover</url>
+        						<width>150</width>
+       						</menuItem>
+       						<menuItem>
+        						<text>Reminder Letter</text>
+            						<url>SecurityCheck.aspx?Form=RollInReminderForm.aspx</url>      
+        						<width>170</width>
+       						</menuItem>
+      					</subMenu>
+			</menuItem>
+			<!--
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>QDRO</text>
+				<Width>150</Width>
+				<subMenu>								
+					<menuItem>
+						<text>Participant</text>
+						<url>SecurityCheck.aspx?Form=QdroMemberActive.aspx</url>							
+						<width>130</width>							
+					</menuItem> 
+					<menuItem>
+						<text>Retiree</text>
+						<url>#</url>							
+						<width>130</width>
+						<enabled>False</enabled>
+					</menuItem> 								
+				</subMenu>
+			</menuItem> 
+			-->
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>QDRO</text>
+				<Width>150</Width>
+				<subMenu>								
+					<menuItem>
+						<text>Non-Retired</text>
+						<!--START: MMR | 2016.11.21 | YRS-AT-3145 | Commented existing code and added find info form name-->
+						<!--<url>SecurityCheck.aspx?Form=NonRetiredQdro.aspx</url>-->
+						<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=NonRetiredQdro</url>
+						<!--END: MMR | 2016.11.21 | YRS-AT-3145 | Commented existing code and added find info form name-->
+						<width>130</width>							
+					</menuItem> 
+					<menuItem>
+						<text>Retired</text>
+						<!--START: MMR | 2017.01.09 | YRS-AT-3299 | Commented existing code and added find info form name-->
+						<!--<url>SecurityCheck.aspx?Form=RetiredQDRO.aspx</url>-->
+						<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=RetiredQdro</url>
+						<!--END: MMR | 2017.01.09 | YRS-AT-3299 | Commented existing code and added find info form name-->
+						<width>130</width>
+					</menuItem> 								
+				</subMenu>
+			</menuItem> 
+			<menuItem>
+				<text>Interest Processing</text>
+				<url>SecurityCheck.aspx?Form=InterestProcessing.aspx</url>									
+				<width>150</width>				
+			</menuItem>	
+			<menuItem>
+				<text>Reports</text>
+				<url>http://intranet2/businessobjects/enterprise11/InfoView/logon.aspx</url>					
+				<target>_blank</target>
+				<width>150</width>
+			</menuItem>							
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>Finance</text>
+				<width>150</width>
+				<subMenu>
+						<menuItem>
+							<text>Delinquency Letters</text>
+							<url>SecurityCheck.aspx?Form=DelinquencyLettersForm.aspx</url>
+							<width>150</width>
+						</menuItem>
+						<menuItem>
+							<leftimage>Images/arrow.gif</leftimage>
+							<leftimagealign>right</leftimagealign>
+							<text>ACH Debit</text>
+							<subMenu>								
+								<menuItem>
+									<text>ACH Export</text>
+									<url>SecurityCheck.aspx?Form=ACHDebitExportForm.aspx</url>									
+									<width>130</width>
+								</menuItem> 
+								<menuItem>
+									<text>ACH Import</text>
+									<url>SecurityCheck.aspx?Form=ACHDebitImportForm.aspx</url>									
+									<width>130</width>
+								</menuItem> 								
+							</subMenu>
+						</menuItem> 
+				</subMenu>
+			</menuItem>
+		</subMenu>			 			
+	</menuItem>
+	<menuItem>
+		<text> | Utilities | </text>
+		<width>150</width>
+		<subMenu>
+			<menuItem>
+				<text>Move Participant</text>
+				<width>130</width>
+				<url>#</url>							
+				<enabled>False</enabled>
+			</menuItem>
+			<menuItem>
+				<text>Account Transfer</text>
+				<url>#</url>							
+				<width>130</width>
+				<enabled>False</enabled>
+			</menuItem>
+			<menuItem>
+				<text>Forfeitures</text>
+				<url>#</url>							
+				<width>130</width>
+				<enabled>False</enabled>
+			</menuItem>
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>Manual Transact</text>
+				<subMenu>
+				<width>130</width>
+					<menuItem>
+						<text>Entry</text>
+						<url>SecurityCheck.aspx?Form=ManualTransactions.aspx</url>
+						<width>130</width>
+					</menuItem>
+					<menuItem>
+						<text>Import</text>
+						<url>#</url>
+						<width>130</width>
+						<enabled>False</enabled>
+					</menuItem>
+				</subMenu>							
+			</menuItem>						
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>Outsource Check Printing</text>								
+				<subMenu>
+					<Width>130</Width>
+					<menuItem>
+						<text>Payroll</text>
+						<url>SecurityCheck.aspx?Form=EDIOutsourceCheckPrintingForm.aspx?Name=ANN</url>								
+						<width>130</width>			
+					</menuItem>  				
+					<menuItem>
+						<text>Special Dividends</text>
+						<url>SecurityCheck.aspx?Form=EDIOutsourceCheckPrintingForm.aspx?Name=EXP</url>												
+						<width>130</width>
+						<enabled>True</enabled>	
+					</menuItem> 
+				</subMenu>													
+			</menuItem>					
+			<menuItem> 
+				<text>Files Transfer</text>
+				<url>SecurityCheck.aspx?Form=CopyFilesUtilityForm.aspx</url> 
+				<width>130</width>
+			</menuItem>
+			<menuItem> 
+				<text>Cash Out</text>
+				<url>SecurityCheck.aspx?Form=Cashout.aspx</url>						
+				<width>130</width>				
+				<enabled>True</enabled>				
+			</menuItem> 
+			<!--Swopna 18June08 Start-->
+			<menuItem>
+				<text>Un-Funding Transmittals</text>
+				<url>SecurityCheck.aspx?Form=UnFundingTransmittalForm.aspx?Process=0</url>							
+				<width>130</width>							
+			</menuItem>
+			<menuItem>
+				<text>Deleting Transmittals</text>
+				<url>SecurityCheck.aspx?Form=UnFundingTransmittalForm.aspx?Process=1</url>							
+				<width>130</width>											
+			</menuItem>
+			<!--Swopna  18June08 End--> 
+			<!--Start - Added for YMCA Phase V - Part 3 -->
+			<menuItem>
+				<text>Import Check Cashed Dates</text>
+				<url>SecurityCheck.aspx?Form=UpdateCheckCashDate.aspx</url>							
+				<width>130</width>											
+			</menuItem>
+			<!--End - Added for YMCA Phase V - Part 3 -->
+			<!-- Start - Added for YMCA Phase V - Part 5 -->
+			<menuItem>
+			      <text>Deferred Payment</text>
+			      <url>SecurityCheck.aspx?Form=DeferredPayment.aspx</url>                                         
+			      <width>130</width>                                                                  
+			</menuItem>             
+			<menuItem>
+			      <text>Retrieve Archived Data</text>
+			      <url>SecurityCheck.aspx?Form=DataArchive.aspx</url>                                       
+			      <width>130</width>                                                                  
+			</menuItem>
+			<!-- End - Added for YMCA Phase V - Part 5 -->
+      <menuItem>
+        <leftimage>Images/arrow.gif</leftimage>
+        <leftimagealign>right</leftimagealign>
+        <text>RMD</text>
+        <width>150</width>
+        <subMenu>
+          <!--<menuItem>
+            <text>Generate MRD</text>
+            <url>SecurityCheck.aspx?Form=MRDRecords.aspx</url>
+            <width>130</width>
+          </menuItem> -->
+		<menuItem>
+            <text>Generate RMD</text>
+            <url>SecurityCheck.aspx?Form=GenerateRMD.aspx</url>
+            <width>130</width>
+          </menuItem>
+          <!--<menuItem>
+            <text>MRD Batch Process</text>
+            <url>SecurityCheck.aspx?Form=MRDRequestandProcessing.aspx</url>
+            <width>130</width>
+          </menuItem>-->
+          <!--START: MMR | 2017.05.09 | YRS-AT-3205 | Added RMD Special QDRO form name-->
+          <menuItem>
+            <leftimage>Images/arrow.gif</leftimage>
+            <leftimagealign>right</leftimagealign>
+            <text>RMD Print Letters</text>
+            <width>150</width>
+            <subMenu>
+              <menuItem>
+                <text>Initial and Follow-up</text>
+                <url>SecurityCheck.aspx?Form=RMDPrintLetters.aspx</url>
+                <width>150</width>
+              </menuItem>
+
+              <!--START: SB | 04/20/2017 | YRS-AT-3400 & 3401-->
+              <menuItem>
+                <text>Annual Letter for Non-Respondents</text>
+                <url>SecurityCheck.aspx?Form=RMDReminderLetters.aspx?Process=RMDNonRespondent</url>
+                <width>150</width>
+              </menuItem>
+              <menuItem>
+                <text>Satisfied RMD but Annual not Elected</text>
+                <url>SecurityCheck.aspx?Form=RMDReminderLetters.aspx?Process=RMDNotElected</url>
+                <width>150</width>
+              </menuItem>
+              <!--END: SB | 04/20/2017 | YRS-AT-3400 & 3401-->
+              
+              <menuItem>
+                <text>Special QDRO Participants</text>
+                <url>SecurityCheck.aspx?Form=RMDSpecialQDROLetters.aspx</url>									
+                <width>150</width>
+              </menuItem>
+            </subMenu>
+          </menuItem>
+          <!--<menuItem>
+				<text>RMD Print Letters</text>
+				<url>SecurityCheck.aspx?Form=RMDPrintLetters.aspx</url>
+				<width>130</width>
+			</menuItem>-->
+      <!--END: MMR | 2017.05.09 | YRS-AT-3205 | Added RMD Special QDRO form name-->
+          <menuItem>
+				<text>Process</text>
+				<url>SecurityCheck.aspx?Form=RMDBatchRequestAndProcessing.aspx</url>
+				<width>130</width>
+			</menuItem>
+			<menuItem>
+				<text>Close RMD</text>
+				<url>SecurityCheck.aspx?Form=RMDCloseForm.aspx</url>
+				<width>130</width>
+			</menuItem>
+	<menuItem>
+		<text>Regenerate RMD</text>
+		<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=RegenerateMRD</url>
+		<width>130</width>
+	</menuItem>
+        </subMenu>
+      </menuItem>
+	<menuItem>
+	<text>Update Refund Tracking</text>
+	<url>SecurityCheck.aspx?Form=UpdateTrackingNumber.aspx</url>
+	<width>130</width>
+   	</menuItem>
+	<menuItem>
+    		<text>Termination Watcher</text>
+		<url>SecurityCheck.aspx?Form=TerminationWatcher.aspx</url>
+    		<width>130</width>
+	</menuItem>
+  <menuItem>
+    <text>Unfunded UEIN</text>
+    <width>130</width>
+    <url>SecurityCheck.aspx?Form=UnfundedUEINs.aspx</url>
+  </menuItem>
+	</subMenu>
+
+	</menuItem>
+	<menuItem>
+		<text> | Administration | </text>
+		<width>150</width>
+		<subMenu>								
+			<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>Manage Lists</text>
+				<width>150</width>
+				<subMenu>
+					<menuItem>
+						<text>Account Types</text>
+						<url>SecurityCheck.aspx?Form=AccountTypesForm.aspx</url>							
+						<width>170</width>
+					</menuItem>						
+					<menuItem>
+						<text>Annuity Basis Types</text>
+						<url>SecurityCheck.aspx?Form=AnnuityBasisTypes.aspx</url>							
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>Annuity Types</text>
+						<url>SecurityCheck.aspx?Form=MetaAnnuityTypesMain.aspx</url>							
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>Configuration</text>
+						<url>SecurityCheck.aspx?Form=MetaConfigMaintenance.aspx</url>
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>Country Types</text>
+						<url>SecurityCheck.aspx?Form=MetaCountryTypeMain.aspx</url>
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>Disbursement Types</text>
+						<url>SecurityCheck.aspx?Form=DisbursementTypeWebForm.aspx</url>
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>Employee Event Status</text>
+						<url>SecurityCheck.aspx?Form=EmployeeEventsWebForm.aspx</url>
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>Fund Event Status</text>
+						<url>SecurityCheck.aspx?Form=FundEventStatusForm.aspx</url>
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>Projected Interest Rates</text>
+						<url>SecurityCheck.aspx?Form=MetaProjectedInterest.aspx</url>
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>Special Dividend Rates</text>
+						<url>SecurityCheck.aspx?Form=SpecialDividendRates.aspx</url>
+						<width>170</width>
+					</menuItem>
+					<menuItem>
+						<text>Safe Harbor Factors</text>
+						<url>SecurityCheck.aspx?Form=MetaSafeHarborFactorsWebForm.aspx</url>
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>Error Codes</text>
+						<url>SecurityCheck.aspx?Form=MetaErrorCodesMaintenanceWebForm.aspx</url>
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>Interest Rates</text>
+						<url>SecurityCheck.aspx?Form=InterestRatesWebForm.aspx</url>
+						<width>170</width>
+					</menuItem>	
+					<menuItem>						
+						<text>Positions</text>
+						<url>SecurityCheck.aspx?Form=MetaPositionsMaintenance.aspx</url>
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>Vesting Type Code</text>
+						<url>SecurityCheck.aspx?Form=MetaVestingTypeCode.aspx</url>
+						<width>170</width>
+					</menuItem>		
+					<menuItem>
+						<text>Lookups</text>
+						<url>SecurityCheck.aspx?Form=LookupsMaintenance.aspx</url>
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>EDI Exclusion List</text>
+						<width>170</width>
+						<url>SecurityCheck.aspx?Form=EDIExclusionList.aspx</url>
+						<enabled>True</enabled>
+					</menuItem> 
+						
+					<menuItem>
+						<leftimage>Images/arrow.gif</leftimage>
+						<leftimagealign>right</leftimagealign>
+						<text>Printer Configuration</text>
+						<subMenu>
+							<menuItem>
+								<text>Paper Types</text>
+								<url>SecurityCheck.aspx?Form=MetaPaperTypes.aspx</url>
+								<width>170</width>
+							</menuItem>
+							<menuItem>
+								<text>Printers</text>
+								<url>SecurityCheck.aspx?Form=MetaPrinters.aspx</url>
+								<width>170</width>
+							</menuItem>
+							<menuItem>
+								<text>Report</text>
+								<url>SecurityCheck.aspx?Form=MetaReports.aspx</url>
+								<width>170</width>
+							</menuItem>
+							
+						</subMenu>
+					</menuItem>
+
+
+
+				</subMenu>
+			</menuItem>
+			<menuItem>
+				<text>Import ABA Data</text>
+				<width>150</width>
+				<url>#</url>
+				<enabled>False</enabled>
+			</menuItem>				
+			<menuItem>
+				<text>Manage Sessions</text>
+				<width>150</width>
+				<url>SecurityCheck.aspx?Form=AdminSessionManagement.aspx</url>
+				<enabled>True</enabled>
+			</menuItem>
+	
+			<menuItem>
+				<text>Release Version</text>
+				<width>150</width>
+				<url>SecurityCheck.aspx?Form=ReleaseVersion.aspx</url>
+				<enabled>True</enabled>
+			</menuItem>	
+			<menuItem>
+				<text>User/Groups</text>
+				<url>SecurityCheck.aspx?Form=UserGroupAdministration.aspx</url>
+				<width>130</width>
+			</menuItem>
+			<!-- Swopna 16 July 08 Start-->
+			<menuItem>
+				<text>Daily Interest Management</text>
+				<url>SecurityCheck.aspx?Form=DailyInterest.aspx</url>
+				<width>130</width>
+			</menuItem>
+			<!-- Swopna 16 July 08 End-->
+			<menuItem>
+				<text>Messages</text>
+				<url>SecurityCheck.aspx?Form=MetaMessages.aspx</url>
+				<width>130</width>
+			</menuItem>
+      <!--START: SB | 09/01/2017 | Menu option added for YRS-AT-3541, YRS-AT-3665, YRS-AT-3666-->
+    	<menuItem>
+				<leftimage>Images/arrow.gif</leftimage>
+				<leftimagealign>right</leftimagealign>
+				<text>DC Tools</text>
+				<width>150</width>
+				<subMenu>
+					<menuItem>
+						<text>Edit Remaining Death Benefit </text>
+						<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=DCToolsEditRemainingDeathBenefit</url>							
+						<width>170</width>
+					</menuItem>						
+					<menuItem>
+						<text>Add YMCA Credit </text>
+						<url>SecurityCheck.aspx?Form=FindYmcaInfo.aspx?Name=DCToolsAddYmcaCredit</url>
+						<width>170</width>
+					</menuItem>	
+					<menuItem>
+						<text>Reverse Annuity</text>
+						<url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=DCToolsReverseAnnuity</url>							
+						<width>170</width>
+					</menuItem>
+          <!--START: PPP | 09/18/2017 | YRS-AT-3631 | Added DC Tools - Change Fund Status menu-->
+          <menuItem>
+            <text>Change Fund Status</text>
+            <url>SecurityCheck.aspx?Form=FindInfo.aspx?Name=DCToolsChangeFundStatus</url>
+            <width>170</width>
+          </menuItem>
+          <!--END: PPP | 09/18/2017 | YRS-AT-3631 | Added DC Tools - Change Fund Status menu-->
+        </subMenu>
+			</menuItem>
+      <!--END: SB | 09/01/2017 | Menu option added for YRS-AT-3541, YRS-AT-3665, YRS-AT-3666-->
+		</subMenu>
+	</menuItem>
+		
+	<!-- This menu item not required for issue YRS 5.0-1494
+		<menuItem>
+		<text>| New Window |</text>
+		<target>_blank</target>
+		<url>javascript:alert("This feature has been disabled");</url>
+		<enabled>True</enabled>
+		<width>130</width>
+	</menuItem> -->			
+</menu>

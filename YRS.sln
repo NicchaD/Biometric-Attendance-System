@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YRSDataAccessObject", "YMCADataAccessObject\YRSDataAccessObject.csproj", "{FB132335-02CA-443C-8B88-335394A0BCA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YRSBusinessObject", "YMCABusinessObject\YRSBusinessObject.csproj", "{766E471F-E56D-40A8-8344-231CA84E31E4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "YRSUI", "YMCAUI\YRSUI.vbproj", "{93071263-8CC7-4857-A8E3-832DA8182F41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YRSModules", "YMCAModules\YRSModules.csproj", "{7BD532D3-307C-4EC4-AEEB-2E1C60D1DA1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YRSObjects", "YMCAObjects\YRSObjects.csproj", "{24CF89C0-8B7A-4F03-8C00-844DE7341380}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsappprdnyc.ymcaret.org:8080/tfs/tfs_ymcarf
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = YMCAUI\\YRSUI.vbproj
+		SccProjectName1 = YMCAUI
+		SccLocalPath1 = YMCAUI
+		SccProjectUniqueName2 = YMCADataAccessObject\\YRSDataAccessObject.csproj
+		SccProjectName2 = YMCADataAccessObject
+		SccLocalPath2 = YMCADataAccessObject
+		SccProjectUniqueName3 = YMCABusinessObject\\YRSBusinessObject.csproj
+		SccProjectName3 = YMCABusinessObject
+		SccLocalPath3 = YMCABusinessObject
+		SccProjectUniqueName4 = YMCAModules\\YRSModules.csproj
+		SccProjectName4 = YMCAModules
+		SccLocalPath4 = YMCAModules
+		SccProjectUniqueName5 = YMCAObjects\\YRSObjects.csproj
+		SccProjectName5 = YMCAObjects
+		SccLocalPath5 = YMCAObjects
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB132335-02CA-443C-8B88-335394A0BCA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB132335-02CA-443C-8B88-335394A0BCA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB132335-02CA-443C-8B88-335394A0BCA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB132335-02CA-443C-8B88-335394A0BCA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766E471F-E56D-40A8-8344-231CA84E31E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766E471F-E56D-40A8-8344-231CA84E31E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766E471F-E56D-40A8-8344-231CA84E31E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766E471F-E56D-40A8-8344-231CA84E31E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93071263-8CC7-4857-A8E3-832DA8182F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93071263-8CC7-4857-A8E3-832DA8182F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93071263-8CC7-4857-A8E3-832DA8182F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93071263-8CC7-4857-A8E3-832DA8182F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD532D3-307C-4EC4-AEEB-2E1C60D1DA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD532D3-307C-4EC4-AEEB-2E1C60D1DA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD532D3-307C-4EC4-AEEB-2E1C60D1DA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD532D3-307C-4EC4-AEEB-2E1C60D1DA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CF89C0-8B7A-4F03-8C00-844DE7341380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CF89C0-8B7A-4F03-8C00-844DE7341380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CF89C0-8B7A-4F03-8C00-844DE7341380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CF89C0-8B7A-4F03-8C00-844DE7341380}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

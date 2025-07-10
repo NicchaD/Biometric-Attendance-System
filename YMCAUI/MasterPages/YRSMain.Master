@@ -1,0 +1,123 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="YRSMain.Master.vb" Inherits="YMCAUI.MainMaster" %>
+
+<%@ Register TagPrefix="YRSControls" TagName="YMCA_Toolbar_WebUserControl" Src="~/UserControls/YMCA_Toolbar_WebUserControl.ascx" %>
+<%@ Register TagPrefix="YRSControls" TagName="YMCA_Footer_WebUserControl" Src="~/UserControls/YMCA_Footer_WebUserControl.ascx" %>
+<%@ Register TagPrefix="YRSControls" TagName="YMCA_Header_WebUserControl" Src="~/UserControls/YMCA_Header_WebUserControl.ascx" %>
+<%@ Register TagPrefix="cc1" Namespace="skmMenu" Assembly="skmMenu" %>
+<%--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--%>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>YMCA YRS</title>
+	<style id="Style1" type="text/css" media="screen" runat="server">
+        @import '<%= ResolveUrl("~/JS/jquery-ui/base/jquery.ui.all.css")%>';
+    </style>
+    <style id="Style2" type="text/css" media="screen" runat="server">
+        @import '<%= ResolveUrl("~/CSS/CustomStyleSheet.css")%>';
+    </style>
+    <script type="text/javascript" language="javascript" src='<%= Me.ResolveClientUrl("~/JS/YMCA_JScript.js") %>'></script>
+    <script  src='<%= Me.ResolveClientUrl("~/JS/jquery-1.7.2.min.js") %>' type="text/javascript"></script>
+    <script src='<%= Me.ResolveClientUrl("~/JS/jquery-ui/jquery-ui-1.8.20.custom.min.js") %>' type="text/javascript"></script>
+    <script language="javascript" src='<%= Me.ResolveClientUrl("~/JS/YMCA_JScript_Warn.js") %>' type="text/javascript"></script>
+     <script type="text/javascript" language="javascript">
+     	$(document).ready(function () {
+     		Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(beginRequest);
+     		function beginRequest(sender, args) {
+     			var bcgDiv = document.getElementById("loading");
+     			bcgDiv.style.display = "block";
+     			if (bcgDiv != null) {
+     				if (document.body.clientHeight > document.body.scrollHeight) {
+     					bcgDiv.style.height = document.body.clientHeight + "px";
+     				}
+     				else {
+     					bcgDiv.style.height = document.body.scrollHeight + "px";
+     				}
+     				bcgDiv.style.width = "101%";
+     			}
+
+
+     		}
+
+     	});
+		</script>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	
+	</asp:ContentPlaceHolder>
+</head>
+<body oncontextmenu="return false"> <%--B.Jagadeesh 04/05/2015 BT:2570 YRS 5.0-2380--%>
+	<form id="Form1" method="post" clientidmode="Static" runat="server">
+	<asp:ScriptManager ID="mainScriptManager" runat="server" AsyncPostBackTimeout="600">
+	</asp:ScriptManager>
+	<asp:UpdateProgress ID="UpdateProgress1" runat="server">
+		<ProgressTemplate>
+			<div id="loading" style="position:absolute; width:100%;height:100%; text-align:center;">
+				<img src='<%= Me.ResolveClientUrl("~/images/ajax-loader.gif") %>' id="loadingimage" alt="Loading..." title="Loading..." style="position:relative; top:25%; left:00%;" />
+			</div>
+		</ProgressTemplate>
+	</asp:UpdateProgress>
+	<div class="Div_Center" >
+		<table border="0" cellpadding="0" style="height: 600px; width: 980px" cellspacing="0">
+			<tr>
+				<td>
+					<YRSControls:YMCA_Toolbar_WebUserControl ID="YMCA_Toolbar_WebUserControl1" runat="server"
+						ShowLogoutLinkButton="true" ShowHomeLinkButton="true" ShowReleaseLinkButton="false">
+					</YRSControls:YMCA_Toolbar_WebUserControl>
+				</td>
+			</tr>
+			<tr>
+				<td class="Td_BackGroundColorMenu" align="left" width="99%">
+					<cc1:Menu ID="Menu1" runat="server" Layout="Horizontal" HighlightTopMenu="False"
+						Cursor="Pointer" CssClass="menustyle" DefaultCssClass="menuitem" DefaultMouseDownCssClass="mousedown"
+						DefaultMouseOverCssClass="mouseover" DefaultMouseUpCssClass="mouseup" MenuFadeDelay="2"
+						mouseovercssclass="MouseOver">
+						<SelectedMenuItemStyle ForeColor="#3B5386" BackColor="#FBC97A"></SelectedMenuItemStyle>
+					</cc1:Menu>
+				</td>
+			</tr>
+			<tr>
+				<td width="99%" class="Td_HeadingFormContainer" align="left" valign="middle">
+					<asp:Label ID="LabelModuleName" runat="server"></asp:Label>
+				</td>
+			</tr>
+			<tr style="min-height: 0%;">
+				<td width="100%" align="left">
+					<asp:ValidationSummary ID="ValidationSummary1" runat="server" BorderStyle="Solid"
+						BorderWidth="1" CssClass="error-msg" BackColor="LightYellow" BorderColor="Red" >
+					</asp:ValidationSummary>
+				</td>
+			</tr>
+			<tr style="min-height: 0%;">
+				<td width="100%" align="left">
+					<asp:UpdatePanel ID="updDivMainMessage" runat="server" UpdateMode="Always">
+						<ContentTemplate>
+							<div id="DivMainMessage" runat="server" enableviewstate="false">
+							</div>
+						</ContentTemplate>
+					</asp:UpdatePanel>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="100%" align="center">
+               
+					<asp:ContentPlaceHolder ID="MainContentPlaceHolder" ClientIDMode="Static"   runat="server">
+					</asp:ContentPlaceHolder>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" >
+					<YRSControls:YMCA_Footer_WebUserControl ID="YMCA_Footer_WebUserControl1" runat="server">
+					</YRSControls:YMCA_Footer_WebUserControl>
+				</td>
+			</tr>
+            <tr>
+                <td>
+                     <div id="divChangesExist" style="display:none">
+                        <label class="Label_Small"> You have unsaved changes. Do you want to leave this page and lose your changes?</label>
+                    </div>
+                    <asp:HiddenField ID="HiddenFieldDirty" runat="server" ClientIDMode="Static" ViewStateMode="Enabled" EnableViewState="true" />    
+                </td>
+            </tr>
+		</table>
+	</div>
+	</form>
+</body>
+</html>

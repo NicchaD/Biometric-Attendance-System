@@ -1,0 +1,99 @@
+	.CALPREFIXcpYearNavigation,
+	.CALPREFIXcpMonthNavigation
+			{
+			background-color:#6677DD;
+			text-align:center;
+			/*vertical-align:center;*/
+			text-decoration:none;
+			color:#FFFFFF;
+			font-weight:bold;
+			}
+	.CALPREFIXcpDayColumnHeader,
+	.CALPREFIXcpYearNavigation,
+	.CALPREFIXcpMonthNavigation,
+	.CALPREFIXcpCurrentMonthDate,
+	.CALPREFIXcpCurrentMonthDateDisabled,
+	.CALPREFIXcpOtherMonthDate,
+	.CALPREFIXcpOtherMonthDateDisabled,
+	.CALPREFIXcpCurrentDate,
+	.CALPREFIXcpCurrentDateDisabled,
+	.CALPREFIXcpTodayText,
+	.CALPREFIXcpTodayTextDisabled,
+	.CALPREFIXcpText
+			{
+			font-family:arial;
+			font-size:8pt;
+			}
+
+	TD.CALPREFIXcpDayColumnHeader
+			{
+			text-align:right;
+			border-bottom:solid 1px #6677DD;
+			}
+	.CALPREFIXcpCurrentMonthDate,
+	.CALPREFIXcpOtherMonthDate,
+	.CALPREFIXcpCurrentDate
+			{
+			text-align:right;
+			text-decoration:none;
+			}
+	.CALPREFIXcpCurrentMonthDateDisabled,
+	.CALPREFIXcpOtherMonthDateDisabled,
+	.CALPREFIXcpCurrentDateDisabled
+			{
+			color:#D0D0D0;
+			text-align:right;
+			text-decoration:line-through;
+			}
+	.CALPREFIXcpCurrentMonthDate
+			{
+			color:#6677DD;
+			font-weight:bold;
+			}
+	.CALPREFIXcpCurrentDate
+			{
+			color: #FFFFFF;
+			font-weight:bold;
+			}
+	.CALPREFIXcpOtherMonthDate
+			{
+			color:#808080;
+			}
+	TD.CALPREFIXcpCurrentDate
+			{
+			color:#FFFFFF;
+			background-color: #6677DD;
+			border-width:1;
+			border:solid thin #000000;
+			}
+	TD.CALPREFIXcpCurrentDateDisabled
+			{
+			border-width:1;
+			border:solid thin #FFAAAA;
+			}
+	TD.CALPREFIXcpTodayText,
+	TD.CALPREFIXcpTodayTextDisabled
+			{
+			border-top:solid 1px #6677DD;
+
+			
+			}
+	A.CALPREFIXcpTodayText,
+	SPAN.CALPREFIXcpTodayTextDisabled
+			{
+			height:20px;
+			}
+	A.CALPREFIXcpTodayText
+			{
+			color:#6677DD;
+			font-weight:bold;
+			}
+	SPAN.CALPREFIXcpTodayTextDisabled
+			{
+			color:#D0D0D0;
+			}
+	.CALPREFIXcpBorder
+			{
+			border:solid thin #6677DD;
+			}
+

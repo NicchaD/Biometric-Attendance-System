@@ -1,0 +1,441 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.3.0.0",
+        "fileVersion": "4.3.0-3.22423.10 (b35bb0ba)",
+        "semanticVersion": "4.3.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAHistoryHttpModule.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 7,
+                  "endLine": 33,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAStringReplacementHttpModule.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 4,
+                  "endLine": 22,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAStringReplacementHttpModule.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 4,
+                  "endLine": 75,
+                  "endColumn": 147
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'YMCAStringReplacementHttpModule' to match pascal case naming rules, consider using 'YmcaStringReplacementHttpModule'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAStringReplacementHttpModule.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 15,
+                  "endLine": 15,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'YMCAStringReplacementFilter' to match pascal case naming rules, consider using 'YmcaStringReplacementFilter'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAStringReplacementHttpModule.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 15,
+                  "endLine": 51,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'str' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAHistoryHttpModule.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 10,
+                  "endLine": 29,
+                  "endColumn": 13
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private field 'str'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAHistoryHttpModule.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 3,
+                  "endLine": 29,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'YMCAHistoryHttpModule' to match pascal case naming rules, consider using 'YmcaHistoryHttpModule'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAHistoryHttpModule.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 15,
+                  "endLine": 26,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1939",
+          "level": "warning",
+          "message": "'IReadOnlySessionState' implements 'IRequiresSessionState' so 'IRequiresSessionState' can be removed from the inheritance list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAHistoryHttpModule.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 73,
+                  "endLine": 26,
+                  "endColumn": 96
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "redundantIndex": "2"
+            }
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAStringReplacementHttpModule.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 15,
+                  "endLine": 30,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAStringReplacementHttpModule.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 5,
+                  "endLine": 37,
+                  "endColumn": 7
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAStringReplacementHttpModule.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 4,
+                  "endLine": 35,
+                  "endColumn": 6
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'httpApp'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NICCHA/After%20Maternity/PQ%20Tools/KT%20and%20Training/SonarQube/Analysis/yrfdevelopers-yrs/YMCAModules/YMCAHistoryHttpModule.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 20,
+                  "endLine": 51,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1066": {
+          "id": "S1066",
+          "shortDescription": "Collapsible \"if\" statements should be merged",
+          "fullDescription": "Merging collapsible if statements increases the code's readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1066",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1135": {
+          "id": "S1135",
+          "shortDescription": "Track uses of \"TODO\" tags",
+          "fullDescription": "TODO tags are commonly used to mark places where some more code is required, but which the developer wants to implement later.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1135",
+          "properties": {
+            "category": "Info Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1144": {
+          "id": "S1144",
+          "shortDescription": "Unused private types or members should be removed",
+          "fullDescription": "private or internal types or private members that are never executed or referenced are dead code: unnecessary, inoperative code that should be removed. Cleaning out dead code decreases the size of the maintained codebase, making it easier to understand the program and preventing bugs from being introduced.",
+          "defaultLevel": "note",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1144",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope",
+              "Unnecessary"
+            ]
+          }
+        },
+        "S1186": {
+          "id": "S1186",
+          "shortDescription": "Methods should not be empty",
+          "fullDescription": "There are several reasons for a method not to have a method body:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1186",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1939": {
+          "id": "S1939",
+          "shortDescription": "Inheritance list should not be redundant",
+          "fullDescription": "An inheritance list entry is redundant if:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1939",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that's not marked readonly but is only set in the constructor, it could cause confusion about the field's intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

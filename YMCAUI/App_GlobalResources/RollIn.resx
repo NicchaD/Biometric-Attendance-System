@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MESSAGE_ROLLIN_ACTIVE_FUNDEVENT_NOT_FOUND" xml:space="preserve">
+    <value>Unable to find an Active Fund Event.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CANCELL_ROLLIN" xml:space="preserve">
+    <value>Are you sure you want to cancel the selected Roll In?</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CANCEL_CANCELLED_ROLLIN" xml:space="preserve">
+    <value>Already canceled Roll In cannot be canceled again. Please select any OPEN Roll In to cancel.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CANCEL_CLOSED_ROLLIN" xml:space="preserve">
+    <value>Closed Roll In cannot be cancelled. Please select any OPEN Roll In to cancel.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CHECKDATE_ATLST_SIX_OLD" xml:space="preserve">
+    <value>Check Date cannot be earlier than six months.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CHECKRCVDDATE_ATLST_SIX_OLD" xml:space="preserve">
+    <value>Check Received Date cannot be earlier than six months.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CHECKRCVDDATE_IS_EARLIER_RCVDDATE" xml:space="preserve">
+    <value>Check Received Date is earlier than Received Date.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CHECKRCVD_DATE_CANT_BE_GRTR_THAN_TODAY" xml:space="preserve">
+    <value>Check Received Date cannot be later than today's date.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CHECKRCVD_DATE_NOT_FIRSTDAY_MONTH" xml:space="preserve">
+    <value>Check Received Date cannot be earlier than First Day of the current Month.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CHECKTOTAL_CANT_BE_ZERO" xml:space="preserve">
+    <value>Check Total cannot be zero.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CHECK_DATE_CANT_BE_BLANK" xml:space="preserve">
+    <value>Check Date cannot be blank.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CHECK_DATE_CANT_BE_GRTR_THAN_TODAY" xml:space="preserve">
+    <value>Check Date cannot be later than today's date.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CHECK_DATE_LESS_RCVD_DATE" xml:space="preserve">
+    <value>Check Date must be earlier than or same as Check Received Date.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CHECK_NO_CANT_BE_BLANK" xml:space="preserve">
+    <value>Check Number cannot be blank.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CHECK_NO_SAME" xml:space="preserve">
+    <value>All the characters of check number are same.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_CHECK_RCVD_CANT_BE_BLANK" xml:space="preserve">
+    <value>Check Received Date cannot be blank.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_INST_CANT_BE_BLANK" xml:space="preserve">
+    <value>Institution Name cannot be blank.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_LIST_ROLLIN_FROM_LAST_DAYS" xml:space="preserve">
+    <value>List of Roll In(s) that are open from last {0}  day(s).</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_LIST_ROLLIN_FROM_LAST_MONTHS" xml:space="preserve">
+    <value>List of Roll In(s) that are open from last {0}  month(s).</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_NON_TAXAMNT_CANT_BE_BLANK" xml:space="preserve">
+    <value>Non-Taxable Amount cannot be blank.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_PROCESS_CLOSED_ROLLIN" xml:space="preserve">
+    <value>Canceled Roll In cannot be processed. Please select any OPEN Roll In to process.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_RCVD_ATLST_SIX_OLD" xml:space="preserve">
+    <value>Received date cannot be earlier than six months.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_RCVD_CANT_BE_BLANK" xml:space="preserve">
+    <value>Received Date cannot be blank.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_RCVD_GRTR_THAN_TODAY" xml:space="preserve">
+    <value>Received date cannot be later than today's date.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_REMINDER_CONFIRM_PRINT" xml:space="preserve">
+    <value>Are you sure you want to print the letter(s) for selected {0} person(s)</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_REMINDER_NO_HISTORY" xml:space="preserve">
+    <value>There is no letter printed against the person</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_REMINDER_SELECT_RECORD" xml:space="preserve">
+    <value>Please select any one record to print letter</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_SELECT_INFO_SOURCE" xml:space="preserve">
+    <value>Select Info Source.</value>
+  </data>
+  <data name="MESSAGE_ROLLIN_TAXAMNT_CANT_BE_BLANK" xml:space="preserve">
+    <value>Taxable Amount cannot be blank.</value>
+  </data>
+</root>
